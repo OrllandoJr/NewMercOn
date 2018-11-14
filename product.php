@@ -1,14 +1,10 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
-	<title>Grocery Shoppy an Ecommerce Category Bootstrap Responsive Web Template | Kitchen Products :: w3layouts</title>
+	<title>MercOn</title>
 	<!--/tags -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -39,7 +35,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 	<!-- top-header -->
 	<div class="header-most-top">
-		<p>Grocery Offer Zone Top Deals & Discounts</p>
+		<p>Supermercado MercOn</p>
 	</div>
 	<!-- //top-header -->
 	<!-- header-bot-->
@@ -48,10 +44,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- header-bot-->
 			<div class="col-md-4 logo_agile">
 				<h1>
-					<a href="index.html">
-						<span>G</span>rocery
-						<span>S</span>hoppy
-						<img src="images/logo2.png" alt=" ">
+					<a href="index.php">
+						<span>M</span>erc
+						<span>O</span>n
+						
 					</a>
 				</h1>
 			</div>
@@ -61,29 +57,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<ul>
 					<li>
 						<a class="play-icon popup-with-zoom-anim" href="#small-dialog1">
-							<span class="fa fa-map-marker" aria-hidden="true"></span> Shop Locator</a>
+							<span class="fa fa-map-marker" aria-hidden="true"></span> Localização</a>
 					</li>
 					<li>
 						<a href="#" data-toggle="modal" data-target="#myModal1">
-							<span class="fa fa-truck" aria-hidden="true"></span>Track Order</a>
+							<span class="fa fa-truck" aria-hidden="true"></span>Pedido</a>
 					</li>
 					<li>
-						<span class="fa fa-phone" aria-hidden="true"></span> 001 234 5678
+						<span class="fa fa-phone" aria-hidden="true"></span> 61 66669999
 					</li>
 					<li>
 						<a href="#" data-toggle="modal" data-target="#myModal1">
-							<span class="fa fa-unlock-alt" aria-hidden="true"></span> Sign In </a>
+							<span class="fa fa-unlock-alt" aria-hidden="true"></span> cadastro </a>
 					</li>
 					<li>
 						<a href="#" data-toggle="modal" data-target="#myModal2">
-							<span class="fa fa-pencil-square-o" aria-hidden="true"></span> Sign Up </a>
+							<span class="fa fa-pencil-square-o" aria-hidden="true"></span> Sair </a>
 					</li>
 				</ul>
 				<!-- //header lists -->
 				<!-- search -->
 				<div class="agileits_search">
 					<form action="#" method="post">
-						<input name="Search" type="search" placeholder="How can we help you today?" required="">
+						<input name="Search" type="search" placeholder="Como podemos te ajudar?" required="">
 						<button type="submit" class="btn btn-default" aria-label="Left Align">
 							<span class="fa fa-search" aria-hidden="true"> </span>
 						</button>
@@ -576,18 +572,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agileits-navi_search">
 				<form action="#" method="post">
 					<select id="agileinfo-nav_search" name="agileinfo_search" required="">
-						<option value="">All Categories</option>
-						<option value="Kitchen">Kitchen</option>
-						<option value="Household">Household</option>
-						<option value="Snacks &amp; Beverages">Snacks & Beverages</option>
-						<option value="Personal Care">Personal Care</option>
-						<option value="Gift Hampers">Gift Hampers</option>
-						<option value="Fruits &amp; Vegetables">Fruits & Vegetables</option>
-						<option value="Baby Care">Baby Care</option>
-						<option value="Soft Drinks &amp; Juices">Soft Drinks & Juices</option>
-						<option value="Frozen Food">Frozen Food</option>
-						<option value="Bread &amp; Bakery">Bread & Bakery</option>
-						<option value="Sweets">Sweets</option>
+						<option value="">Categorias</option>
+						<option value="Kitchen">Grãos</option>
+						<option value="Household">Bebidas</option>
+						<option value="Snacks &amp; Beverages">Hotaliças</option>
+						<option value="Personal Care">Frios</option>
+						<option value="Gift Hampers">Açougue</option>
+						<option value="Fruits &amp; Vegetables">Higiene Pessoal</option>
+						<option value="Baby Care">Padaria</option>
 					</select>
 				</form>
 			</div>
@@ -607,16 +599,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav menu__list">
-								<li>
-									<a class="nav-stylehead" href="index.html">Home
+								<li class="active">
+									<a class="nav-stylehead" href="index.php">Home
 										<span class="sr-only">(current)</span>
 									</a>
 								</li>
-								<li class="">
+								<!--<li class="">
 									<a class="nav-stylehead" href="about.html">About Us</a>
-								</li>
-								<li class="dropdown active">
-									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kitchen
+								</li>-->
+								<li class="dropdown">
+									<a href="product.php" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cozinha
 										<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu multi-column columns-3">
@@ -624,25 +616,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<div class="col-sm-4 multi-gd-img">
 												<ul class="multi-column-dropdown">
 													<li>
-														<a href="product.html">Bakery</a>
+														<a href="product.php">Bakery</a>
 													</li>
 													<li>
-														<a href="product.html">Baking Supplies</a>
+														<a href="product.php">Baking Supplies</a>
 													</li>
 													<li>
-														<a href="product.html">Coffee, Tea & Beverages</a>
+														<a href="product.php">Coffee, Tea & Beverages</a>
 													</li>
 													<li>
-														<a href="product.html">Dried Fruits, Nuts</a>
+														<a href="product.php">Dried Fruits, Nuts</a>
 													</li>
 													<li>
-														<a href="product.html">Sweets, Chocolate</a>
+														<a href="product.php">Sweets, Chocolate</a>
 													</li>
 													<li>
-														<a href="product.html">Spices & Masalas</a>
+														<a href="product.php">Spices & Masalas</a>
 													</li>
 													<li>
-														<a href="product.html">Jams, Honey & Spreads</a>
+														<a href="product.php">Jams, Honey & Spreads</a>
 													</li>
 												</ul>
 											</div>
@@ -678,7 +670,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</div>
 									</ul>
 								</li>
-								<li class="dropdown">
+								<!--<li class="dropdown">
 									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Household
 										<span class="caret"></span>
 									</a>
@@ -753,7 +745,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<a href="typography.html">Typography</a>
 										</li>
 									</ul>
-								</li>
+								</li>-->
 								<li>
 									<a class="" href="contact.html">Contact</a>
 								</li>
@@ -776,10 +768,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<ul class="w3_short">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Kitchen Products</li>
+					<li>Itens de Cozinha</li>
 				</ul>
 			</div>
 		</div>
@@ -789,7 +781,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="ads-grid">
 		<div class="container">
 			<!-- tittle heading -->
-			<h3 class="tittle-w3l">Kitchen Products
+			<h3 class="tittle-w3l">Itens de Cozinha
 				<span class="heading-style">
 					<i></i>
 					<i></i>
@@ -835,37 +827,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- //food preference -->
 				<!-- discounts -->
 				<div class="left-side">
-					<h3 class="agileits-sear-head">Discount</h3>
+					<h3 class="agileits-sear-head">Disconto</h3>
 					<ul>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">5% or More</span>
+							<span class="span">5% ou mais</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">10% or More</span>
+							<span class="span">10% ou mais</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">20% or More</span>
+							<span class="span">20% ou mais</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">30% or More</span>
+							<span class="span">30% ou mais</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">50% or More</span>
+							<span class="span">50% ou mais</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">60% or More</span>
+							<span class="span">60% ou mais</span>
 						</li>
 					</ul>
 				</div>
 				<!-- //discounts -->
 				<!-- reviews -->
-				<div class="customer-rev left-side">
+				<!--<div class="customer-rev left-side">
 					<h3 class="agileits-sear-head">Customer Review</h3>
 					<ul>
 						<li>
@@ -919,10 +911,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</a>
 						</li>
 					</ul>
-				</div>
+				</div>-->
 				<!-- //reviews -->
 				<!-- cuisine -->
-				<div class="left-side">
+				<!--<div class="left-side">
 					<h3 class="agileits-sear-head">Cuisine</h3>
 					<ul>
 						<li>
@@ -966,7 +958,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span class="span"> Spanish </span>
 						</li>
 					</ul>
-				</div>
+				</div>-->
 				<!-- //cuisine -->
 				<!-- deals -->
 				<div class="deal-leftmk left-side">
@@ -1854,7 +1846,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				beatae vitae dicta sunt explicabo.</p>
 			<!-- //footer first section -->
 			<!-- footer second section -->
-			<div class="w3l-grids-footer">
+			<!--<div class="w3l-grids-footer">
 				<div class="col-xs-4 offer-footer">
 					<div class="col-xs-4 icon-fot">
 						<span class="fa fa-map-marker" aria-hidden="true"></span>
@@ -1883,7 +1875,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="clearfix"></div>
 				</div>
 				<div class="clearfix"></div>
-			</div>
+			</div>-->
 			<!-- //footer second section -->
 			<!-- footer third section -->
 			<div class="footer-info w3-agileits-info">
@@ -1940,40 +1932,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- quick links -->
 				<div class="col-sm-5 address-right">
 					<div class="col-xs-6 footer-grids">
-						<h3>Quick Links</h3>
+						<h3>Links Rapidos</h3>
 						<ul>
 							<li>
-								<a href="about.html">About Us</a>
+								<a href="about.html">Sobre nós</a>
 							</li>
 							<li>
-								<a href="contact.html">Contact Us</a>
+								<a href="contact.html">Contate-Nos</a>
 							</li>
 							<li>
-								<a href="help.html">Help</a>
+								<a href="help.html">Ajuda</a>
 							</li>
 							<li>
-								<a href="faqs.html">Faqs</a>
+								<a href="faqs.html">Perguntas frequentes</a>
 							</li>
 							<li>
-								<a href="terms.html">Terms of use</a>
+								<a href="terms.html">Termos de uso</a>
 							</li>
 							<li>
-								<a href="privacy.html">Privacy Policy</a>
+								<a href="privacy.html">Política de Privacidade</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-xs-6 footer-grids">
-						<h3>Get in Touch</h3>
+						<h3>Contatos</h3>
 						<ul>
 							<li>
-								<i class="fa fa-map-marker"></i> 123 Sebastian, USA.</li>
+								<i class="fa fa-map-marker"></i> mercon.com.br</li>
 							<li>
-								<i class="fa fa-mobile"></i> 333 222 3333 </li>
+								<i class="fa fa-mobile"></i> +55 61 6666-9999 </li>
 							<li>
-								<i class="fa fa-phone"></i> +222 11 4444 </li>
+								<i class="fa fa-phone"></i> +55 61 6666-9999 </li>
 							<li>
 								<i class="fa fa-envelope-o"></i>
-								<a href="mailto:example@mail.com"> mail@example.com</a>
+								<a href="mailto:example@mail.com"> mercon@supermercado.com</a>
 							</li>
 						</ul>
 					</div>
@@ -1981,7 +1973,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- //quick links -->
 				<!-- social icons -->
 				<div class="col-sm-2 footer-grids  w3l-socialmk">
-					<h3>Follow Us on</h3>
+					<h3>Siga nos em</h3>
 					<div class="social">
 						<ul>
 							<li>
@@ -2002,7 +1994,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</div>
 					<div class="agileits_app-devices">
-						<h5>Download the App</h5>
+						<h5>Baixe o App</h5>
 						<a href="#">
 							<img src="images/1.png" alt="">
 						</a>
@@ -2180,8 +2172,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- copyright -->
 	<div class="copy-right">
 		<div class="container">
-			<p>© 2017 Grocery Shoppy. All rights reserved | Design by
-				<a href="http://w3layouts.com"> W3layouts.</a>
+			<p>© 2018 Shopping online de itens de supermercado | Unieuro 4º semestre
+				
 			</p>
 		</div>
 	</div>
@@ -2219,7 +2211,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- cart-js -->
 	<script src="js/minicart.js"></script>
 	<script>
-		paypalm.minicartk.render(); //use only unique class names other than paypal1.minicart1.Also Replace same class name in css and minicart.min.js
+		paypalm.minicartk.render(); //use only unique class names other than paypalm.minicartk.Also Replace same class name in css and minicart.min.js
 
 		paypalm.minicartk.cart.on('checkout', function (evt) {
 			var items = this.items(),
@@ -2353,6 +2345,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<script src="js/bootstrap.js"></script>
 	<!-- //for bootstrap working -->
 	<!-- //js-files -->
+
 
 </body>
 
