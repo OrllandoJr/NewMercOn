@@ -1,19 +1,12 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
-	<title>Grocery Shoppy an Ecommerce Category Bootstrap Responsive Web Template | Home :: w3layouts</title>
+	<title>Merc On</title>
 	<!--/tags -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Grocery Shoppy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<meta name="keywords" content="Merc On" />
 	<script>
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -39,7 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 	<!-- top-header -->
 	<div class="header-most-top">
-		<p>Grocery Offer Zone Top Deals & Discounts</p>
+		<p>Merc On - Zona de Ofertas & Descontos</p>
 	</div>
 	<!-- //top-header -->
 	<!-- header-bot-->
@@ -49,8 +42,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 logo_agile">
 				<h1>
 					<a href="index.html">
-						<span>G</span>rocery
-						<span>S</span>hoppy
+						Merc
+						<span>On</span>
 						<img src="images/logo2.png" alt=" ">
 					</a>
 				</h1>
@@ -60,30 +53,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- header lists -->
 				<ul>
 					<li>
-						<a class="play-icon popup-with-zoom-anim" href="#small-dialog1">
-							<span class="fa fa-map-marker" aria-hidden="true"></span> Shop Locator</a>
+						<a href="#" data-toggle="modal" data-target="#myModal1">
+							<span class="fa fa-truck" aria-hidden="true"></span>Acompanhar Pedido</a>
+					</li>
+					<li>
+						<span class="fa fa-phone" aria-hidden="true"></span> 61 8888-8888
 					</li>
 					<li>
 						<a href="#" data-toggle="modal" data-target="#myModal1">
-							<span class="fa fa-truck" aria-hidden="true"></span>Track Order</a>
-					</li>
-					<li>
-						<span class="fa fa-phone" aria-hidden="true"></span> 001 234 5678
-					</li>
-					<li>
-						<a href="#" data-toggle="modal" data-target="#myModal1">
-							<span class="fa fa-unlock-alt" aria-hidden="true"></span> Sign In </a>
+							<span class="fa fa-unlock-alt" aria-hidden="true"></span> Login </a>
 					</li>
 					<li>
 						<a href="#" data-toggle="modal" data-target="#myModal2">
-							<span class="fa fa-pencil-square-o" aria-hidden="true"></span> Sign Up </a>
+							<span class="fa fa-pencil-square-o" aria-hidden="true"></span> Cadastre-se </a>
 					</li>
 				</ul>
 				<!-- //header lists -->
 				<!-- search -->
 				<div class="agileits_search">
 					<form action="#" method="post">
-						<input name="Search" type="search" placeholder="How can we help you today?" required="">
+						<input name="Search" type="search" placeholder="Como posso lhe ajudar?" required="">
 						<button type="submit" class="btn btn-default" aria-label="Left Align">
 							<span class="fa fa-search" aria-hidden="true"> </span>
 						</button>
@@ -502,9 +491,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="modal_body_left modal_body_left1">
 						<h3 class="agileinfo_sign">Sign In </h3>
 						<p>
-							Sign In now, Let's start your Grocery Shopping. Don't have an account?
+							Entre agora, Comece suas compras no Merc On. Não tem uma conta?
 							<a href="#" data-toggle="modal" data-target="#myModal2">
-								Sign Up Now</a>
+								SCadastre-se agora</a>
 						</p>
 						<form action="#" method="post">
 							<div class="styled-input agile-styled-input-top">
@@ -541,7 +530,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="modal_body_left modal_body_left1">
 						<h3 class="agileinfo_sign">Sign Up</h3>
 						<p>
-							Come join the Grocery Shoppy! Let's set up your Account.
+							Comece a comprar no Merc On agora mesmo! Vamos criar sua conta.
 						</p>
 						<form action="#" method="post">
 							<div class="styled-input agile-styled-input-top">
@@ -559,7 +548,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<input type="submit" value="Sign Up">
 						</form>
 						<p>
-							<a href="#">By clicking register, I agree to your terms</a>
+							<a href="#">Ao clicar em registrar-se, Eu aceito todos os termos</a>
 						</p>
 					</div>
 				</div>
@@ -576,18 +565,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agileits-navi_search">
 				<form action="#" method="post">
 					<select id="agileinfo-nav_search" name="agileinfo_search" required="">
-						<option value="">All Categories</option>
-						<option value="Kitchen">Kitchen</option>
-						<option value="Household">Household</option>
-						<option value="Snacks &amp; Beverages">Snacks & Beverages</option>
-						<option value="Personal Care">Personal Care</option>
-						<option value="Gift Hampers">Gift Hampers</option>
-						<option value="Fruits &amp; Vegetables">Fruits & Vegetables</option>
-						<option value="Baby Care">Baby Care</option>
-						<option value="Soft Drinks &amp; Juices">Soft Drinks & Juices</option>
-						<option value="Frozen Food">Frozen Food</option>
-						<option value="Bread &amp; Bakery">Bread & Bakery</option>
-						<option value="Sweets">Sweets</option>
+						<option value="">Categorias</option>
+						<option value="Conzinha">Cozinha</option>
+						<option value="Casa">Casa</option>
+						<option value="Lanches &amp; Bebidas">Lancher & Bebidas</option>
+						<option value="Cuidado pessoas">Cuidado Pessoal</option>
+						<option value="Frutas &amp; Legumes">Frutas & Legumes</option>
+						<option value="Cuidados de bebe">Cuidados de Bebê</option>
+						<option value="Refrigerantes &amp; Sucos">Refrigerantes & Sucos</option>
+						<option value="Comida Congelada">Comida Congelada</option>
+						<option value="Padaria">Padaria</option>
+						<option value="Doces">Doces</option>
 					</select>
 				</form>
 			</div>
@@ -598,7 +586,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
 							    aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
+								<span class="sr-only">Navegação</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -613,10 +601,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</a>
 								</li>
 								<li class="">
-									<a class="nav-stylehead" href="about.html">About Us</a>
+									<a class="nav-stylehead" href="about.html">Sobre</a>
 								</li>
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kitchen
+									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cozinha
 										<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu multi-column columns-3">
@@ -624,50 +612,47 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<div class="col-sm-4 multi-gd-img">
 												<ul class="multi-column-dropdown">
 													<li>
-														<a href="product.html">Bakery</a>
+														<a href="product.html">Padaria</a>
 													</li>
 													<li>
-														<a href="product.html">Baking Supplies</a>
+														<a href="product.html">Café, Chá & Bebidas</a>
 													</li>
 													<li>
-														<a href="product.html">Coffee, Tea & Beverages</a>
+														<a href="product.html">Frutas secas, sementes</a>
 													</li>
 													<li>
-														<a href="product.html">Dried Fruits, Nuts</a>
+														<a href="product.html">Doces, Chocolate</a>
 													</li>
 													<li>
-														<a href="product.html">Sweets, Chocolate</a>
-													</li>
-													<li>
-														<a href="product.html">Spices & Masalas</a>
-													</li>
-													<li>
-														<a href="product.html">Jams, Honey & Spreads</a>
+														<a href="product.html">Grãos</a>
 													</li>
 												</ul>
 											</div>
 											<div class="col-sm-4 multi-gd-img">
 												<ul class="multi-column-dropdown">
 													<li>
-														<a href="product.html">Pickles</a>
+														<a href="product.html">Picles</a>
 													</li>
 													<li>
-														<a href="product.html">Pasta & Noodles</a>
+														<a href="product.html">Massas & Macarrão</a>
 													</li>
 													<li>
-														<a href="product.html">Rice, Flour & Pulses</a>
+														<a href="product.html">Arroz, Farinha & Feijão</a>
 													</li>
 													<li>
-														<a href="product.html">Sauces & Cooking Pastes</a>
+														<a href="product.html">Molhos</a>
+													</li>
+                                                    <li>
+														<a href="product.html">Biscoitos</a>
 													</li>
 													<li>
-														<a href="product.html">Snack Foods</a>
+														<a href="product.html">Salgadinhos</a>
 													</li>
 													<li>
-														<a href="product.html">Oils, Vinegars</a>
+														<a href="product.html">Óleos, Vinagres</a>
 													</li>
 													<li>
-														<a href="product.html">Meat, Poultry & Seafood</a>
+														<a href="product.html">Carne, Aves & Frutos do Mar</a>
 													</li>
 												</ul>
 											</div>
@@ -679,7 +664,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</ul>
 								</li>
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Household
+									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Casa
 										<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu multi-column columns-3">
@@ -687,50 +672,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<div class="col-sm-6 multi-gd-img">
 												<ul class="multi-column-dropdown">
 													<li>
-														<a href="product2.html">Kitchen & Dining</a>
+														<a href="product2.html">Cozinha & Jantar</a>
 													</li>
 													<li>
-														<a href="product2.html">Detergents</a>
+														<a href="product2.html">Detergentes</a>
 													</li>
 													<li>
-														<a href="product2.html">Utensil Cleaners</a>
+														<a href="product2.html">Produtos de Limpeza</a>
 													</li>
 													<li>
-														<a href="product2.html">Floor & Other Cleaners</a>
+														<a href="product2.html">Chão & Outros Limpadores</a>
 													</li>
 													<li>
-														<a href="product2.html">Disposables, Garbage Bag</a>
+														<a href="product2.html">Descartáveis, Saco de lixo</a>
 													</li>
 													<li>
-														<a href="product2.html">Repellents & Fresheners</a>
+														<a href="product2.html">Repelentes & Purificadores</a>
 													</li>
 													<li>
-														<a href="product2.html"> Dishwash</a>
-													</li>
-												</ul>
-											</div>
-											<div class="col-sm-6 multi-gd-img">
-												<ul class="multi-column-dropdown">
-													<li>
-														<a href="product2.html">Pet Care</a>
+														<a href="product2.html"> Lavagem de Louça</a>
 													</li>
 													<li>
-														<a href="product2.html">Cleaning Accessories</a>
+														<a href="product2.html">Cuidado de Animais</a>
 													</li>
 													<li>
-														<a href="product2.html">Pooja Needs</a>
+														<a href="product2.html">Acessorios de Limpeza</a>
 													</li>
 													<li>
-														<a href="product2.html">Crackers</a>
-													</li>
-													<li>
-														<a href="product2.html">Festive Decoratives</a>
-													</li>
-													<li>
-														<a href="product2.html">Plasticware</a>
-													</li>
-													<li>
-														<a href="product2.html">Home Care</a>
+														<a href="product2.html">Produtos de casa</a>
 													</li>
 												</ul>
 											</div>
@@ -739,23 +708,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</ul>
 								</li>
 								<li class="">
-									<a class="nav-stylehead" href="faqs.html">Faqs</a>
-								</li>
-								<li class="dropdown">
-									<a class="nav-stylehead dropdown-toggle" href="#" data-toggle="dropdown">Pages
-										<b class="caret"></b>
-									</a>
-									<ul class="dropdown-menu agile_short_dropdown">
-										<li>
-											<a href="icons.html">Web Icons</a>
-										</li>
-										<li>
-											<a href="typography.html">Typography</a>
-										</li>
-									</ul>
+									<a class="nav-stylehead" href="faqs.html">FAQ</a>
 								</li>
 								<li class="">
-									<a class="nav-stylehead" href="contact.html">Contact</a>
+									<a class="nav-stylehead" href="contact.html">Contato</a>
 								</li>
 							</ul>
 						</div>
@@ -778,60 +734,60 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="item active">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Big
-							<span>Save</span>
+						<h3>Super
+							<span>Descontos</span>
 						</h3>
-						<p>Get flat
-							<span>10%</span> Cashback</p>
-						<a class="button2" href="product.html">Shop Now </a>
+						<p>Ganhe até
+							<span>10%</span> de desconto</p>
+						<a class="button2" href="product.html">Comprar</a>
 					</div>
 				</div>
 			</div>
 			<div class="item item2">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Healthy
-							<span>Saving</span>
+						<h3>Descontos
+							<span>Saldaveis</span>
 						</h3>
-						<p>Get Upto
-							<span>30%</span> Off</p>
-						<a class="button2" href="product.html">Shop Now </a>
+						<p>Até
+							<span>30%</span> OFF</p>
+						<a class="button2" href="product.html">Comprar </a>
 					</div>
 				</div>
 			</div>
 			<div class="item item3">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Big
-							<span>Deal</span>
+						<h3>Grandes
+							<span>Ofertas</span>
 						</h3>
-						<p>Get Best Offer Upto
+						<p>Melhores ofertas de até
 							<span>20%</span>
 						</p>
-						<a class="button2" href="product.html">Shop Now </a>
+						<a class="button2" href="product.html">Comprar </a>
 					</div>
 				</div>
 			</div>
 			<div class="item item4">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Today
-							<span>Discount</span>
+						<h3>Descontos
+							<span>do dia</span>
 						</h3>
-						<p>Get Now
-							<span>40%</span> Discount</p>
-						<a class="button2" href="product.html">Shop Now </a>
+						<p>Ganhe
+							<span>40%</span> de desconto</p>
+						<a class="button2" href="product.html">Comprar </a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
+			<span class="sr-only">Anterior</span>
 		</a>
 		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
+			<span class="sr-only">Próximo</span>
 		</a>
 	</div>
 	<!-- //banner -->
@@ -840,7 +796,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="ads-grid">
 		<div class="container">
 			<!-- tittle heading -->
-			<h3 class="tittle-w3l">Our Top Products
+			<h3 class="tittle-w3l">Principais Produtos
 				<span class="heading-style">
 					<i></i>
 					<i></i>
@@ -851,15 +807,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- product left -->
 			<div class="side-bar col-md-3">
 				<div class="search-hotel">
-					<h3 class="agileits-sear-head">Search Here..</h3>
+					<h3 class="agileits-sear-head">Procure aqui..</h3>
 					<form action="#" method="post">
-						<input type="search" placeholder="Product name..." name="search" required="">
+						<input type="search" placeholder="Nome do Produto..." name="search" required="">
 						<input type="submit" value=" ">
 					</form>
 				</div>
 				<!-- price range -->
 				<div class="range">
-					<h3 class="agileits-sear-head">Price range</h3>
+					<h3 class="agileits-sear-head">Preço entre</h3>
 					<ul class="dropdown-menu6">
 						<li>
 
@@ -869,55 +825,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<!-- //price range -->
-				<!-- food preference -->
-				<div class="left-side">
-					<h3 class="agileits-sear-head">Food Preference</h3>
-					<ul>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Vegetarian</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Non-Vegetarian</span>
-						</li>
-					</ul>
-				</div>
-				<!-- //food preference -->
 				<!-- discounts -->
 				<div class="left-side">
-					<h3 class="agileits-sear-head">Discount</h3>
+					<h3 class="agileits-sear-head">Desconto</h3>
 					<ul>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">5% or More</span>
+							<span class="span">5% ou Mais</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">10% or More</span>
+							<span class="span">10% ou Mais</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">20% or More</span>
+							<span class="span">20% ou Mais</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">30% or More</span>
+							<span class="span">30% ou Mais</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">50% or More</span>
+							<span class="span">50% ou Mais</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">60% or More</span>
+							<span class="span">60% ou Mais</span>
 						</li>
 					</ul>
 				</div>
 				<!-- //discounts -->
 				<!-- reviews -->
 				<div class="customer-rev left-side">
-					<h3 class="agileits-sear-head">Customer Review</h3>
+					<h3 class="agileits-sear-head">Avalie-nos</h3>
 					<ul>
 						<li>
 							<a href="#">
@@ -972,63 +913,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<!-- //reviews -->
-				<!-- cuisine -->
-				<div class="left-side">
-					<h3 class="agileits-sear-head">Cuisine</h3>
-					<ul>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">South American</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">French</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Greek</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Chinese</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Japanese</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Italian</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Mexican</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Thai</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Indian</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span"> Spanish </span>
-						</li>
-					</ul>
-				</div>
-				<!-- //cuisine -->
 				<!-- deals -->
 				<div class="deal-leftmk left-side">
-					<h3 class="agileits-sear-head">Special Deals</h3>
+					<h3 class="agileits-sear-head">Descontos Especiais</h3>
 					<div class="special-sec1">
 						<div class="col-xs-4 img-deals">
 							<img src="images/d2.jpg" alt="">
 						</div>
 						<div class="col-xs-8 img-deal1">
-							<h3>Lay's Potato Chips</h3>
-							<a href="single.html">$18.00</a>
+							<h3>Batata Lay's</h3>
+							<a href="single.html">R$ 4,00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -1037,8 +931,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="images/d1.jpg" alt="">
 						</div>
 						<div class="col-xs-8 img-deal1">
-							<h3>Bingo Mad Angles</h3>
-							<a href="single.html">$9.00</a>
+							<h3>Doritos</h3>
+							<a href="single.html">R$ 4,00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -1047,8 +941,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="images/d4.jpg" alt="">
 						</div>
 						<div class="col-xs-8 img-deal1">
-							<h3>Tata Salt</h3>
-							<a href="single.html">$15.00</a>
+							<h3>Sal</h3>
+							<a href="single.html">R$ 2,00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -1057,8 +951,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="images/d5.jpg" alt="">
 						</div>
 						<div class="col-xs-8 img-deal1">
-							<h3>Gujarat Dry Fruit</h3>
-							<a href="single.html">$525.00</a>
+							<h3>Fandangos</h3>
+							<a href="single.html">R$ 4,00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -1067,8 +961,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<img src="images/d3.jpg" alt="">
 						</div>
 						<div class="col-xs-8 img-deal1">
-							<h3>Cadbury Dairy Milk</h3>
-							<a href="single.html">$149.00</a>
+							<h3>Batata</h3>
+							<a href="single.html">R$ 9,90</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -1081,25 +975,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="wrapper">
 					<!-- first section (nuts) -->
 					<div class="product-sec1">
-						<h3 class="heading-tittle">Nuts</h3>
+						<h3 class="heading-tittle">Sementes</h3>
 						<div class="col-md-4 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
 									<img src="images/m1.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Quick View</a>
+											<a href="single.html" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single.html">Almonds, 100g</a>
+										<a href="single.html">Amendoas, 100g</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$149.00</span>
-										<del>$280.00</del>
+										<span class="item_price">R$ 8,90</span>
+										<del>R$ 10,90</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1107,13 +1001,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<input type="hidden" name="cmd" value="_cart" />
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
-												<input type="hidden" name="item_name" value="Almonds, 100g" />
-												<input type="hidden" name="amount" value="149.00" />
+												<input type="hidden" name="item_name" value="Amendoas, 100g" />
+												<input type="hidden" name="amount" value="8.90" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1127,10 +1021,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="images/m2.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Quick View</a>
+											<a href="single.html" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
@@ -1138,8 +1032,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<a href="single.html">Cashew Nuts, 100g</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$200.00</span>
-										<del>$420.00</del>
+										<span class="item_price">R$ 15,00</span>
+										<del>R$ 17,00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1148,12 +1042,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Cashew Nuts, 100g" />
-												<input type="hidden" name="amount" value="200.00" />
+												<input type="hidden" name="amount" value="15.00" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1167,10 +1061,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="images/m3.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Quick View</a>
+											<a href="single.html" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
@@ -1178,8 +1072,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<a href="single.html">Pista..., 250g</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$520.99</span>
-										<del>$600.99</del>
+										<span class="item_price">R$ 23,99</span>
+										<del>R$ 26,99</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1188,12 +1082,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Pista, 250g" />
-												<input type="hidden" name="amount" value="520.99" />
+												<input type="hidden" name="amount" value="26.99" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1207,11 +1101,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!-- second section (nuts special) -->
 					<div class="product-sec1 product-sec2">
 						<div class="col-xs-7 effect-bg">
-							<h3 class="">Pure Energy</h3>
-							<h6>Enjoy our all healthy Products</h6>
-							<p>Get Extra 10% Off</p>
+							<h3 class="">Energia Pura</h3>
+							<h6>Desfrute o que é saudável</h6>
+							<p>Ganhe extra 10% Off</p>
 						</div>
-						<h3 class="w3l-nut-middle">Nuts & Dry Fruits</h3>
+                        <h3 class="w3l-nut-middle">100% SAUDAVEL </h3>
 						<div class="col-xs-5 bg-right-nut">
 							<img src="images/nut1.png" alt="">
 						</div>
@@ -1220,25 +1114,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!-- //second section (nuts special) -->
 					<!-- third section (oils) -->
 					<div class="product-sec1">
-						<h3 class="heading-tittle">Oils</h3>
+						<h3 class="heading-tittle">Óleos</h3>
 						<div class="col-md-4 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
 									<img src="images/mk4.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Quick View</a>
+											<a href="single.html" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 								</div>
 								<div class="item-info-product ">
 									<h4>
 										<a href="single.html">Freedom Oil, 1L</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$78.00</span>
-										<del>$110.00</del>
+										<span class="item_price">R$ 4,00</span>
+										<del>R$ 5,60</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1247,12 +1141,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Freedom Sunflower Oil, 1L" />
-												<input type="hidden" name="amount" value="78.00" />
+												<input type="hidden" name="amount" value="5.60" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1266,10 +1160,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="images/mk5.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Quick View</a>
+											<a href="single.html" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
@@ -1277,8 +1171,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<a href="single.html">Saffola Gold, 1L</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$130.00</span>
-										<del>$150.00</del>
+										<span class="item_price">R$ 9,00</span>
+										<del>R$ 11,00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1287,12 +1181,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Saffola Gold, 1L" />
-												<input type="hidden" name="amount" value="130.00" />
+												<input type="hidden" name="amount" value="11.00" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1306,10 +1200,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="images/mk6.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Quick View</a>
+											<a href="single.html" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
@@ -1317,8 +1211,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<a href="single.html">Fortune Oil, 5L</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$399.99</span>
-										<del>$500.00</del>
+										<span class="item_price">R$ 8,99</span>
+										<del>R$ 10,00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1327,12 +1221,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Fortune Oil, 5L" />
-												<input type="hidden" name="amount" value="399.99" />
+												<input type="hidden" name="amount" value="8.99" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1345,14 +1239,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!-- //third section (oils) -->
 					<!-- fourth section (noodles) -->
 					<div class="product-sec1">
-						<h3 class="heading-tittle">Pasta & Noodles</h3>
+						<h3 class="heading-tittle">Massas & Macarrão</h3>
 						<div class="col-md-4 product-men">
 							<div class="men-pro-item simpleCart_shelfItem">
 								<div class="men-thumb-item">
 									<img src="images/mk7.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Quick View</a>
+											<a href="single.html" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 								</div>
@@ -1361,8 +1255,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<a href="single.html">Yippee Noodles, 65g</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$15.00</span>
-										<del>$25.00</del>
+										<span class="item_price">R$ 11,00</span>
+										<del>R$ 15,00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1371,12 +1265,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="YiPPee Noodles, 65g" />
-												<input type="hidden" name="amount" value="15.00" />
+												<input type="hidden" name="amount" value="11.00" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1390,10 +1284,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="images/mk8.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Quick View</a>
+											<a href="single.html" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
@@ -1401,8 +1295,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<a href="single.html">Wheat Pasta, 500g</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$98.00</span>
-										<del>$120.00</del>
+										<span class="item_price">R$ 15,00</span>
+										<del>R$ 16,50</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1411,12 +1305,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Wheat Pasta, 500g" />
-												<input type="hidden" name="amount" value="98.00" />
+												<input type="hidden" name="amount" value="15.00" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1430,10 +1324,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="images/mk9.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Quick View</a>
+											<a href="single.html" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
@@ -1441,8 +1335,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<a href="single.html">Chinese Noodles, 68g</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$11.99</span>
-										<del>$15.00</del>
+										<span class="item_price">R$ 13,99</span>
+										<del>R$ 15,00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1451,12 +1345,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Chinese Noodles, 68g" />
-												<input type="hidden" name="amount" value="11.99" />
+												<input type="hidden" name="amount" value="13.99" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1477,7 +1371,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="featured-section" id="projects">
 		<div class="container">
 			<!-- tittle heading -->
-			<h3 class="tittle-w3l">Special Offers
+			<h3 class="tittle-w3l">Ofertas Especiais
 				<span class="heading-style">
 					<i></i>
 					<i></i>
@@ -1496,11 +1390,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Aashirvaad, 5g</a>
+									<a href="single.html">Aashirvaad, 200g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$220.00</h6>
-									<p>Save $40.00</p>
+									<h6>R$ 9,90</h6>
+									<p>R$ 0,90 OFF</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1509,12 +1403,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
 											<input type="hidden" name="item_name" value="Aashirvaad, 5g" />
-											<input type="hidden" name="amount" value="220.00" />
+											<input type="hidden" name="amount" value="9.90" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1533,8 +1427,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="single.html">Kissan Tomato Ketchup, 950g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$99.00</h6>
-									<p>Save $20.00</p>
+									<h6>R$ 19,00</h6>
+									<p>R$ 1,99 OFF</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1543,12 +1437,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
 											<input type="hidden" name="item_name" value="Kissan Tomato Ketchup, 950g" />
-											<input type="hidden" name="amount" value="99.00" />
+											<input type="hidden" name="amount" value="19.00" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1564,11 +1458,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Madhur Pure Sugar, 1g</a>
+									<a href="single.html">Madhur Pure Sugar, 50g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$69.00</h6>
-									<p>Save $20.00</p>
+									<h6>R$ 5,00</h6>
+									<p>R$ 0,50 OFF</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1577,12 +1471,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
 											<input type="hidden" name="item_name" value="Madhur Pure Sugar, 1g" />
-											<input type="hidden" name="amount" value="69.00" />
+											<input type="hidden" name="amount" value="5.00" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1598,11 +1492,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.html">Surf Excel Liquid, 1.02L</a>
+									<a href="single2.html">Surf Excel Liquid, 1L</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$187.00</h6>
-									<p>Save $30.00</p>
+									<h6>R$ 7,99</h6>
+									<p>R$ 0,99 OFF</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1611,12 +1505,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
 											<input type="hidden" name="item_name" value="Surf Excel Liquid, 1.02L" />
-											<input type="hidden" name="amount" value="187.00" />
+											<input type="hidden" name="amount" value="7.99" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1635,8 +1529,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="single.html">Cadbury Choclairs, 655.5g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$160.00</h6>
-									<p>Save $60.00</p>
+									<h6>R$ 12,00</h6>
+									<p>R$ 0,89 OFF</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1645,12 +1539,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
 											<input type="hidden" name="item_name" value="Cadbury Choclairs, 655.5g" />
-											<input type="hidden" name="amount" value="160.00" />
+											<input type="hidden" name="amount" value="12.00" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1669,8 +1563,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="single2.html">Fair & Lovely, 80 g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$121.60</h6>
-									<p>Save $30.00</p>
+									<h6>R$ 8,50</h6>
+									<p>R$ 0,49 OFF</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1679,12 +1573,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
 											<input type="hidden" name="item_name" value="Fair & Lovely, 80 g" />
-											<input type="hidden" name="amount" value="121.60" />
+											<input type="hidden" name="amount" value="8.50" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1700,11 +1594,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Sprite, 2.25L (Pack of 2)</a>
+									<a href="single.html">Sprite, 2L</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$180.00</h6>
-									<p>Save $30.00</p>
+									<h6>R$ 6,39</h6>
+									<p>R$ 0,60</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1712,13 +1606,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
-											<input type="hidden" name="item_name" value="Sprite, 2.25L (Pack of 2)" />
-											<input type="hidden" name="amount" value="180.00" />
+											<input type="hidden" name="item_name" value="Sprite, 2L" />
+											<input type="hidden" name="amount" value="6.39" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1734,11 +1628,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.html">Lakme Eyeconic Kajal, 0.35 g</a>
+									<a href="single2.html">Lakme Eyeconic Kajal, 35 g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$153.00</h6>
-									<p>Save $40.00</p>
+									<h6>R$ 3,70</h6>
+									<p>R$ 0,20 OFF</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1746,13 +1640,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
-											<input type="hidden" name="item_name" value="Lakme Eyeconic Kajal, 0.35 g" />
-											<input type="hidden" name="amount" value="153.00" />
+											<input type="hidden" name="item_name" value="Lakme Eyeconic Kajal, 35 g" />
+											<input type="hidden" name="amount" value="3.70" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1768,15 +1662,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="footer-top">
 		<div class="container-fluid">
 			<div class="col-xs-8 agile-leftmk">
-				<h2>Get your Groceries delivered from local stores</h2>
-				<p>Free Delivery on your first order!</p>
-				<form action="#" method="post">
-					<input type="email" placeholder="E-mail" name="email" required="">
-					<input type="submit" value="Subscribe">
-				</form>
-				<div class="newsform-w3l">
-					<span class="fa fa-envelope-o" aria-hidden="true"></span>
-				</div>
+				<h2>Obtenha suas compras na sua casa.</h2>
+				<p>Entrega gratuita em sua primeira compra!</p>
 			</div>
 			<div class="col-xs-4 w3l-rightmk">
 				<img src="images/tab3.png" alt=" ">
@@ -1790,10 +1677,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<!-- footer first section -->
 			<p class="footer-main">
-				<span>"Grocery Shoppy"</span> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-				magni dolores eos qui ratione voluptatem sequi nesciunt.Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-				accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-				beatae vitae dicta sunt explicabo.</p>
+				<span>"Merc On"</span> Um mercado online, onde você pode efetuar a compra dos seus mantimentos e recebelos na sua casa. Sem a necessidade de deslocar-se até um supermercado local.</p>
 			<!-- //footer first section -->
 			<!-- footer second section -->
 			<div class="w3l-grids-footer">
@@ -1802,7 +1686,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-map-marker" aria-hidden="true"></span>
 					</div>
 					<div class="col-xs-8 text-form-footer">
-						<h3>Track Your Order</h3>
+						<h3>Acompanhe seu Pedido</h3>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -1811,7 +1695,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-refresh" aria-hidden="true"></span>
 					</div>
 					<div class="col-xs-8 text-form-footer">
-						<h3>Free & Easy Returns</h3>
+						<h3>Fácil Devolução</h3>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -1820,7 +1704,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-times" aria-hidden="true"></span>
 					</div>
 					<div class="col-xs-8 text-form-footer">
-						<h3>Online cancellation </h3>
+						<h3>Cancelamento Online </h3>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -1832,49 +1716,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- footer categories -->
 				<div class="col-sm-5 address-right">
 					<div class="col-xs-6 footer-grids">
-						<h3>Categories</h3>
-						<ul>
-							<li>
-								<a href="product.html">Grocery</a>
-							</li>
-							<li>
-								<a href="product.html">Fruits</a>
-							</li>
-							<li>
-								<a href="product.html">Soft Drinks</a>
-							</li>
-							<li>
-								<a href="product2.html">Dishwashers</a>
-							</li>
-							<li>
-								<a href="product.html">Biscuits & Cookies</a>
-							</li>
-							<li>
-								<a href="product2.html">Baby Diapers</a>
-							</li>
-						</ul>
+						
 					</div>
 					<div class="col-xs-6 footer-grids agile-secomk">
-						<ul>
-							<li>
-								<a href="product.html">Snacks & Beverages</a>
-							</li>
-							<li>
-								<a href="product.html">Bread & Bakery</a>
-							</li>
-							<li>
-								<a href="product.html">Sweets</a>
-							</li>
-							<li>
-								<a href="product.html">Chocolates & Biscuits</a>
-							</li>
-							<li>
-								<a href="product2.html">Personal Care</a>
-							</li>
-							<li>
-								<a href="product.html">Dried Fruits & Nuts</a>
-							</li>
-						</ul>
+						
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -1882,40 +1727,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- quick links -->
 				<div class="col-sm-5 address-right">
 					<div class="col-xs-6 footer-grids">
-						<h3>Quick Links</h3>
+						<h3>Links</h3>
 						<ul>
 							<li>
-								<a href="about.html">About Us</a>
+								<a href="about.html">Sobre</a>
 							</li>
 							<li>
-								<a href="contact.html">Contact Us</a>
+								<a href="contact.html">Contato</a>
 							</li>
 							<li>
-								<a href="help.html">Help</a>
+								<a href="help.html">Ajuda</a>
 							</li>
 							<li>
-								<a href="faqs.html">Faqs</a>
+								<a href="faqs.html">FAQ</a>
 							</li>
 							<li>
-								<a href="terms.html">Terms of use</a>
+								<a href="terms.html">Termos de Uso</a>
 							</li>
 							<li>
-								<a href="privacy.html">Privacy Policy</a>
+								<a href="privacy.html">Politica de Privacidade</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-xs-6 footer-grids">
-						<h3>Get in Touch</h3>
+						<h3>Entrar em Contato</h3>
 						<ul>
 							<li>
-								<i class="fa fa-map-marker"></i> 123 Sebastian, USA.</li>
+								<i class="fa fa-mobile"></i> 61 98888-8888 </li>
 							<li>
-								<i class="fa fa-mobile"></i> 333 222 3333 </li>
-							<li>
-								<i class="fa fa-phone"></i> +222 11 4444 </li>
+								<i class="fa fa-phone"></i> 61 3333-4444 </li>
 							<li>
 								<i class="fa fa-envelope-o"></i>
-								<a href="mailto:example@mail.com"> mail@example.com</a>
+								<a href="mailto:example@mail.com"> contato@mercon.com</a>
 							</li>
 						</ul>
 					</div>
@@ -1923,7 +1766,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- //quick links -->
 				<!-- social icons -->
 				<div class="col-sm-2 footer-grids  w3l-socialmk">
-					<h3>Follow Us on</h3>
+					<h3>Siga-nos</h3>
 					<div class="social">
 						<ul>
 							<li>
@@ -1944,7 +1787,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</div>
 					<div class="agileits_app-devices">
-						<h5>Download the App</h5>
+						<h5>Em breve App</h5>
 						<a href="#">
 							<img src="images/1.png" alt="">
 						</a>
@@ -1961,156 +1804,157 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- footer fourth section (text) -->
 			<div class="agile-sometext">
 				<div class="sub-some">
-					<h5>Online Grocery Shopping</h5>
-					<p>Order online. All your favourite products from the low price online supermarket for grocery home delivery in Delhi,
-						Gurgaon, Bengaluru, Mumbai and other cities in India. Lowest prices guaranteed on Patanjali, Aashirvaad, Pampers, Maggi,
-						Saffola, Huggies, Fortune, Nestle, Amul, MamyPoko Pants, Surf Excel, Ariel, Vim, Haldiram's and others.</p>
+					<h5>Merc On</h5>
+					<p>Pedidos online. Seus produtos favoritos online e com baixo preço, só o Merc On faz isso por você. O Merc On atende, no momento, apenas a cidade de Águas Claras. Com baixo preço em produtos da Unilever, Pampers, Maggi, Coca-Cola, Brilhante, Huggies, Nestle, Ariel, Bom Bril, Italac, Gillette, Yoki, Bauduco, Sadia, União, Aurora, P&G entre outras.</p>
 				</div>
 				<div class="sub-some">
-					<h5>Shop online with the best deals & offers</h5>
-					<p>Now Get Upto 40% Off On Everyday Essential Products Shown On The Offer Page. The range includes Grocery, Personal Care,
-						Baby Care, Pet Supplies, Healthcare and Other Daily Need Products. Discount May Vary From Product To Product.</p>
+					<h5>Compre online com os melhores descontos & ofertas</h5>
+					<p>Ganhe até 40% Off Qualquer Dia nos Produtos em Oferta no Fim da Página. Estão incluidos Produtos Pessoais, Limpeza, Rações, Higiene, Grãos, Bebidas, Frutas, Sementes e outros Produtos do Dia. O Desconto Pode Variar de Produto Para Produto.</p>
 				</div>
 				<!-- brands -->
 				<div class="sub-some">
-					<h5>Popular Brands</h5>
+					<h5>Marcas Populares</h5>
 					<ul>
 						<li>
-							<a href="product.html">Aashirvaad</a>
+							<a>Amil</a>
 						</li>
 						<li>
-							<a href="product.html">Amul</a>
+							<a>Bauduco</a>
 						</li>
 						<li>
-							<a href="product.html">Bingo</a>
+							<a>Coca-Cola</a>
 						</li>
 						<li>
-							<a href="product.html">Boost</a>
+							<a>Bom Bril</a>
 						</li>
 						<li>
-							<a href="product.html">Durex</a>
+							<a>Durex</a>
 						</li>
 						<li>
-							<a href="product.html"> Maggi</a>
+							<a> Maggi</a>
 						</li>
 						<li>
-							<a href="product.html">Glucon-D</a>
+							<a>Nestle</a>
 						</li>
 						<li>
-							<a href="product.html">Horlicks</a>
+							<a>Italac</a>
 						</li>
 						<li>
-							<a href="product2.html">Head & Shoulders</a>
+							<a>Palmolive</a>
 						</li>
 						<li>
-							<a href="product2.html">Dove</a>
+							<a>Dove</a>
 						</li>
 						<li>
-							<a href="product2.html">Dettol</a>
+							<a>Suave</a>
 						</li>
 						<li>
-							<a href="product2.html">Dabur</a>
+							<a>Nivia</a>
 						</li>
 						<li>
-							<a href="product2.html">Colgate</a>
+							<a>Colgate</a>
 						</li>
 						<li>
-							<a href="product.html">Coca-Cola</a>
+							<a>Brilhante</a>
 						</li>
 						<li>
-							<a href="product2.html">Closeup</a>
+							<a>Closeup</a>
 						</li>
 						<li>
-							<a href="product2.html"> Cinthol</a>
+							<a> Sadia</a>
 						</li>
 						<li>
-							<a href="product.html">Cadbury</a>
+							<a>Garoto</a>
 						</li>
 						<li>
-							<a href="product.html">Bru</a>
+							<a>Knor</a>
 						</li>
 						<li>
-							<a href="product.html">Bournvita</a>
+							<a>Cif</a>
 						</li>
 						<li>
-							<a href="product.html">Tang</a>
+							<a>Tang</a>
 						</li>
 						<li>
-							<a href="product.html">Pears</a>
+							<a>Aurora</a>
 						</li>
 						<li>
-							<a href="product.html">Oreo</a>
+							<a>Oreo</a>
 						</li>
 						<li>
-							<a href="product.html"> Taj Mahal</a>
+							<a> Nissin</a>
 						</li>
 						<li>
-							<a href="product.html">Sprite</a>
+							<a>Sprite</a>
 						</li>
 						<li>
-							<a href="product.html">Thums Up</a>
+							<a>Sukita</a>
 						</li>
 						<li>
-							<a href="product2.html">Fair & Lovely</a>
+							<a>WD</a>
 						</li>
 						<li>
-							<a href="product2.html">Lakme</a>
+							<a>Lacta</a>
 						</li>
 						<li>
-							<a href="product.html">Tata</a>
+							<a>Fresh</a>
 						</li>
 						<li>
-							<a href="product2.html">Sunfeast</a>
+							<a>Sorriso</a>
 						</li>
 						<li>
-							<a href="product2.html">Sunsilk</a>
+							<a>Oral-B</a>
 						</li>
 						<li>
-							<a href="product.html">Patanjali</a>
+							<a>Parmalat</a>
 						</li>
 						<li>
-							<a href="product.html">MTR</a>
+							<a>RedBul</a>
 						</li>
 						<li>
-							<a href="product.html">Kissan</a>
+							<a>Guarana</a>
 						</li>
 						<li>
-							<a href="product2.html"> Lipton</a>
+							<a> Omo</a>
+						</li>
+                        <li>
+							<a>Rexona</a>
+						</li>
+						<li>
+							<a>Axe</a>
+						</li>
+						<li>
+							<a>delValle</a>
+						</li>
+						<li>
+							<a>Piracanjuba</a>
+						</li>
+						<li>
+							<a>Perdigão</a>
+						</li>
+						<li>
+							<a>União</a>
+						</li>
+						<li>
+							<a> Camil</a>
 						</li>
 					</ul>
 				</div>
 				<!-- //brands -->
 				<!-- payment -->
 				<div class="sub-some child-momu">
-					<h5>Payment Method</h5>
+					<h5>Métodos de Pagamento</h5>
 					<ul>
 						<li>
 							<img src="images/pay2.png" alt="">
 						</li>
 						<li>
-							<img src="images/pay5.png" alt="">
-						</li>
-						<li>
 							<img src="images/pay1.png" alt="">
-						</li>
-						<li>
-							<img src="images/pay4.png" alt="">
-						</li>
-						<li>
-							<img src="images/pay6.png" alt="">
-						</li>
-						<li>
-							<img src="images/pay3.png" alt="">
-						</li>
-						<li>
-							<img src="images/pay7.png" alt="">
 						</li>
 						<li>
 							<img src="images/pay8.png" alt="">
 						</li>
-						<li>
-							<img src="images/pay9.png" alt="">
-						</li>
+						
 					</ul>
 				</div>
 				<!-- //payment -->
@@ -2122,8 +1966,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- copyright -->
 	<div class="copy-right">
 		<div class="container">
-			<p>© 2017 Grocery Shoppy. All rights reserved | Design by
-				<a href="http://w3layouts.com"> W3layouts.</a>
+			<p>© 2018 Merc On. Todos direitos reservados. | Design by
+				<a> W3layouts.</a>
 			</p>
 		</div>
 	</div>
