@@ -375,17 +375,17 @@
 						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Finalizar</li>
+					<li>Pagamento</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<!-- //page -->
-	<!-- checkout page -->
+	<!-- payment page-->
 	<div class="privacy">
 		<div class="container">
 			<!-- tittle heading -->
-			<h3 class="tittle-w3l">Finalizar
+			<h3 class="tittle-w3l">Pagamento
 				<span class="heading-style">
 					<i></i>
 					<i></i>
@@ -394,156 +394,75 @@
 			</h3>
 			<!-- //tittle heading -->
 			<div class="checkout-right">
-				<h4>Seu carrinho de compra contém:
-					<span>3 Produtos</span>
-				</h4>
-				<div class="table-responsive">
-					<table class="timetable_sub">
-						<thead>
-							<tr>
-								<th>SL No.</th>
-								<th>Produto</th>
-								<th>Quantidade</th>
-								<th>Nome do Produto</th>
+				<!--Horizontal Tab-->
+				<div id="parentHorizontalTab">
+					<ul class="resp-tabs-list hor_1">
+						<li>Pagar na Entrega</li>
+						<li>Crédito/Debito</li>
+					</ul>
+					<div class="resp-tabs-container hor_1">
 
-								<th>Preço</th>
-								<th>Remover</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="rem1">
-								<td class="invert">1</td>
-								<td class="invert-image">
-									<a href="single2.php">
-										<img src="images/a7.jpg" alt=" " class="img-responsive">
-									</a>
-								</td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value">
-												<span>1</span>
-											</div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
+						<div>
+							<div class="vertical_post check_box_agile">
+								<h5>Dinheiro</h5>
+								<div class="checkbox">
+									<div class="check_box_one cashon_delivery">
+										<label class="anim">
+											<input type="checkbox" class="checkbox">
+											<span> Nós aceitamos cartão Credito/Debito na entrega. Por Favor, confira com o entregador.</span>
+										</label>
 									</div>
-								</td>
-								<td class="invert">Spotzero Spin Mop</td>
-								<td class="invert">R$ 888.00</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close1"> </div>
-									</div>
-								</td>
-							</tr>
-							<tr class="rem2">
-								<td class="invert">2</td>
-								<td class="invert-image">
-									<a href="single2.php">
-										<img src="images/s6.jpg" alt=" " class="img-responsive">
-									</a>
-								</td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value">
-												<span>1</span>
-											</div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Fair & Lovely, 80 g</td>
-								<td class="invert">R$ 121.60</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close2"> </div>
-									</div>
-								</td>
-							</tr>
-							<tr class="rem3">
-								<td class="invert">3</td>
-								<td class="invert-image">
-									<a href="single.php">
-										<img src="images/s5.jpg" alt=" " class="img-responsive">
-									</a>
-								</td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value">
-												<span>1</span>
-											</div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Sprite, 2.25L (Pack of 2)</td>
-								<td class="invert">R$ 180.00</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close3"> </div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-			<div class="checkout-left">
-				<div class="address_form_agile">
-					<h4>Adicionar Detalhes</h4>
-					<form action="payment.php" method="post" class="creditly-card-form agileinfo_form">
-						<div class="creditly-wrapper wthree, w3_agileits_wrapper">
-							<div class="information-wrapper">
-								<div class="first-row">
-									<div class="controls">
-										<input class="billing-address-name" type="text" name="name" placeholder="Nome Completo" required="">
-									</div>
-									<div class="w3_agileits_card_number_grids">
-										<div class="w3_agileits_card_number_grid_left">
-											<div class="controls">
-												<input type="text" placeholder="Número de Celular" name="number" required="">
-											</div>
-										</div>
-										<div class="w3_agileits_card_number_grid_right">
-											<div class="controls">
-												<input type="text" placeholder="Referência" name="referencia" required="">
-											</div>
-										</div>
-										<div class="clear"> </div>
-									</div>
-									<div class="controls">
-										<input type="text" placeholder="Cidade" name="cidade" required="">
-									</div>
-									<div class="controls">
-										<select class="option-w3ls">
-											<option>Tipo de Endereço</option>
-											<option>Escritório</option>
-											<option>Casa</option>
-											<option>Comercio</option>
 
-										</select>
-									</div>
 								</div>
-								<button class="submit check_out">Entregar nesse Endereço</button>
 							</div>
 						</div>
-					</form>
-					<div class="checkout-right-basket">
-						<a href="payment.php">Fazer o Pagamento
-							<span class="fa fa-hand-o-right" aria-hidden="true"></span>
-						</a>
+						<div>
+							<form action="#" method="post" class="creditly-card-form agileinfo_form">
+								<div class="creditly-wrapper wthree, w3_agileits_wrapper">
+									<div class="credit-card-wrapper">
+										<div class="first-row form-group">
+											<div class="controls">
+												<label class="control-label">Nome impresso no cartão</label>
+												<input class="billing-address-name form-control" type="text" name="name" placeholder="John Smith">
+											</div>
+											<div class="w3_agileits_card_number_grids">
+												<div class="w3_agileits_card_number_grid_left">
+													<div class="controls">
+														<label class="control-label">Número do Cartão</label>
+														<input class="number credit-card-number form-control" type="text" name="number" inputmode="numeric" autocomplete="cc-number"
+														    autocompletetype="cc-number" x-autocompletetype="cc-number" placeholder="&#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149; &#149;&#149;&#149;&#149;">
+													</div>
+												</div>
+												<div class="w3_agileits_card_number_grid_right">
+													<div class="controls">
+														<label class="control-label">CVV</label>
+														<input class="security-code form-control" Â· inputmode="numeric" type="text" name="security-code" placeholder="&#149;&#149;&#149;">
+													</div>
+												</div>
+												<div class="clear"> </div>
+											</div>
+											<div class="controls">
+												<label class="control-label">Vencimento</label>
+												<input class="expiration-month-and-year form-control" type="text" name="expiration-month-and-year" placeholder="MM / AA">
+											</div>
+										</div>
+										<button class="submit">
+											<span>Finalizar </span>
+										</button>
+									</div>
+								</div>
+							</form>
+
+						</div>
+
 					</div>
 				</div>
-				<div class="clearfix"> </div>
+				<!--Plug-in Initialisation-->
 			</div>
 		</div>
 	</div>
-	<!-- //checkout page -->
+	<!-- //payment page -->
+
 	<!-- newsletter -->
 	<div class="footer-top">
 		<div class="container-fluid">
@@ -905,56 +824,60 @@
 			}
 
 			if (total < 3) {
-				alert('O número mínimo de item é 3. Por favor, adicione mais itens ao seu carrinho antes de finalizar compra');
+				alert('O número mínimo de item é 3. Por favor, adicione mais itens ao seu carrinho antes de finalizar a compra');
 				evt.preventDefault();
 			}
 		});
 	</script>
 	<!-- //cart-js -->
 
-	<!--quantity-->
-	<script>
-		$('.value-plus').on('click', function () {
-			var divUpd = $(this).parent().find('.value'),
-				newVal = parseInt(divUpd.text(), 10) + 1;
-			divUpd.text(newVal);
-		});
+	<!-- easy-responsive-tabs -->
+	<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+	<script src="js/easyResponsiveTabs.js"></script>
 
-		$('.value-minus').on('click', function () {
-			var divUpd = $(this).parent().find('.value'),
-				newVal = parseInt(divUpd.text(), 10) - 1;
-			if (newVal >= 1) divUpd.text(newVal);
-		});
-	</script>
-	<!--quantity-->
 	<script>
-		$(document).ready(function (c) {
-			$('.close1').on('click', function (c) {
-				$('.rem1').fadeOut('slow', function (c) {
-					$('.rem1').remove();
-				});
+		$(document).ready(function () {
+			//Horizontal Tab
+			$('#parentHorizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion
+				width: 'auto', //auto or any width like 600px
+				fit: true, // 100% fit in a container
+				tabidentify: 'hor_1', // The tab groups identifier
+				activate: function (event) { // Callback function if tab is switched
+					var $tab = $(this);
+					var $info = $('#nested-tabInfo');
+					var $name = $('span', $info);
+					$name.text($tab.text());
+					$info.show();
+				}
 			});
 		});
 	</script>
+	<!-- //easy-responsive-tabs -->
+
+	<!-- credit-card -->
+	<script src="js/creditly.js"></script>
+	<link rel="stylesheet" href="css/creditly.css" type="text/css" media="all" />
+
 	<script>
-		$(document).ready(function (c) {
-			$('.close2').on('click', function (c) {
-				$('.rem2').fadeOut('slow', function (c) {
-					$('.rem2').remove();
-				});
+		$(function () {
+			var creditly = Creditly.initialize(
+				'.creditly-wrapper .expiration-month-and-year',
+				'.creditly-wrapper .credit-card-number',
+				'.creditly-wrapper .security-code',
+				'.creditly-wrapper .card-type');
+
+			$(".creditly-card-form .submit").click(function (e) {
+				e.preventDefault();
+				var output = creditly.validate();
+				if (output) {
+					// Your validated credit card output
+					console.log(output);
+				}
 			});
 		});
 	</script>
-	<script>
-		$(document).ready(function (c) {
-			$('.close3').on('click', function (c) {
-				$('.rem3').fadeOut('slow', function (c) {
-					$('.rem3').remove();
-				});
-			});
-		});
-	</script>
-	<!--//quantity-->
+	<!-- //credit-card -->
 
 	<!-- password-script -->
 	<script>

@@ -350,7 +350,7 @@
 								<li class="">
 									<a class="nav-stylehead" href="faqs.php">FAQ</a>
 								</li>
-								<li class="">
+								<li class="active">
 									<a class="nav-stylehead" href="contact.php">Contato</a>
 								</li>
 							</ul>
@@ -375,17 +375,17 @@
 						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Finalizar</li>
+					<li>contact Us</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<!-- //page -->
-	<!-- checkout page -->
-	<div class="privacy">
+	<!-- contact page -->
+	<div class="contact-w3l">
 		<div class="container">
 			<!-- tittle heading -->
-			<h3 class="tittle-w3l">Finalizar
+			<h3 class="tittle-w3l">Contact Us
 				<span class="heading-style">
 					<i></i>
 					<i></i>
@@ -393,157 +393,56 @@
 				</span>
 			</h3>
 			<!-- //tittle heading -->
-			<div class="checkout-right">
-				<h4>Seu carrinho de compra contém:
-					<span>3 Produtos</span>
-				</h4>
-				<div class="table-responsive">
-					<table class="timetable_sub">
-						<thead>
-							<tr>
-								<th>SL No.</th>
-								<th>Produto</th>
-								<th>Quantidade</th>
-								<th>Nome do Produto</th>
-
-								<th>Preço</th>
-								<th>Remover</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="rem1">
-								<td class="invert">1</td>
-								<td class="invert-image">
-									<a href="single2.php">
-										<img src="images/a7.jpg" alt=" " class="img-responsive">
-									</a>
-								</td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value">
-												<span>1</span>
-											</div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Spotzero Spin Mop</td>
-								<td class="invert">R$ 888.00</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close1"> </div>
-									</div>
-								</td>
-							</tr>
-							<tr class="rem2">
-								<td class="invert">2</td>
-								<td class="invert-image">
-									<a href="single2.php">
-										<img src="images/s6.jpg" alt=" " class="img-responsive">
-									</a>
-								</td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value">
-												<span>1</span>
-											</div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Fair & Lovely, 80 g</td>
-								<td class="invert">R$ 121.60</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close2"> </div>
-									</div>
-								</td>
-							</tr>
-							<tr class="rem3">
-								<td class="invert">3</td>
-								<td class="invert-image">
-									<a href="single.php">
-										<img src="images/s5.jpg" alt=" " class="img-responsive">
-									</a>
-								</td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value">
-												<span>1</span>
-											</div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Sprite, 2.25L (Pack of 2)</td>
-								<td class="invert">R$ 180.00</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close3"> </div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-			<div class="checkout-left">
-				<div class="address_form_agile">
-					<h4>Adicionar Detalhes</h4>
-					<form action="payment.php" method="post" class="creditly-card-form agileinfo_form">
-						<div class="creditly-wrapper wthree, w3_agileits_wrapper">
-							<div class="information-wrapper">
-								<div class="first-row">
-									<div class="controls">
-										<input class="billing-address-name" type="text" name="name" placeholder="Nome Completo" required="">
-									</div>
-									<div class="w3_agileits_card_number_grids">
-										<div class="w3_agileits_card_number_grid_left">
-											<div class="controls">
-												<input type="text" placeholder="Número de Celular" name="number" required="">
-											</div>
-										</div>
-										<div class="w3_agileits_card_number_grid_right">
-											<div class="controls">
-												<input type="text" placeholder="Referência" name="referencia" required="">
-											</div>
-										</div>
-										<div class="clear"> </div>
-									</div>
-									<div class="controls">
-										<input type="text" placeholder="Cidade" name="cidade" required="">
-									</div>
-									<div class="controls">
-										<select class="option-w3ls">
-											<option>Tipo de Endereço</option>
-											<option>Escritório</option>
-											<option>Casa</option>
-											<option>Comercio</option>
-
-										</select>
-									</div>
-								</div>
-								<button class="submit check_out">Entregar nesse Endereço</button>
+			<!-- contact -->
+			<div class="contact agileits">
+				<div class="contact-agileinfo">
+					<div class="contact-form wthree">
+						<form action="#" method="post">
+							<div class="">
+								<input type="text" name="name" placeholder="Name" required="">
 							</div>
+							<div class="">
+								<input class="text" type="text" name="subject" placeholder="Subject" required="">
+							</div>
+							<div class="">
+								<input class="email" type="email" name="email" placeholder="Email" required="">
+							</div>
+							<div class="">
+								<textarea placeholder="Message" name="message" required=""></textarea>
+							</div>
+							<input type="submit" value="Submit">
+						</form>
+					</div>
+					<div class="contact-right wthree">
+						<div class="col-xs-7 contact-text w3-agileits">
+							<h4>GET IN TOUCH :</h4>
+							<p>
+								<i class="fa fa-map-marker"></i> 123 Sebastian, NY 10002, USA.</p>
+							<p>
+								<i class="fa fa-phone"></i> Telephone : 333 222 3333</p>
+							<p>
+								<i class="fa fa-fax"></i> FAX : +1 888 888 4444</p>
+							<p>
+								<i class="fa fa-envelope-o"></i> Email :
+								<a href="mailto:example@mail.com">mail@example.com</a>
+							</p>
 						</div>
-					</form>
-					<div class="checkout-right-basket">
-						<a href="payment.php">Fazer o Pagamento
-							<span class="fa fa-hand-o-right" aria-hidden="true"></span>
-						</a>
+						<div class="col-xs-5 contact-agile">
+							<img src="images/contact2.jpg" alt="">
+						</div>
+						<div class="clearfix"> </div>
 					</div>
 				</div>
-				<div class="clearfix"> </div>
 			</div>
+			<!-- //contact -->
 		</div>
 	</div>
-	<!-- //checkout page -->
+	<!-- map -->
+	<div class="map w3layouts">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55565170.29301636!2d-132.08532758867793!3d31.786060306224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1512365940398"
+		    allowfullscreen></iframe>
+	</div>
+	<!-- //map -->
 	<!-- newsletter -->
 	<div class="footer-top">
 		<div class="container-fluid">
@@ -858,7 +757,7 @@
 		</div>
 	</div>
 	<!-- //copyright -->
-    
+
 	<!-- js-files -->
 	<!-- jquery -->
 	<script src="js/jquery-2.1.4.min.js"></script>
@@ -905,56 +804,12 @@
 			}
 
 			if (total < 3) {
-				alert('O número mínimo de item é 3. Por favor, adicione mais itens ao seu carrinho antes de finalizar compra');
+				alert('O número mínimo de item é 3. Por favor, adicione mais itens ao seu carrinho antes de finalizar a compra');
 				evt.preventDefault();
 			}
 		});
 	</script>
 	<!-- //cart-js -->
-
-	<!--quantity-->
-	<script>
-		$('.value-plus').on('click', function () {
-			var divUpd = $(this).parent().find('.value'),
-				newVal = parseInt(divUpd.text(), 10) + 1;
-			divUpd.text(newVal);
-		});
-
-		$('.value-minus').on('click', function () {
-			var divUpd = $(this).parent().find('.value'),
-				newVal = parseInt(divUpd.text(), 10) - 1;
-			if (newVal >= 1) divUpd.text(newVal);
-		});
-	</script>
-	<!--quantity-->
-	<script>
-		$(document).ready(function (c) {
-			$('.close1').on('click', function (c) {
-				$('.rem1').fadeOut('slow', function (c) {
-					$('.rem1').remove();
-				});
-			});
-		});
-	</script>
-	<script>
-		$(document).ready(function (c) {
-			$('.close2').on('click', function (c) {
-				$('.rem2').fadeOut('slow', function (c) {
-					$('.rem2').remove();
-				});
-			});
-		});
-	</script>
-	<script>
-		$(document).ready(function (c) {
-			$('.close3').on('click', function (c) {
-				$('.rem3').fadeOut('slow', function (c) {
-					$('.rem3').remove();
-				});
-			});
-		});
-	</script>
-	<!--//quantity-->
 
 	<!-- password-script -->
 	<script>

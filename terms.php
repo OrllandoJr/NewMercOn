@@ -375,175 +375,104 @@
 						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Finalizar</li>
+					<li>Terms of Use</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<!-- //page -->
-	<!-- checkout page -->
-	<div class="privacy">
-		<div class="container">
-			<!-- tittle heading -->
-			<h3 class="tittle-w3l">Finalizar
-				<span class="heading-style">
-					<i></i>
-					<i></i>
-					<i></i>
-				</span>
-			</h3>
-			<!-- //tittle heading -->
-			<div class="checkout-right">
-				<h4>Seu carrinho de compra contém:
-					<span>3 Produtos</span>
-				</h4>
-				<div class="table-responsive">
-					<table class="timetable_sub">
-						<thead>
-							<tr>
-								<th>SL No.</th>
-								<th>Produto</th>
-								<th>Quantidade</th>
-								<th>Nome do Produto</th>
+	<!-- Terms of use-section -->
+	<section class="terms-of-use">
+		<!-- terms -->
+		<div class="terms">
+			<div class="container">
+				<!-- tittle heading -->
+				<h3 class="tittle-w3l">Terms of Use
+					<span class="heading-style">
+						<i></i>
+						<i></i>
+						<i></i>
+					</span>
+				</h3>
+				<!-- //tittle heading -->
+				<h5>PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY .</h5>
+				<h6>Personal Information</h6>
+				<ol start="1">
+					<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.it has a more-or-less normal distribution
+						of letters, as opposed Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+					<li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+						eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+						voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores</li>
+					<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.it has a more-or-less normal distribution
+						of letters, as opposed Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
+				</ol>
 
-								<th>Preço</th>
-								<th>Remover</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="rem1">
-								<td class="invert">1</td>
-								<td class="invert-image">
-									<a href="single2.php">
-										<img src="images/a7.jpg" alt=" " class="img-responsive">
-									</a>
-								</td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value">
-												<span>1</span>
-											</div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Spotzero Spin Mop</td>
-								<td class="invert">R$ 888.00</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close1"> </div>
-									</div>
-								</td>
-							</tr>
-							<tr class="rem2">
-								<td class="invert">2</td>
-								<td class="invert-image">
-									<a href="single2.php">
-										<img src="images/s6.jpg" alt=" " class="img-responsive">
-									</a>
-								</td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value">
-												<span>1</span>
-											</div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Fair & Lovely, 80 g</td>
-								<td class="invert">R$ 121.60</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close2"> </div>
-									</div>
-								</td>
-							</tr>
-							<tr class="rem3">
-								<td class="invert">3</td>
-								<td class="invert-image">
-									<a href="single.php">
-										<img src="images/s5.jpg" alt=" " class="img-responsive">
-									</a>
-								</td>
-								<td class="invert">
-									<div class="quantity">
-										<div class="quantity-select">
-											<div class="entry value-minus">&nbsp;</div>
-											<div class="entry value">
-												<span>1</span>
-											</div>
-											<div class="entry value-plus active">&nbsp;</div>
-										</div>
-									</div>
-								</td>
-								<td class="invert">Sprite, 2.25L (Pack of 2)</td>
-								<td class="invert">R$ 180.00</td>
-								<td class="invert">
-									<div class="rem">
-										<div class="close3"> </div>
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-			<div class="checkout-left">
-				<div class="address_form_agile">
-					<h4>Adicionar Detalhes</h4>
-					<form action="payment.php" method="post" class="creditly-card-form agileinfo_form">
-						<div class="creditly-wrapper wthree, w3_agileits_wrapper">
-							<div class="information-wrapper">
-								<div class="first-row">
-									<div class="controls">
-										<input class="billing-address-name" type="text" name="name" placeholder="Nome Completo" required="">
-									</div>
-									<div class="w3_agileits_card_number_grids">
-										<div class="w3_agileits_card_number_grid_left">
-											<div class="controls">
-												<input type="text" placeholder="Número de Celular" name="number" required="">
-											</div>
-										</div>
-										<div class="w3_agileits_card_number_grid_right">
-											<div class="controls">
-												<input type="text" placeholder="Referência" name="referencia" required="">
-											</div>
-										</div>
-										<div class="clear"> </div>
-									</div>
-									<div class="controls">
-										<input type="text" placeholder="Cidade" name="cidade" required="">
-									</div>
-									<div class="controls">
-										<select class="option-w3ls">
-											<option>Tipo de Endereço</option>
-											<option>Escritório</option>
-											<option>Casa</option>
-											<option>Comercio</option>
+				<h6>License & Site access</h6>
+				<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+					ratione voluptatem sequi nesciunt..</p>
+				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
+					modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+				<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-										</select>
-									</div>
-								</div>
-								<button class="submit check_out">Entregar nesse Endereço</button>
-							</div>
-						</div>
-					</form>
-					<div class="checkout-right-basket">
-						<a href="payment.php">Fazer o Pagamento
-							<span class="fa fa-hand-o-right" aria-hidden="true"></span>
-						</a>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
+				<h6>Eligibility :</h6>
+				<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+					middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
+				<p>first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model
+					sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free
+					from repetition, injected humour</p>
+
+				<h6>Account & Registration</h6>
+				<p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
+					by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The
+					first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+				<p>Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from
+					a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+					Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</p>
+				<p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+					"Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+				<h6>Cancellation by Site / Customer</h6>
+				<p> Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+					Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+				<p> Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The
+					generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+				<h6>You Agree and Confirm</h6>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+					by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage
+					of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+					generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the
+					Internet.
+				</p>
+				<h6>Copyright & Trademark</h6>
+				<p> you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
+					the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It
+					uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures</p>
 			</div>
 		</div>
+		<!-- /terms -->
+	</section>
+	<!-- //Terms of use-section -->
+
+	<!-- newsletter -->
+	<div class="footer-top">
+		<div class="container-fluid">
+			<div class="col-xs-8 agile-leftmk">
+				<h2>Get your Groceries delivered from local stores</h2>
+				<p>Free Delivery on your first order!</p>
+				<form action="#" method="post">
+					<input type="email" placeholder="E-mail" name="email" required="">
+					<input type="submit" value="Subscribe">
+				</form>
+				<div class="newsform-w3l">
+					<span class="fa fa-envelope-o" aria-hidden="true"></span>
+				</div>
+			</div>
+			<div class="col-xs-4 w3l-rightmk">
+				<img src="images/tab3.png" alt=" ">
+			</div>
+			<div class="clearfix"></div>
+		</div>
 	</div>
-	<!-- //checkout page -->
 	<!-- newsletter -->
 	<div class="footer-top">
 		<div class="container-fluid">
@@ -858,7 +787,7 @@
 		</div>
 	</div>
 	<!-- //copyright -->
-    
+
 	<!-- js-files -->
 	<!-- jquery -->
 	<script src="js/jquery-2.1.4.min.js"></script>
@@ -905,56 +834,12 @@
 			}
 
 			if (total < 3) {
-				alert('O número mínimo de item é 3. Por favor, adicione mais itens ao seu carrinho antes de finalizar compra');
+				alert('O número mínimo de item é 3. Por favor, adicione mais itens ao seu carrinho antes de finalizar a compra');
 				evt.preventDefault();
 			}
 		});
 	</script>
 	<!-- //cart-js -->
-
-	<!--quantity-->
-	<script>
-		$('.value-plus').on('click', function () {
-			var divUpd = $(this).parent().find('.value'),
-				newVal = parseInt(divUpd.text(), 10) + 1;
-			divUpd.text(newVal);
-		});
-
-		$('.value-minus').on('click', function () {
-			var divUpd = $(this).parent().find('.value'),
-				newVal = parseInt(divUpd.text(), 10) - 1;
-			if (newVal >= 1) divUpd.text(newVal);
-		});
-	</script>
-	<!--quantity-->
-	<script>
-		$(document).ready(function (c) {
-			$('.close1').on('click', function (c) {
-				$('.rem1').fadeOut('slow', function (c) {
-					$('.rem1').remove();
-				});
-			});
-		});
-	</script>
-	<script>
-		$(document).ready(function (c) {
-			$('.close2').on('click', function (c) {
-				$('.rem2').fadeOut('slow', function (c) {
-					$('.rem2').remove();
-				});
-			});
-		});
-	</script>
-	<script>
-		$(document).ready(function (c) {
-			$('.close3').on('click', function (c) {
-				$('.rem3').fadeOut('slow', function (c) {
-					$('.rem3').remove();
-				});
-			});
-		});
-	</script>
-	<!--//quantity-->
 
 	<!-- password-script -->
 	<script>

@@ -41,7 +41,7 @@
 			<!-- header-bot-->
 			<div class="col-md-4 logo_agile">
 				<h1>
-					<a href="index.html">
+					<a href="index.php">
 						Merc
 						<span>On</span>
 						<img src="images/logo2.png" alt=" ">
@@ -101,374 +101,14 @@
 	<!-- Button trigger modal(shop-locator) -->
 	<div id="small-dialog1" class="mfp-hide">
 		<div class="select-city">
-			<h3>Please Select Your Location</h3>
+			<h3>Por Favor, selecione a sua localização.</h3>
 			<select class="list_of_cities">
 				<optgroup label="Popular Cities">
-					<option selected style="display:none;color:#eee;">Select City</option>
-					<option>Birmingham</option>
-					<option>Anchorage</option>
-					<option>Phoenix</option>
-					<option>Little Rock</option>
-					<option>Los Angeles</option>
-					<option>Denver</option>
-					<option>Bridgeport</option>
-					<option>Wilmington</option>
-					<option>Jacksonville</option>
-					<option>Atlanta</option>
-					<option>Honolulu</option>
-					<option>Boise</option>
-					<option>Chicago</option>
-					<option>Indianapolis</option>
+					<option selected style="display:none;color:#eee;">Selecione a Cidade</option>
+					<option>Aguas Claras</option>
 				</optgroup>
-				<optgroup label="Alabama">
-					<option>Birmingham</option>
-					<option>Montgomery</option>
-					<option>Mobile</option>
-					<option>Huntsville</option>
-					<option>Tuscaloosa</option>
-				</optgroup>
-				<optgroup label="Alaska">
-					<option>Anchorage</option>
-					<option>Fairbanks</option>
-					<option>Juneau</option>
-					<option>Sitka</option>
-					<option>Ketchikan</option>
-				</optgroup>
-				<optgroup label="Arizona">
-					<option>Phoenix</option>
-					<option>Tucson</option>
-					<option>Mesa</option>
-					<option>Chandler</option>
-					<option>Glendale</option>
-				</optgroup>
-				<optgroup label="Arkansas">
-					<option>Little Rock</option>
-					<option>Fort Smith</option>
-					<option>Fayetteville</option>
-					<option>Springdale</option>
-					<option>Jonesboro</option>
-				</optgroup>
-				<optgroup label="California">
-					<option>Los Angeles</option>
-					<option>San Diego</option>
-					<option>San Jose</option>
-					<option>San Francisco</option>
-					<option>Fresno</option>
-				</optgroup>
-				<optgroup label="Colorado">
-					<option>Denver</option>
-					<option>Colorado</option>
-					<option>Aurora</option>
-					<option>Fort Collins</option>
-					<option>Lakewood</option>
-				</optgroup>
-				<optgroup label="Connecticut">
-					<option>Bridgeport</option>
-					<option>New Haven</option>
-					<option>Hartford</option>
-					<option>Stamford</option>
-					<option>Waterbury</option>
-				</optgroup>
-				<optgroup label="Delaware">
-					<option>Wilmington</option>
-					<option>Dover</option>
-					<option>Newark</option>
-					<option>Bear</option>
-					<option>Middletown</option>
-				</optgroup>
-				<optgroup label="Florida">
-					<option>Jacksonville</option>
-					<option>Miami</option>
-					<option>Tampa</option>
-					<option>St. Petersburg</option>
-					<option>Orlando</option>
-				</optgroup>
-				<optgroup label="Georgia">
-					<option>Atlanta</option>
-					<option>Augusta</option>
-					<option>Columbus</option>
-					<option>Savannah</option>
-					<option>Athens</option>
-				</optgroup>
-				<optgroup label="Hawaii">
-					<option>Honolulu</option>
-					<option>Pearl City</option>
-					<option>Hilo</option>
-					<option>Kailua</option>
-					<option>Waipahu</option>
-				</optgroup>
-				<optgroup label="Idaho">
-					<option>Boise</option>
-					<option>Nampa</option>
-					<option>Meridian</option>
-					<option>Idaho Falls</option>
-					<option>Pocatello</option>
-				</optgroup>
-				<optgroup label="Illinois">
-					<option>Chicago</option>
-					<option>Aurora</option>
-					<option>Rockford</option>
-					<option>Joliet</option>
-					<option>Naperville</option>
-				</optgroup>
-				<optgroup label="Indiana">
-					<option>Indianapolis</option>
-					<option>Fort Wayne</option>
-					<option>Evansville</option>
-					<option>South Bend</option>
-					<option>Hammond</option>														       
-				</optgroup>
-				<optgroup label="Iowa">
-					<option>Des Moines</option>
-					<option>Cedar Rapids</option>
-					<option>Davenport</option>
-					<option>Sioux City</option>
-					<option>Waterloo</option>       													
-				</optgroup>
-				<optgroup label="Kansas">
-					<option>Wichita</option>
-					<option>Overland Park</option>
-					<option>Kansas City</option>
-					<option>Topeka</option>
-					<option>Olathe  </option>            													
-				</optgroup>
-				<optgroup label="Kentucky">
-					<option>Louisville</option>
-					<option>Lexington</option>
-					<option>Bowling Green</option>
-					<option>Owensboro</option>
-					<option>Covington</option>        														
-				</optgroup>
-				<optgroup label="Louisiana">
-					<option>New Orleans</option>
-					<option>Baton Rouge</option>
-					<option>Shreveport</option>
-					<option>Metairie</option>
-					<option>Lafayette</option>          														
-				</optgroup>
-				<optgroup label="Maine">
-					<option>Portland</option>
-					<option>Lewiston</option>
-					<option>Bangor</option>
-					<option>South Portland</option>
-					<option>Auburn</option>         														
-				</optgroup>
-				<optgroup label="Maryland">
-					<option>Baltimore</option>
-					<option>Frederick</option>
-					<option>Rockville</option>
-					<option>Gaithersburg</option>
-					<option>Bowie</option>         														
-				</optgroup>
-				<optgroup label="Massachusetts">
-					<option>Boston</option>
-					<option>Worcester</option>
-					<option>Springfield</option>
-					<option>Lowell</option>
-					<option>Cambridge</option>  
-				</optgroup>
-				<optgroup label="Michigan">
-					<option>Detroit</option>
-					<option>Grand Rapids</option>
-					<option>Warren</option>
-					<option>Sterling Heights</option>
-					<option>Lansing</option> 
-				</optgroup>
-				<optgroup label="Minnesota">
-					<option>Minneapolis</option>
-					<option>St. Paul</option>
-					<option>Rochester</option>
-					<option>Duluth</option>
-					<option>Bloomington</option>      														
-				</optgroup>
-				<optgroup label="Mississippi">
-					<option>Jackson</option>
-					<option>Gulfport</option>
-					<option>Southaven</option>
-					<option>Hattiesburg</option>
-					<option>Biloxi</option>         														
-				</optgroup>
-				<optgroup label="Missouri">
-					<option>Kansas City</option>
-					<option>St. Louis</option>
-					<option>Springfield</option>
-					<option>Independence</option>
-					<option>Columbia</option>            														
-				</optgroup>
-				<optgroup label="Montana">
-					<option>Billings</option>
-					<option>Missoula</option>
-					<option>Great Falls</option>
-					<option>Bozeman</option>
-					<option>Butte-Silver Bow</option>         														
-				</optgroup>
-				<optgroup label="Nebraska">
-					<option>Omaha</option>
-					<option>Lincoln</option>
-					<option>Bellevue</option>
-					<option>Grand Island</option>
-					<option>Kearney</option>        													
-				</optgroup>
-				<optgroup label="Nevada">
-					<option>Las Vegas</option>
-					<option>Henderson</option>
-					<option>North Las Vegas</option>
-					<option>Reno</option>
-					<option>Sunrise Manor</option>            													
-				</optgroup>
-				<optgroup label="New Hampshire">
-					<option>Manchesters</option>
-					<option>Nashua</option>
-					<option>Concord</option>
-					<option>Dover</option>
-					<option>Rochester</option>              													
-				</optgroup>
-				<optgroup label="New Jersey">
-					<option>Newark</option>
-					<option>Jersey City</option>
-					<option>Paterson</option>
-					<option>Elizabeth</option>
-					<option>Edison</option> 
-				</optgroup>
-				<optgroup label="New Mexico">
-					<option>Albuquerque</option>
-					<option>Las Cruces</option>
-					<option>Rio Rancho</option>
-					<option>Santa Fe</option>
-					<option>Roswell</option>       
-				</optgroup>
-				<optgroup label="New York">
-					<option>New York</option>
-					<option>Buffalo</option>
-					<option>Rochester</option>
-					<option>Yonkers</option>
-					<option>Syracuse</option>        														
-				</optgroup>
-				<optgroup label="North Carolina">
-					<option>Charlotte</option>
-					<option>Raleigh</option>
-					<option>Greensboro</option>
-					<option>Winston-Salem</option>
-					<option>Durham</option>          														
-				</optgroup>
-				<optgroup label="North Dakota">
-					<option>Fargo</option>
-					<option>Bismarck</option>
-					<option>Grand Forks</option>
-					<option>Minot</option>
-					<option>West Fargo</option>
-				</optgroup>
-				<optgroup label="Ohio">
-					<option>Columbus</option>
-					<option>Cleveland</option>
-					<option>Cincinnati</option>
-					<option>Toledo</option>
-					<option>Akron</option>      
-				</optgroup>
-				<optgroup label="Oklahoma">
-					<option>Oklahoma City</option>
-					<option>Tulsa</option>
-					<option>Norman</option>
-					<option>Broken Arrow</option>
-					<option>Lawton</option>        														
-				</optgroup>
-				<optgroup label="Oregon">
-					<option>Portland</option>
-					<option>Eugene</option>
-					<option>Salem</option>
-					<option>Gresham</option>
-					<option>Hillsboro</option>          														
-				</optgroup>
-				<optgroup label="Pennsylvania">
-					<option>Philadelphia</option>
-					<option>Pittsburgh</option>
-					<option>Allentown</option>
-					<option>Erie</option>
-					<option>Reading</option>         														
-				</optgroup>
-				<optgroup label="Rhode Island">
-					<option>Providence</option>
-					<option>Warwick</option>
-					<option>Cranston</option>
-					<option>Pawtucket</option>
-					<option>East Providence</option>   
-				</optgroup>
-				<optgroup label="South Carolina">
-					<option>Columbia</option>
-					<option>Charleston</option>
-					<option>North Charleston</option>
-					<option>Mount Pleasant</option>
-					<option>Rock Hill</option> 
-				</optgroup>
-				<optgroup label="South Dakota">
-					<option>Sioux Falls</option>
-					<option>Rapid City</option>
-					<option>Aberdeen</option>
-					<option>Brookings</option>
-					<option>Watertown</option> 
-				</optgroup>
-				<optgroup label="Tennessee">
-					<option>Memphis</option>
-					<option>Nashville</option>
-					<option>Knoxville</option>
-					<option>Chattanooga</option>
-					<option>Clarksville</option>       
-				</optgroup>
-				<optgroup label="Texas">
-					<option>Houston</option>
-					<option>San Antonio</option>
-					<option>Dallas</option>
-					<option>Austin</option>
-					<option>Fort Worth</option>   
-				</optgroup>
-				<optgroup label="Utah">
-					<option>Salt Lake City</option>
-					<option>West Valley City</option>
-					<option>Provo</option>
-					<option>West Jordan</option>
-					<option>Orem</option>   
-				</optgroup>	
-				<optgroup label="Vermont">
-					<option>Burlington</option>
-					<option>Essex</option>
-					<option>South Burlington</option>
-					<option>Colchester</option>
-					<option>Rutland</option>   
-				</optgroup>
-				<optgroup label="Virginia">
-					<option>Virginia Beach</option>
-					<option>Norfolk</option>
-					<option>Chesapeake</option>
-					<option>Arlington</option>
-					<option>Richmond</option> 
-				</optgroup>	
-				<optgroup label="Washington">
-					<option>Seattle</option>
-					<option>Spokane</option>
-					<option>Tacoma</option>
-					<option>Vancouver</option>
-					<option>Bellevue</option> 
-				</optgroup>	
-				<optgroup label="West Virginia">
-					<option>Charleston</option>
-					<option>Huntington</option>
-					<option>Parkersburg</option>
-					<option>Morgantown</option>
-					<option>Wheeling</option> 
-				</optgroup>	
-				<optgroup label="Wisconsin">
-					<option>Milwaukee</option>
-					<option>Madison</option>
-					<option>Green Bay</option>
-					<option>Kenosha</option>
-					<option>Racine</option>
-				</optgroup>
-				<optgroup label="Wyoming">
-					<option>Cheyenne</option>
-					<option>Casper</option>
-					<option>Laramie</option>
-					<option>Gillette</option>
-					<option>Rock Springs</option>
+				<optgroup label="AguasClaras">
+					<option>Aguas Claras</option>
 				</optgroup>
 			</select>
 			<div class="clearfix"></div>
@@ -489,11 +129,11 @@
 						<span class="fa fa-envelope-o" aria-hidden="true"></span>
 					</div>
 					<div class="modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign In </h3>
+						<h3 class="agileinfo_sign">Entrar </h3>
 						<p>
 							Entre agora, Comece suas compras no Merc On. Não tem uma conta?
 							<a href="#" data-toggle="modal" data-target="#myModal2">
-								SCadastre-se agora</a>
+								Cadastre-se agora</a>
 						</p>
 						<form action="#" method="post">
 							<div class="styled-input agile-styled-input-top">
@@ -528,7 +168,7 @@
 						<span class="fa fa-envelope-o" aria-hidden="true"></span>
 					</div>
 					<div class="modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign Up</h3>
+						<h3 class="agileinfo_sign">Cadastre-se</h3>
 						<p>
 							Comece a comprar no Merc On agora mesmo! Vamos criar sua conta.
 						</p>
@@ -596,12 +236,12 @@
 						<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav menu__list">
 								<li class="active">
-									<a class="nav-stylehead" href="index.html">Home
+									<a class="nav-stylehead" href="index.php">Home
 										<span class="sr-only">(current)</span>
 									</a>
 								</li>
 								<li class="">
-									<a class="nav-stylehead" href="about.html">Sobre</a>
+									<a class="nav-stylehead" href="about.php">Sobre</a>
 								</li>
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cozinha
@@ -612,47 +252,47 @@
 											<div class="col-sm-4 multi-gd-img">
 												<ul class="multi-column-dropdown">
 													<li>
-														<a href="product.html">Padaria</a>
+														<a href="product.php">Padaria</a>
 													</li>
 													<li>
-														<a href="product.html">Café, Chá & Bebidas</a>
+														<a href="product.php">Café, Chá & Bebidas</a>
 													</li>
 													<li>
-														<a href="product.html">Frutas secas, sementes</a>
+														<a href="product.php">Frutas secas, sementes</a>
 													</li>
 													<li>
-														<a href="product.html">Doces, Chocolate</a>
+														<a href="product.php">Doces, Chocolate</a>
 													</li>
 													<li>
-														<a href="product.html">Grãos</a>
+														<a href="product.php">Grãos</a>
 													</li>
 												</ul>
 											</div>
 											<div class="col-sm-4 multi-gd-img">
 												<ul class="multi-column-dropdown">
 													<li>
-														<a href="product.html">Picles</a>
+														<a href="product.php">Picles</a>
 													</li>
 													<li>
-														<a href="product.html">Massas & Macarrão</a>
+														<a href="product.php">Massas & Macarrão</a>
 													</li>
 													<li>
-														<a href="product.html">Arroz, Farinha & Feijão</a>
+														<a href="product.php">Arroz, Farinha & Feijão</a>
 													</li>
 													<li>
-														<a href="product.html">Molhos</a>
+														<a href="product.php">Molhos</a>
 													</li>
                                                     <li>
-														<a href="product.html">Biscoitos</a>
+														<a href="product.php">Biscoitos</a>
 													</li>
 													<li>
-														<a href="product.html">Salgadinhos</a>
+														<a href="product.php">Salgadinhos</a>
 													</li>
 													<li>
-														<a href="product.html">Óleos, Vinagres</a>
+														<a href="product.php">Óleos, Vinagres</a>
 													</li>
 													<li>
-														<a href="product.html">Carne, Aves & Frutos do Mar</a>
+														<a href="product.php">Carne, Aves & Frutos do Mar</a>
 													</li>
 												</ul>
 											</div>
@@ -672,34 +312,34 @@
 											<div class="col-sm-6 multi-gd-img">
 												<ul class="multi-column-dropdown">
 													<li>
-														<a href="product2.html">Cozinha & Jantar</a>
+														<a href="product2.php">Cozinha & Jantar</a>
 													</li>
 													<li>
-														<a href="product2.html">Detergentes</a>
+														<a href="product2.php">Detergentes</a>
 													</li>
 													<li>
-														<a href="product2.html">Produtos de Limpeza</a>
+														<a href="product2.php">Produtos de Limpeza</a>
 													</li>
 													<li>
-														<a href="product2.html">Chão & Outros Limpadores</a>
+														<a href="product2.php">Chão & Outros Limpadores</a>
 													</li>
 													<li>
-														<a href="product2.html">Descartáveis, Saco de lixo</a>
+														<a href="product2.php">Descartáveis, Saco de lixo</a>
 													</li>
 													<li>
-														<a href="product2.html">Repelentes & Purificadores</a>
+														<a href="product2.php">Repelentes & Purificadores</a>
 													</li>
 													<li>
-														<a href="product2.html"> Lavagem de Louça</a>
+														<a href="product2.php"> Lavagem de Louça</a>
 													</li>
 													<li>
-														<a href="product2.html">Cuidado de Animais</a>
+														<a href="product2.php">Cuidado de Animais</a>
 													</li>
 													<li>
-														<a href="product2.html">Acessorios de Limpeza</a>
+														<a href="product2.php">Acessorios de Limpeza</a>
 													</li>
 													<li>
-														<a href="product2.html">Produtos de casa</a>
+														<a href="product2.php">Produtos de casa</a>
 													</li>
 												</ul>
 											</div>
@@ -708,10 +348,10 @@
 									</ul>
 								</li>
 								<li class="">
-									<a class="nav-stylehead" href="faqs.html">FAQ</a>
+									<a class="nav-stylehead" href="faqs.php">FAQ</a>
 								</li>
 								<li class="">
-									<a class="nav-stylehead" href="contact.html">Contato</a>
+									<a class="nav-stylehead" href="contact.php">Contato</a>
 								</li>
 							</ul>
 						</div>
@@ -739,7 +379,7 @@
 						</h3>
 						<p>Ganhe até
 							<span>10%</span> de desconto</p>
-						<a class="button2" href="product.html">Comprar</a>
+						<a class="button2" href="product.php">Comprar</a>
 					</div>
 				</div>
 			</div>
@@ -751,7 +391,7 @@
 						</h3>
 						<p>Até
 							<span>30%</span> OFF</p>
-						<a class="button2" href="product.html">Comprar </a>
+						<a class="button2" href="product.php">Comprar </a>
 					</div>
 				</div>
 			</div>
@@ -764,7 +404,7 @@
 						<p>Melhores ofertas de até
 							<span>20%</span>
 						</p>
-						<a class="button2" href="product.html">Comprar </a>
+						<a class="button2" href="product.php">Comprar </a>
 					</div>
 				</div>
 			</div>
@@ -776,7 +416,7 @@
 						</h3>
 						<p>Ganhe
 							<span>40%</span> de desconto</p>
-						<a class="button2" href="product.html">Comprar </a>
+						<a class="button2" href="product.php">Comprar </a>
 					</div>
 				</div>
 			</div>
@@ -922,7 +562,7 @@
 						</div>
 						<div class="col-xs-8 img-deal1">
 							<h3>Batata Lay's</h3>
-							<a href="single.html">R$ 4,00</a>
+							<a href="single.php">R$ 4,00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -932,7 +572,7 @@
 						</div>
 						<div class="col-xs-8 img-deal1">
 							<h3>Doritos</h3>
-							<a href="single.html">R$ 4,00</a>
+							<a href="single.php">R$ 4,00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -942,7 +582,7 @@
 						</div>
 						<div class="col-xs-8 img-deal1">
 							<h3>Sal</h3>
-							<a href="single.html">R$ 2,00</a>
+							<a href="single.php">R$ 2,00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -952,7 +592,7 @@
 						</div>
 						<div class="col-xs-8 img-deal1">
 							<h3>Fandangos</h3>
-							<a href="single.html">R$ 4,00</a>
+							<a href="single.php">R$ 4,00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -962,7 +602,7 @@
 						</div>
 						<div class="col-xs-8 img-deal1">
 							<h3>Batata</h3>
-							<a href="single.html">R$ 9,90</a>
+							<a href="single.php">R$ 9,90</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -982,14 +622,14 @@
 									<img src="images/m1.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Ver item</a>
+											<a href="single.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single.html">Amendoas, 100g</a>
+										<a href="single.php">Amendoas, 100g</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 8,90</span>
@@ -1021,7 +661,7 @@
 									<img src="images/m2.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Ver item</a>
+											<a href="single.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -1029,7 +669,7 @@
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single.html">Cashew Nuts, 100g</a>
+										<a href="single.php">Cashew Nuts, 100g</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 15,00</span>
@@ -1061,7 +701,7 @@
 									<img src="images/m3.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Ver item</a>
+											<a href="single.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -1069,7 +709,7 @@
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single.html">Pista..., 250g</a>
+										<a href="single.php">Pista..., 250g</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 23,99</span>
@@ -1121,14 +761,14 @@
 									<img src="images/mk4.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Ver item</a>
+											<a href="single.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single.html">Freedom Oil, 1L</a>
+										<a href="single.php">Freedom Oil, 1L</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 4,00</span>
@@ -1160,7 +800,7 @@
 									<img src="images/mk5.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Ver item</a>
+											<a href="single.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -1168,7 +808,7 @@
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single.html">Saffola Gold, 1L</a>
+										<a href="single.php">Saffola Gold, 1L</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 9,00</span>
@@ -1200,7 +840,7 @@
 									<img src="images/mk6.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Ver item</a>
+											<a href="single.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -1208,7 +848,7 @@
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single.html">Fortune Oil, 5L</a>
+										<a href="single.php">Fortune Oil, 5L</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 8,99</span>
@@ -1246,13 +886,13 @@
 									<img src="images/mk7.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Ver item</a>
+											<a href="single.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single.html">Yippee Noodles, 65g</a>
+										<a href="single.php">Yippee Noodles, 65g</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 11,00</span>
@@ -1284,7 +924,7 @@
 									<img src="images/mk8.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Ver item</a>
+											<a href="single.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -1292,7 +932,7 @@
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single.html">Wheat Pasta, 500g</a>
+										<a href="single.php">Wheat Pasta, 500g</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 15,00</span>
@@ -1324,7 +964,7 @@
 									<img src="images/mk9.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single.html" class="link-product-add-cart">Ver item</a>
+											<a href="single.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -1332,7 +972,7 @@
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single.html">Chinese Noodles, 68g</a>
+										<a href="single.php">Chinese Noodles, 68g</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 13,99</span>
@@ -1384,13 +1024,13 @@
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.html">
+								<a href="single.php">
 									<img src="images/s1.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Aashirvaad, 200g</a>
+									<a href="single.php">Aashirvaad, 200g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 9,90</h6>
@@ -1418,13 +1058,13 @@
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.html">
+								<a href="single.php">
 									<img src="images/s4.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Kissan Tomato Ketchup, 950g</a>
+									<a href="single.php">Kissan Tomato Ketchup, 950g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 19,00</h6>
@@ -1452,13 +1092,13 @@
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.html">
+								<a href="single.php">
 									<img src="images/s2.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Madhur Pure Sugar, 50g</a>
+									<a href="single.php">Madhur Pure Sugar, 50g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 5,00</h6>
@@ -1486,13 +1126,13 @@
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single2.html">
+								<a href="single2.php">
 									<img src="images/s3.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.html">Surf Excel Liquid, 1L</a>
+									<a href="single2.php">Surf Excel Liquid, 1L</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 7,99</h6>
@@ -1520,13 +1160,13 @@
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.html">
+								<a href="single.php">
 									<img src="images/s8.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Cadbury Choclairs, 655.5g</a>
+									<a href="single.php">Cadbury Choclairs, 655.5g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 12,00</h6>
@@ -1554,13 +1194,13 @@
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single2.html">
+								<a href="single2.php">
 									<img src="images/s6.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.html">Fair & Lovely, 80 g</a>
+									<a href="single2.php">Fair & Lovely, 80 g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 8,50</h6>
@@ -1588,13 +1228,13 @@
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.html">
+								<a href="single.php">
 									<img src="images/s5.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Sprite, 2L</a>
+									<a href="single.php">Sprite, 2L</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 6,39</h6>
@@ -1622,13 +1262,13 @@
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single2.html">
+								<a href="single2.php">
 									<img src="images/s9.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.html">Lakme Eyeconic Kajal, 35 g</a>
+									<a href="single2.php">Lakme Eyeconic Kajal, 35 g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 3,70</h6>
@@ -1730,22 +1370,22 @@
 						<h3>Links</h3>
 						<ul>
 							<li>
-								<a href="about.html">Sobre</a>
+								<a href="about.php">Sobre</a>
 							</li>
 							<li>
-								<a href="contact.html">Contato</a>
+								<a href="contact.php">Contato</a>
 							</li>
 							<li>
-								<a href="help.html">Ajuda</a>
+								<a href="help.php">Ajuda</a>
 							</li>
 							<li>
-								<a href="faqs.html">FAQ</a>
+								<a href="faqs.php">FAQ</a>
 							</li>
 							<li>
-								<a href="terms.html">Termos de Uso</a>
+								<a href="terms.php">Termos de Uso</a>
 							</li>
 							<li>
-								<a href="privacy.html">Politica de Privacidade</a>
+								<a href="privacy.php">Politica de Privacidade</a>
 							</li>
 						</ul>
 					</div>
@@ -2019,7 +1659,7 @@
 			}
 
 			if (total < 3) {
-				alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
+				alert('O número mínimo de item é 3. Por favor, adicione mais itens ao seu carrinho antes de finalizar a compra');
 				evt.preventDefault();
 			}
 		});

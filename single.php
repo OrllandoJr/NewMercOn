@@ -1,19 +1,12 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
-	<title>Grocery Shoppy an Ecommerce Category Bootstrap Responsive Web Template | Single 2 :: w3layouts</title>
+	<title>Merc On</title>
 	<!--/tags -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Grocery Shoppy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<meta name="keywords" content="Merc On" />
 	<script>
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -32,8 +25,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--//pop-up-box-->
 	<!-- price range -->
 	<link rel="stylesheet" type="text/css" href="css/jquery-ui1.css">
-	<!-- flexslider -->
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 	<!-- fonts -->
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
 </head>
@@ -41,7 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 	<!-- top-header -->
 	<div class="header-most-top">
-		<p>Grocery Offer Zone Top Deals & Discounts</p>
+		<p>Merc On - Zona de Ofertas & Descontos</p>
 	</div>
 	<!-- //top-header -->
 	<!-- header-bot-->
@@ -50,9 +41,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- header-bot-->
 			<div class="col-md-4 logo_agile">
 				<h1>
-					<a href="index.html">
-						<span>G</span>rocery
-						<span>S</span>hoppy
+					<a href="index.php">
+						Merc
+						<span>On</span>
 						<img src="images/logo2.png" alt=" ">
 					</a>
 				</h1>
@@ -62,30 +53,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- header lists -->
 				<ul>
 					<li>
-						<a class="play-icon popup-with-zoom-anim" href="#small-dialog1">
-							<span class="fa fa-map-marker" aria-hidden="true"></span> Shop Locator</a>
+						<a href="#" data-toggle="modal" data-target="#myModal1">
+							<span class="fa fa-truck" aria-hidden="true"></span>Acompanhar Pedido</a>
+					</li>
+					<li>
+						<span class="fa fa-phone" aria-hidden="true"></span> 61 8888-8888
 					</li>
 					<li>
 						<a href="#" data-toggle="modal" data-target="#myModal1">
-							<span class="fa fa-truck" aria-hidden="true"></span>Track Order</a>
-					</li>
-					<li>
-						<span class="fa fa-phone" aria-hidden="true"></span> 001 234 5678
-					</li>
-					<li>
-						<a href="#" data-toggle="modal" data-target="#myModal1">
-							<span class="fa fa-unlock-alt" aria-hidden="true"></span> Sign In </a>
+							<span class="fa fa-unlock-alt" aria-hidden="true"></span> Login </a>
 					</li>
 					<li>
 						<a href="#" data-toggle="modal" data-target="#myModal2">
-							<span class="fa fa-pencil-square-o" aria-hidden="true"></span> Sign Up </a>
+							<span class="fa fa-pencil-square-o" aria-hidden="true"></span> Cadastre-se </a>
 					</li>
 				</ul>
 				<!-- //header lists -->
 				<!-- search -->
 				<div class="agileits_search">
 					<form action="#" method="post">
-						<input name="Search" type="search" placeholder="How can we help you today?" required="">
+						<input name="Search" type="search" placeholder="Como posso lhe ajudar?" required="">
 						<button type="submit" class="btn btn-default" aria-label="Left Align">
 							<span class="fa fa-search" aria-hidden="true"> </span>
 						</button>
@@ -114,374 +101,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- Button trigger modal(shop-locator) -->
 	<div id="small-dialog1" class="mfp-hide">
 		<div class="select-city">
-			<h3>Please Select Your Location</h3>
+			<h3>Por Favor, selecione a sua localização.</h3>
 			<select class="list_of_cities">
 				<optgroup label="Popular Cities">
-					<option selected style="display:none;color:#eee;">Select City</option>
-					<option>Birmingham</option>
-					<option>Anchorage</option>
-					<option>Phoenix</option>
-					<option>Little Rock</option>
-					<option>Los Angeles</option>
-					<option>Denver</option>
-					<option>Bridgeport</option>
-					<option>Wilmington</option>
-					<option>Jacksonville</option>
-					<option>Atlanta</option>
-					<option>Honolulu</option>
-					<option>Boise</option>
-					<option>Chicago</option>
-					<option>Indianapolis</option>
+					<option selected style="display:none;color:#eee;">Selecione a Cidade</option>
+					<option>Aguas Claras</option>
 				</optgroup>
-				<optgroup label="Alabama">
-					<option>Birmingham</option>
-					<option>Montgomery</option>
-					<option>Mobile</option>
-					<option>Huntsville</option>
-					<option>Tuscaloosa</option>
-				</optgroup>
-				<optgroup label="Alaska">
-					<option>Anchorage</option>
-					<option>Fairbanks</option>
-					<option>Juneau</option>
-					<option>Sitka</option>
-					<option>Ketchikan</option>
-				</optgroup>
-				<optgroup label="Arizona">
-					<option>Phoenix</option>
-					<option>Tucson</option>
-					<option>Mesa</option>
-					<option>Chandler</option>
-					<option>Glendale</option>
-				</optgroup>
-				<optgroup label="Arkansas">
-					<option>Little Rock</option>
-					<option>Fort Smith</option>
-					<option>Fayetteville</option>
-					<option>Springdale</option>
-					<option>Jonesboro</option>
-				</optgroup>
-				<optgroup label="California">
-					<option>Los Angeles</option>
-					<option>San Diego</option>
-					<option>San Jose</option>
-					<option>San Francisco</option>
-					<option>Fresno</option>
-				</optgroup>
-				<optgroup label="Colorado">
-					<option>Denver</option>
-					<option>Colorado</option>
-					<option>Aurora</option>
-					<option>Fort Collins</option>
-					<option>Lakewood</option>
-				</optgroup>
-				<optgroup label="Connecticut">
-					<option>Bridgeport</option>
-					<option>New Haven</option>
-					<option>Hartford</option>
-					<option>Stamford</option>
-					<option>Waterbury</option>
-				</optgroup>
-				<optgroup label="Delaware">
-					<option>Wilmington</option>
-					<option>Dover</option>
-					<option>Newark</option>
-					<option>Bear</option>
-					<option>Middletown</option>
-				</optgroup>
-				<optgroup label="Florida">
-					<option>Jacksonville</option>
-					<option>Miami</option>
-					<option>Tampa</option>
-					<option>St. Petersburg</option>
-					<option>Orlando</option>
-				</optgroup>
-				<optgroup label="Georgia">
-					<option>Atlanta</option>
-					<option>Augusta</option>
-					<option>Columbus</option>
-					<option>Savannah</option>
-					<option>Athens</option>
-				</optgroup>
-				<optgroup label="Hawaii">
-					<option>Honolulu</option>
-					<option>Pearl City</option>
-					<option>Hilo</option>
-					<option>Kailua</option>
-					<option>Waipahu</option>
-				</optgroup>
-				<optgroup label="Idaho">
-					<option>Boise</option>
-					<option>Nampa</option>
-					<option>Meridian</option>
-					<option>Idaho Falls</option>
-					<option>Pocatello</option>
-				</optgroup>
-				<optgroup label="Illinois">
-					<option>Chicago</option>
-					<option>Aurora</option>
-					<option>Rockford</option>
-					<option>Joliet</option>
-					<option>Naperville</option>
-				</optgroup>
-				<optgroup label="Indiana">
-					<option>Indianapolis</option>
-					<option>Fort Wayne</option>
-					<option>Evansville</option>
-					<option>South Bend</option>
-					<option>Hammond</option>														       
-				</optgroup>
-				<optgroup label="Iowa">
-					<option>Des Moines</option>
-					<option>Cedar Rapids</option>
-					<option>Davenport</option>
-					<option>Sioux City</option>
-					<option>Waterloo</option>       													
-				</optgroup>
-				<optgroup label="Kansas">
-					<option>Wichita</option>
-					<option>Overland Park</option>
-					<option>Kansas City</option>
-					<option>Topeka</option>
-					<option>Olathe  </option>            													
-				</optgroup>
-				<optgroup label="Kentucky">
-					<option>Louisville</option>
-					<option>Lexington</option>
-					<option>Bowling Green</option>
-					<option>Owensboro</option>
-					<option>Covington</option>        														
-				</optgroup>
-				<optgroup label="Louisiana">
-					<option>New Orleans</option>
-					<option>Baton Rouge</option>
-					<option>Shreveport</option>
-					<option>Metairie</option>
-					<option>Lafayette</option>          														
-				</optgroup>
-				<optgroup label="Maine">
-					<option>Portland</option>
-					<option>Lewiston</option>
-					<option>Bangor</option>
-					<option>South Portland</option>
-					<option>Auburn</option>         														
-				</optgroup>
-				<optgroup label="Maryland">
-					<option>Baltimore</option>
-					<option>Frederick</option>
-					<option>Rockville</option>
-					<option>Gaithersburg</option>
-					<option>Bowie</option>         														
-				</optgroup>
-				<optgroup label="Massachusetts">
-					<option>Boston</option>
-					<option>Worcester</option>
-					<option>Springfield</option>
-					<option>Lowell</option>
-					<option>Cambridge</option>  
-				</optgroup>
-				<optgroup label="Michigan">
-					<option>Detroit</option>
-					<option>Grand Rapids</option>
-					<option>Warren</option>
-					<option>Sterling Heights</option>
-					<option>Lansing</option> 
-				</optgroup>
-				<optgroup label="Minnesota">
-					<option>Minneapolis</option>
-					<option>St. Paul</option>
-					<option>Rochester</option>
-					<option>Duluth</option>
-					<option>Bloomington</option>      														
-				</optgroup>
-				<optgroup label="Mississippi">
-					<option>Jackson</option>
-					<option>Gulfport</option>
-					<option>Southaven</option>
-					<option>Hattiesburg</option>
-					<option>Biloxi</option>         														
-				</optgroup>
-				<optgroup label="Missouri">
-					<option>Kansas City</option>
-					<option>St. Louis</option>
-					<option>Springfield</option>
-					<option>Independence</option>
-					<option>Columbia</option>            														
-				</optgroup>
-				<optgroup label="Montana">
-					<option>Billings</option>
-					<option>Missoula</option>
-					<option>Great Falls</option>
-					<option>Bozeman</option>
-					<option>Butte-Silver Bow</option>         														
-				</optgroup>
-				<optgroup label="Nebraska">
-					<option>Omaha</option>
-					<option>Lincoln</option>
-					<option>Bellevue</option>
-					<option>Grand Island</option>
-					<option>Kearney</option>        													
-				</optgroup>
-				<optgroup label="Nevada">
-					<option>Las Vegas</option>
-					<option>Henderson</option>
-					<option>North Las Vegas</option>
-					<option>Reno</option>
-					<option>Sunrise Manor</option>            													
-				</optgroup>
-				<optgroup label="New Hampshire">
-					<option>Manchesters</option>
-					<option>Nashua</option>
-					<option>Concord</option>
-					<option>Dover</option>
-					<option>Rochester</option>              													
-				</optgroup>
-				<optgroup label="New Jersey">
-					<option>Newark</option>
-					<option>Jersey City</option>
-					<option>Paterson</option>
-					<option>Elizabeth</option>
-					<option>Edison</option> 
-				</optgroup>
-				<optgroup label="New Mexico">
-					<option>Albuquerque</option>
-					<option>Las Cruces</option>
-					<option>Rio Rancho</option>
-					<option>Santa Fe</option>
-					<option>Roswell</option>       
-				</optgroup>
-				<optgroup label="New York">
-					<option>New York</option>
-					<option>Buffalo</option>
-					<option>Rochester</option>
-					<option>Yonkers</option>
-					<option>Syracuse</option>        														
-				</optgroup>
-				<optgroup label="North Carolina">
-					<option>Charlotte</option>
-					<option>Raleigh</option>
-					<option>Greensboro</option>
-					<option>Winston-Salem</option>
-					<option>Durham</option>          														
-				</optgroup>
-				<optgroup label="North Dakota">
-					<option>Fargo</option>
-					<option>Bismarck</option>
-					<option>Grand Forks</option>
-					<option>Minot</option>
-					<option>West Fargo</option>
-				</optgroup>
-				<optgroup label="Ohio">
-					<option>Columbus</option>
-					<option>Cleveland</option>
-					<option>Cincinnati</option>
-					<option>Toledo</option>
-					<option>Akron</option>      
-				</optgroup>
-				<optgroup label="Oklahoma">
-					<option>Oklahoma City</option>
-					<option>Tulsa</option>
-					<option>Norman</option>
-					<option>Broken Arrow</option>
-					<option>Lawton</option>        														
-				</optgroup>
-				<optgroup label="Oregon">
-					<option>Portland</option>
-					<option>Eugene</option>
-					<option>Salem</option>
-					<option>Gresham</option>
-					<option>Hillsboro</option>          														
-				</optgroup>
-				<optgroup label="Pennsylvania">
-					<option>Philadelphia</option>
-					<option>Pittsburgh</option>
-					<option>Allentown</option>
-					<option>Erie</option>
-					<option>Reading</option>         														
-				</optgroup>
-				<optgroup label="Rhode Island">
-					<option>Providence</option>
-					<option>Warwick</option>
-					<option>Cranston</option>
-					<option>Pawtucket</option>
-					<option>East Providence</option>   
-				</optgroup>
-				<optgroup label="South Carolina">
-					<option>Columbia</option>
-					<option>Charleston</option>
-					<option>North Charleston</option>
-					<option>Mount Pleasant</option>
-					<option>Rock Hill</option> 
-				</optgroup>
-				<optgroup label="South Dakota">
-					<option>Sioux Falls</option>
-					<option>Rapid City</option>
-					<option>Aberdeen</option>
-					<option>Brookings</option>
-					<option>Watertown</option> 
-				</optgroup>
-				<optgroup label="Tennessee">
-					<option>Memphis</option>
-					<option>Nashville</option>
-					<option>Knoxville</option>
-					<option>Chattanooga</option>
-					<option>Clarksville</option>       
-				</optgroup>
-				<optgroup label="Texas">
-					<option>Houston</option>
-					<option>San Antonio</option>
-					<option>Dallas</option>
-					<option>Austin</option>
-					<option>Fort Worth</option>   
-				</optgroup>
-				<optgroup label="Utah">
-					<option>Salt Lake City</option>
-					<option>West Valley City</option>
-					<option>Provo</option>
-					<option>West Jordan</option>
-					<option>Orem</option>   
-				</optgroup>	
-				<optgroup label="Vermont">
-					<option>Burlington</option>
-					<option>Essex</option>
-					<option>South Burlington</option>
-					<option>Colchester</option>
-					<option>Rutland</option>   
-				</optgroup>
-				<optgroup label="Virginia">
-					<option>Virginia Beach</option>
-					<option>Norfolk</option>
-					<option>Chesapeake</option>
-					<option>Arlington</option>
-					<option>Richmond</option> 
-				</optgroup>	
-				<optgroup label="Washington">
-					<option>Seattle</option>
-					<option>Spokane</option>
-					<option>Tacoma</option>
-					<option>Vancouver</option>
-					<option>Bellevue</option> 
-				</optgroup>	
-				<optgroup label="West Virginia">
-					<option>Charleston</option>
-					<option>Huntington</option>
-					<option>Parkersburg</option>
-					<option>Morgantown</option>
-					<option>Wheeling</option> 
-				</optgroup>	
-				<optgroup label="Wisconsin">
-					<option>Milwaukee</option>
-					<option>Madison</option>
-					<option>Green Bay</option>
-					<option>Kenosha</option>
-					<option>Racine</option>
-				</optgroup>
-				<optgroup label="Wyoming">
-					<option>Cheyenne</option>
-					<option>Casper</option>
-					<option>Laramie</option>
-					<option>Gillette</option>
-					<option>Rock Springs</option>
+				<optgroup label="AguasClaras">
+					<option>Aguas Claras</option>
 				</optgroup>
 			</select>
 			<div class="clearfix"></div>
@@ -504,9 +131,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="modal_body_left modal_body_left1">
 						<h3 class="agileinfo_sign">Sign In </h3>
 						<p>
-							Sign In now, Let's start your Grocery Shopping. Don't have an account?
+							Entre agora, Comece suas compras no Merc On. Não tem uma conta?
 							<a href="#" data-toggle="modal" data-target="#myModal2">
-								Sign Up Now</a>
+								Cadastre-se agora</a>
 						</p>
 						<form action="#" method="post">
 							<div class="styled-input agile-styled-input-top">
@@ -541,9 +168,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-envelope-o" aria-hidden="true"></span>
 					</div>
 					<div class="modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign Up</h3>
+						<h3 class="agileinfo_sign">Cadastre-se</h3>
 						<p>
-							Come join the Grocery Shoppy! Let's set up your Account.
+							Comece a comprar no Merc On agora mesmo! Vamos criar sua conta.
 						</p>
 						<form action="#" method="post">
 							<div class="styled-input agile-styled-input-top">
@@ -561,7 +188,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<input type="submit" value="Sign Up">
 						</form>
 						<p>
-							<a href="#">By clicking register, I agree to your terms</a>
+							<a href="#">Ao clicar em registrar-se, Eu aceito todos os termos</a>
 						</p>
 					</div>
 				</div>
@@ -578,18 +205,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="agileits-navi_search">
 				<form action="#" method="post">
 					<select id="agileinfo-nav_search" name="agileinfo_search" required="">
-						<option value="">All Categories</option>
-						<option value="Kitchen">Kitchen</option>
-						<option value="Household">Household</option>
-						<option value="Snacks &amp; Beverages">Snacks & Beverages</option>
-						<option value="Personal Care">Personal Care</option>
-						<option value="Gift Hampers">Gift Hampers</option>
-						<option value="Fruits &amp; Vegetables">Fruits & Vegetables</option>
-						<option value="Baby Care">Baby Care</option>
-						<option value="Soft Drinks &amp; Juices">Soft Drinks & Juices</option>
-						<option value="Frozen Food">Frozen Food</option>
-						<option value="Bread &amp; Bakery">Bread & Bakery</option>
-						<option value="Sweets">Sweets</option>
+						<option value="">Categorias</option>
+						<option value="Conzinha">Cozinha</option>
+						<option value="Casa">Casa</option>
+						<option value="Lanches &amp; Bebidas">Lancher & Bebidas</option>
+						<option value="Cuidado pessoas">Cuidado Pessoal</option>
+						<option value="Frutas &amp; Legumes">Frutas & Legumes</option>
+						<option value="Cuidados de bebe">Cuidados de Bebê</option>
+						<option value="Refrigerantes &amp; Sucos">Refrigerantes & Sucos</option>
+						<option value="Comida Congelada">Comida Congelada</option>
+						<option value="Padaria">Padaria</option>
+						<option value="Doces">Doces</option>
 					</select>
 				</form>
 			</div>
@@ -600,7 +226,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
 							    aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
+								<span class="sr-only">Navegação</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -610,15 +236,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav menu__list">
 								<li>
-									<a class="nav-stylehead" href="index.html">Home
+									<a class="nav-stylehead" href="index.php">Home
 										<span class="sr-only">(current)</span>
 									</a>
 								</li>
 								<li class="">
-									<a class="nav-stylehead" href="about.html">About Us</a>
+									<a class="nav-stylehead" href="about.php">Sobre</a>
 								</li>
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kitchen
+									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cozinha
 										<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu multi-column columns-3">
@@ -626,50 +252,47 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<div class="col-sm-4 multi-gd-img">
 												<ul class="multi-column-dropdown">
 													<li>
-														<a href="product.html">Bakery</a>
+														<a href="product.php">Padaria</a>
 													</li>
 													<li>
-														<a href="product.html">Baking Supplies</a>
+														<a href="product.php">Café, Chá & Bebidas</a>
 													</li>
 													<li>
-														<a href="product.html">Coffee, Tea & Beverages</a>
+														<a href="product.php">Frutas secas, sementes</a>
 													</li>
 													<li>
-														<a href="product.html">Dried Fruits, Nuts</a>
+														<a href="product.php">Doces, Chocolate</a>
 													</li>
 													<li>
-														<a href="product.html">Sweets, Chocolate</a>
-													</li>
-													<li>
-														<a href="product.html">Spices & Masalas</a>
-													</li>
-													<li>
-														<a href="product.html">Jams, Honey & Spreads</a>
+														<a href="product.php">Grãos</a>
 													</li>
 												</ul>
 											</div>
 											<div class="col-sm-4 multi-gd-img">
 												<ul class="multi-column-dropdown">
 													<li>
-														<a href="product.html">Pickles</a>
+														<a href="product.php">Picles</a>
 													</li>
 													<li>
-														<a href="product.html">Pasta & Noodles</a>
+														<a href="product.php">Massas & Macarrão</a>
 													</li>
 													<li>
-														<a href="product.html">Rice, Flour & Pulses</a>
+														<a href="product.php">Arroz, Farinha & Feijão</a>
 													</li>
 													<li>
-														<a href="product.html">Sauces & Cooking Pastes</a>
+														<a href="product.php">Molhos</a>
+													</li>
+                                                    <li>
+														<a href="product.php">Biscoitos</a>
 													</li>
 													<li>
-														<a href="product.html">Snack Foods</a>
+														<a href="product.php">Salgadinhos</a>
 													</li>
 													<li>
-														<a href="product.html">Oils, Vinegars</a>
+														<a href="product.php">Óleos, Vinagres</a>
 													</li>
 													<li>
-														<a href="product.html">Meat, Poultry & Seafood</a>
+														<a href="product.php">Carne, Aves & Frutos do Mar</a>
 													</li>
 												</ul>
 											</div>
@@ -681,7 +304,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</ul>
 								</li>
 								<li class="dropdown">
-									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Household
+									<a href="#" class="dropdown-toggle nav-stylehead" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Casa
 										<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu multi-column columns-3">
@@ -689,50 +312,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<div class="col-sm-6 multi-gd-img">
 												<ul class="multi-column-dropdown">
 													<li>
-														<a href="product2.html">Kitchen & Dining</a>
+														<a href="product2.php">Cozinha & Jantar</a>
 													</li>
 													<li>
-														<a href="product2.html">Detergents</a>
+														<a href="product2.php">Detergentes</a>
 													</li>
 													<li>
-														<a href="product2.html">Utensil Cleaners</a>
+														<a href="product2.php">Produtos de Limpeza</a>
 													</li>
 													<li>
-														<a href="product2.html">Floor & Other Cleaners</a>
+														<a href="product2.php">Chão & Outros Limpadores</a>
 													</li>
 													<li>
-														<a href="product2.html">Disposables, Garbage Bag</a>
+														<a href="product2.php">Descartáveis, Saco de lixo</a>
 													</li>
 													<li>
-														<a href="product2.html">Repellents & Fresheners</a>
+														<a href="product2.php">Repelentes & Purificadores</a>
 													</li>
 													<li>
-														<a href="product2.html"> Dishwash</a>
-													</li>
-												</ul>
-											</div>
-											<div class="col-sm-6 multi-gd-img">
-												<ul class="multi-column-dropdown">
-													<li>
-														<a href="product2.html">Pet Care</a>
+														<a href="product2.php"> Lavagem de Louça</a>
 													</li>
 													<li>
-														<a href="product2.html">Cleaning Accessories</a>
+														<a href="product2.php">Cuidado de Animais</a>
 													</li>
 													<li>
-														<a href="product2.html">Pooja Needs</a>
+														<a href="product2.php">Acessorios de Limpeza</a>
 													</li>
 													<li>
-														<a href="product2.html">Crackers</a>
-													</li>
-													<li>
-														<a href="product2.html">Festive Decoratives</a>
-													</li>
-													<li>
-														<a href="product2.html">Plasticware</a>
-													</li>
-													<li>
-														<a href="product2.html">Home Care</a>
+														<a href="product2.php">Produtos de casa</a>
 													</li>
 												</ul>
 											</div>
@@ -740,24 +347,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</div>
 									</ul>
 								</li>
-								<li>
-									<a class="nav-stylehead" href="faqs.html">Faqs</a>
+								<li class="">
+									<a class="nav-stylehead" href="faqs.php">FAQ</a>
 								</li>
-								<li class="dropdown">
-									<a class="nav-stylehead dropdown-toggle" href="#" data-toggle="dropdown">Pages
-										<b class="caret"></b>
-									</a>
-									<ul class="dropdown-menu agile_short_dropdown">
-										<li>
-											<a href="icons.html">Web Icons</a>
-										</li>
-										<li>
-											<a href="typography.html">Typography</a>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a class="" href="contact.html">Contact</a>
+								<li class="">
+									<a class="nav-stylehead" href="contact.php">Contato</a>
 								</li>
 							</ul>
 						</div>
@@ -778,7 +372,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 				<ul class="w3_short">
 					<li>
-						<a href="index.html">Home</a>
+						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
 					<li>Single Page</li>
@@ -803,17 +397,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="grid images_3_of_2">
 					<div class="flexslider">
 						<ul class="slides">
-							<li data-thumb="images/se1.jpg">
+							<li data-thumb="images/si.jpg">
 								<div class="thumb-image">
-									<img src="images/se1.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+									<img src="images/si.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
 							</li>
-							<li data-thumb="images/se2.jpg">
+							<li data-thumb="images/si2.jpg">
 								<div class="thumb-image">
-									<img src="images/se2.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+									<img src="images/si2.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
 							</li>
-							<li data-thumb="images/se3.jpg">
+							<li data-thumb="images/si3.jpg">
 								<div class="thumb-image">
-									<img src="images/se3.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+									<img src="images/si3.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
 							</li>
 						</ul>
 						<div class="clearfix"></div>
@@ -821,7 +415,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<div class="col-md-7 single-right-left simpleCart_shelfItem">
-				<h3>Ambipur Air Freshener - 275 g </h3>
+				<h3>Zeeba Premium Basmati Rice - 5 KG</h3>
 				<div class="rating1">
 					<span class="starRating">
 						<input id="rating5" type="radio" name="rating" value="5">
@@ -837,8 +431,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</span>
 				</div>
 				<p>
-					<span class="item_price">$265.00</span>
-					<del>$285.00</del>
+					<span class="item_price">$950.00</span>
+					<del>$1300.00</del>
 					<label>Free delivery</label>
 				</p>
 				<div class="single-infoagile">
@@ -847,37 +441,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							Cash on Delivery Eligible.
 						</li>
 						<li>
-							Delivery to within 7 - 10 business days.
+							Shipping Speed to Delivery.
 						</li>
 						<li>
-							Sold by Cloudtail India (4.2 out of 5 | 95,027 ratings).
+							Sold and fulfilled by Supple Tek (3.6 out of 5 | 8 ratings).
 						</li>
 						<li>
-							6 offer from
-							<span class="item_price">$285.00</span>
+							1 offer from
+							<span class="item_price">$950.00</span>
 						</li>
 					</ul>
 				</div>
 				<div class="product-single-w3l">
 					<p>
-						<i class="fa fa-hand-o-right" aria-hidden="true"></i>Pantry Cashback Offer</p>
+						<i class="fa fa-hand-o-right" aria-hidden="true"></i>This is a
+						<label>Vegetarian</label> product.</p>
 					<ul>
 						<li>
-							Doesn't just cover, Truly removes odours
+							Best for Biryani and Pulao.
 						</li>
 						<li>
-							Ambi Pur is a brand of air freshener products available in the United States, Europe, Asia and Oceania.
+							After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch.
 						</li>
 						<li>
-							Their range of products may be used in the home or in the car with a variety of smells and properties such as odor neutralisation.
+							Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us.
 						</li>
 						<li>
-							Transforms your home from smelly to smiley
+							Contains only the best and purest grade of basmati rice grain of Export quality.
 						</li>
 					</ul>
 					<p>
 						<i class="fa fa-refresh" aria-hidden="true"></i>All food products are
-						<label>returnable.</label>
+						<label>non-returnable.</label>
 					</p>
 				</div>
 				<div class="occasion-cart">
@@ -888,7 +483,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<input type="hidden" name="add" value="1" />
 								<input type="hidden" name="business" value=" " />
 								<input type="hidden" name="item_name" value="Zeeba Premium Basmati Rice - 5 KG" />
-								<input type="hidden" name="amount" value="951.00" />
+								<input type="hidden" name="amount" value="950.00" />
 								<input type="hidden" name="discount_amount" value="1.00" />
 								<input type="hidden" name="currency_code" value="USD" />
 								<input type="hidden" name="return" value=" " />
@@ -922,13 +517,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.html">
+								<a href="single.php">
 									<img src="images/s1.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Aashirvaad, 5g</a>
+									<a href="single.php">Aashirvaad, 5g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>$220.00</h6>
@@ -956,13 +551,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.html">
+								<a href="single.php">
 									<img src="images/s4.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Kissan Tomato Ketchup, 950g</a>
+									<a href="single.php">Kissan Tomato Ketchup, 950g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>$99.00</h6>
@@ -990,13 +585,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.html">
+								<a href="single.php">
 									<img src="images/s2.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Madhur Pure Sugar, 1g</a>
+									<a href="single.php">Madhur Pure Sugar, 1g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>$69.00</h6>
@@ -1024,13 +619,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single2.html">
+								<a href="single2.php">
 									<img src="images/s3.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.html">Surf Excel Liquid, 1.02L</a>
+									<a href="single2.php">Surf Excel Liquid, 1.02L</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>$187.00</h6>
@@ -1058,13 +653,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.html">
+								<a href="single.php">
 									<img src="images/s8.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Cadbury Choclairs, 655.5g</a>
+									<a href="single.php">Cadbury Choclairs, 655.5g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>$160.00</h6>
@@ -1092,13 +687,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single2.html">
+								<a href="single2.php">
 									<img src="images/s6.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.html">Fair & Lovely, 80 g</a>
+									<a href="single2.php">Fair & Lovely, 80 g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>$121.60</h6>
@@ -1126,13 +721,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.html">
+								<a href="single.php">
 									<img src="images/s5.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.html">Sprite, 2.25L (Pack of 2)</a>
+									<a href="single.php">Sprite, 2.25L (Pack of 2)</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>$180.00</h6>
@@ -1160,13 +755,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single2.html">
+								<a href="single2.php">
 									<img src="images/s9.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.html">Lakme Eyeconic Kajal, 0.35 g</a>
+									<a href="single2.php">Lakme Eyeconic Kajal, 0.35 g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>$153.00</h6>
@@ -1217,16 +812,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"></div>
 		</div>
 	</div>
+	<!-- newsletter -->
+	<div class="footer-top">
+		<div class="container-fluid">
+			<div class="col-xs-8 agile-leftmk">
+				<h2>Obtenha suas compras na sua casa.</h2>
+				<p>Entrega gratuita em sua primeira compra!</p>
+			</div>
+			<div class="col-xs-4 w3l-rightmk">
+				<img src="images/tab3.png" alt=" ">
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
 	<!-- //newsletter -->
 	<!-- footer -->
 	<footer>
 		<div class="container">
 			<!-- footer first section -->
 			<p class="footer-main">
-				<span>"Grocery Shoppy"</span> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-				magni dolores eos qui ratione voluptatem sequi nesciunt.Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-				accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-				beatae vitae dicta sunt explicabo.</p>
+				<span>"Merc On"</span> Um mercado online, onde você pode efetuar a compra dos seus mantimentos e recebelos na sua casa. Sem a necessidade de deslocar-se até um supermercado local.</p>
 			<!-- //footer first section -->
 			<!-- footer second section -->
 			<div class="w3l-grids-footer">
@@ -1235,7 +840,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-map-marker" aria-hidden="true"></span>
 					</div>
 					<div class="col-xs-8 text-form-footer">
-						<h3>Track Your Order</h3>
+						<h3>Acompanhe seu Pedido</h3>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -1244,7 +849,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-refresh" aria-hidden="true"></span>
 					</div>
 					<div class="col-xs-8 text-form-footer">
-						<h3>Free & Easy Returns</h3>
+						<h3>Fácil Devolução</h3>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -1253,7 +858,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="fa fa-times" aria-hidden="true"></span>
 					</div>
 					<div class="col-xs-8 text-form-footer">
-						<h3>Online cancellation </h3>
+						<h3>Cancelamento Online </h3>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -1265,49 +870,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- footer categories -->
 				<div class="col-sm-5 address-right">
 					<div class="col-xs-6 footer-grids">
-						<h3>Categories</h3>
-						<ul>
-							<li>
-								<a href="product.html">Grocery</a>
-							</li>
-							<li>
-								<a href="product.html">Fruits</a>
-							</li>
-							<li>
-								<a href="product.html">Soft Drinks</a>
-							</li>
-							<li>
-								<a href="product2.html">Dishwashers</a>
-							</li>
-							<li>
-								<a href="product.html">Biscuits & Cookies</a>
-							</li>
-							<li>
-								<a href="product2.html">Baby Diapers</a>
-							</li>
-						</ul>
+						
 					</div>
 					<div class="col-xs-6 footer-grids agile-secomk">
-						<ul>
-							<li>
-								<a href="product.html">Snacks & Beverages</a>
-							</li>
-							<li>
-								<a href="product.html">Bread & Bakery</a>
-							</li>
-							<li>
-								<a href="product.html">Sweets</a>
-							</li>
-							<li>
-								<a href="product.html">Chocolates & Biscuits</a>
-							</li>
-							<li>
-								<a href="product2.html">Personal Care</a>
-							</li>
-							<li>
-								<a href="product.html">Dried Fruits & Nuts</a>
-							</li>
-						</ul>
+						
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -1315,40 +881,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- quick links -->
 				<div class="col-sm-5 address-right">
 					<div class="col-xs-6 footer-grids">
-						<h3>Quick Links</h3>
+						<h3>Links</h3>
 						<ul>
 							<li>
-								<a href="about.html">About Us</a>
+								<a href="about.php">Sobre</a>
 							</li>
 							<li>
-								<a href="contact.html">Contact Us</a>
+								<a href="contact.php">Contato</a>
 							</li>
 							<li>
-								<a href="help.html">Help</a>
+								<a href="help.php">Ajuda</a>
 							</li>
 							<li>
-								<a href="faqs.html">Faqs</a>
+								<a href="faqs.php">FAQ</a>
 							</li>
 							<li>
-								<a href="terms.html">Terms of use</a>
+								<a href="terms.php">Termos de Uso</a>
 							</li>
 							<li>
-								<a href="privacy.html">Privacy Policy</a>
+								<a href="privacy.php">Politica de Privacidade</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-xs-6 footer-grids">
-						<h3>Get in Touch</h3>
+						<h3>Entrar em Contato</h3>
 						<ul>
 							<li>
-								<i class="fa fa-map-marker"></i> 123 Sebastian, USA.</li>
+								<i class="fa fa-mobile"></i> 61 98888-8888 </li>
 							<li>
-								<i class="fa fa-mobile"></i> 333 222 3333 </li>
-							<li>
-								<i class="fa fa-phone"></i> +222 11 4444 </li>
+								<i class="fa fa-phone"></i> 61 3333-4444 </li>
 							<li>
 								<i class="fa fa-envelope-o"></i>
-								<a href="mailto:example@mail.com"> mail@example.com</a>
+								<a href="mailto:example@mail.com"> contato@mercon.com</a>
 							</li>
 						</ul>
 					</div>
@@ -1356,7 +920,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- //quick links -->
 				<!-- social icons -->
 				<div class="col-sm-2 footer-grids  w3l-socialmk">
-					<h3>Follow Us on</h3>
+					<h3>Siga-nos</h3>
 					<div class="social">
 						<ul>
 							<li>
@@ -1377,7 +941,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</div>
 					<div class="agileits_app-devices">
-						<h5>Download the App</h5>
+						<h5>Em breve App</h5>
 						<a href="#">
 							<img src="images/1.png" alt="">
 						</a>
@@ -1394,156 +958,157 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- footer fourth section (text) -->
 			<div class="agile-sometext">
 				<div class="sub-some">
-					<h5>Online Grocery Shopping</h5>
-					<p>Order online. All your favourite products from the low price online supermarket for grocery home delivery in Delhi,
-						Gurgaon, Bengaluru, Mumbai and other cities in India. Lowest prices guaranteed on Patanjali, Aashirvaad, Pampers, Maggi,
-						Saffola, Huggies, Fortune, Nestle, Amul, MamyPoko Pants, Surf Excel, Ariel, Vim, Haldiram's and others.</p>
+					<h5>Merc On</h5>
+					<p>Pedidos online. Seus produtos favoritos online e com baixo preço, só o Merc On faz isso por você. O Merc On atende, no momento, apenas a cidade de Águas Claras. Com baixo preço em produtos da Unilever, Pampers, Maggi, Coca-Cola, Brilhante, Huggies, Nestle, Ariel, Bom Bril, Italac, Gillette, Yoki, Bauduco, Sadia, União, Aurora, P&G entre outras.</p>
 				</div>
 				<div class="sub-some">
-					<h5>Shop online with the best deals & offers</h5>
-					<p>Now Get Upto 40% Off On Everyday Essential Products Shown On The Offer Page. The range includes Grocery, Personal Care,
-						Baby Care, Pet Supplies, Healthcare and Other Daily Need Products. Discount May Vary From Product To Product.</p>
+					<h5>Compre online com os melhores descontos & ofertas</h5>
+					<p>Ganhe até 40% Off Qualquer Dia nos Produtos em Oferta no Fim da Página. Estão incluidos Produtos Pessoais, Limpeza, Rações, Higiene, Grãos, Bebidas, Frutas, Sementes e outros Produtos do Dia. O Desconto Pode Variar de Produto Para Produto.</p>
 				</div>
 				<!-- brands -->
 				<div class="sub-some">
-					<h5>Popular Brands</h5>
+					<h5>Marcas Populares</h5>
 					<ul>
 						<li>
-							<a href="product.html">Aashirvaad</a>
+							<a>Amil</a>
 						</li>
 						<li>
-							<a href="product.html">Amul</a>
+							<a>Bauduco</a>
 						</li>
 						<li>
-							<a href="product.html">Bingo</a>
+							<a>Coca-Cola</a>
 						</li>
 						<li>
-							<a href="product.html">Boost</a>
+							<a>Bom Bril</a>
 						</li>
 						<li>
-							<a href="product.html">Durex</a>
+							<a>Durex</a>
 						</li>
 						<li>
-							<a href="product.html"> Maggi</a>
+							<a> Maggi</a>
 						</li>
 						<li>
-							<a href="product.html">Glucon-D</a>
+							<a>Nestle</a>
 						</li>
 						<li>
-							<a href="product.html">Horlicks</a>
+							<a>Italac</a>
 						</li>
 						<li>
-							<a href="product2.html">Head & Shoulders</a>
+							<a>Palmolive</a>
 						</li>
 						<li>
-							<a href="product2.html">Dove</a>
+							<a>Dove</a>
 						</li>
 						<li>
-							<a href="product2.html">Dettol</a>
+							<a>Suave</a>
 						</li>
 						<li>
-							<a href="product2.html">Dabur</a>
+							<a>Nivia</a>
 						</li>
 						<li>
-							<a href="product2.html">Colgate</a>
+							<a>Colgate</a>
 						</li>
 						<li>
-							<a href="product.html">Coca-Cola</a>
+							<a>Brilhante</a>
 						</li>
 						<li>
-							<a href="product2.html">Closeup</a>
+							<a>Closeup</a>
 						</li>
 						<li>
-							<a href="product2.html"> Cinthol</a>
+							<a> Sadia</a>
 						</li>
 						<li>
-							<a href="product.html">Cadbury</a>
+							<a>Garoto</a>
 						</li>
 						<li>
-							<a href="product.html">Bru</a>
+							<a>Knor</a>
 						</li>
 						<li>
-							<a href="product.html">Bournvita</a>
+							<a>Cif</a>
 						</li>
 						<li>
-							<a href="product.html">Tang</a>
+							<a>Tang</a>
 						</li>
 						<li>
-							<a href="product.html">Pears</a>
+							<a>Aurora</a>
 						</li>
 						<li>
-							<a href="product.html">Oreo</a>
+							<a>Oreo</a>
 						</li>
 						<li>
-							<a href="product.html"> Taj Mahal</a>
+							<a> Nissin</a>
 						</li>
 						<li>
-							<a href="product.html">Sprite</a>
+							<a>Sprite</a>
 						</li>
 						<li>
-							<a href="product.html">Thums Up</a>
+							<a>Sukita</a>
 						</li>
 						<li>
-							<a href="product2.html">Fair & Lovely</a>
+							<a>WD</a>
 						</li>
 						<li>
-							<a href="product2.html">Lakme</a>
+							<a>Lacta</a>
 						</li>
 						<li>
-							<a href="product.html">Tata</a>
+							<a>Fresh</a>
 						</li>
 						<li>
-							<a href="product2.html">Sunfeast</a>
+							<a>Sorriso</a>
 						</li>
 						<li>
-							<a href="product2.html">Sunsilk</a>
+							<a>Oral-B</a>
 						</li>
 						<li>
-							<a href="product.html">Patanjali</a>
+							<a>Parmalat</a>
 						</li>
 						<li>
-							<a href="product.html">MTR</a>
+							<a>RedBul</a>
 						</li>
 						<li>
-							<a href="product.html">Kissan</a>
+							<a>Guarana</a>
 						</li>
 						<li>
-							<a href="product2.html"> Lipton</a>
+							<a> Omo</a>
+						</li>
+                        <li>
+							<a>Rexona</a>
+						</li>
+						<li>
+							<a>Axe</a>
+						</li>
+						<li>
+							<a>delValle</a>
+						</li>
+						<li>
+							<a>Piracanjuba</a>
+						</li>
+						<li>
+							<a>Perdigão</a>
+						</li>
+						<li>
+							<a>União</a>
+						</li>
+						<li>
+							<a> Camil</a>
 						</li>
 					</ul>
 				</div>
 				<!-- //brands -->
 				<!-- payment -->
 				<div class="sub-some child-momu">
-					<h5>Payment Method</h5>
+					<h5>Métodos de Pagamento</h5>
 					<ul>
 						<li>
 							<img src="images/pay2.png" alt="">
 						</li>
 						<li>
-							<img src="images/pay5.png" alt="">
-						</li>
-						<li>
 							<img src="images/pay1.png" alt="">
-						</li>
-						<li>
-							<img src="images/pay4.png" alt="">
-						</li>
-						<li>
-							<img src="images/pay6.png" alt="">
-						</li>
-						<li>
-							<img src="images/pay3.png" alt="">
-						</li>
-						<li>
-							<img src="images/pay7.png" alt="">
 						</li>
 						<li>
 							<img src="images/pay8.png" alt="">
 						</li>
-						<li>
-							<img src="images/pay9.png" alt="">
-						</li>
+						
 					</ul>
 				</div>
 				<!-- //payment -->
@@ -1555,8 +1120,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- copyright -->
 	<div class="copy-right">
 		<div class="container">
-			<p>© 2017 Grocery Shoppy. All rights reserved | Design by
-				<a href="http://w3layouts.com"> W3layouts.</a>
+			<p>© 2018 Merc On. Todos direitos reservados. | Design by
+				<a> W3layouts.</a>
 			</p>
 		</div>
 	</div>
@@ -1608,12 +1173,31 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			}
 
 			if (total < 3) {
-				alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
+				alert('O número mínimo de item é 3. Por favor, adicione mais itens ao seu carrinho antes de finalizar a compra');
 				evt.preventDefault();
 			}
 		});
 	</script>
 	<!-- //cart-js -->
+
+	<!-- password-script -->
+	<script>
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById("password2").value;
+			var pass1 = document.getElementById("password1").value;
+			if (pass1 != pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');
+			//empty string means no validation error
+		}
+	</script>
+	<!-- //password-script -->
 
 	<!-- smoothscroll -->
 	<script src="js/SmoothScroll.min.js"></script>
@@ -1701,25 +1285,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	</script>
 	<!-- //flexisel (for special offers) -->
-
-	<!-- password-script -->
-	<script>
-		window.onload = function () {
-			document.getElementById("password1").onchange = validatePassword;
-			document.getElementById("password2").onchange = validatePassword;
-		}
-
-		function validatePassword() {
-			var pass2 = document.getElementById("password2").value;
-			var pass1 = document.getElementById("password1").value;
-			if (pass1 != pass2)
-				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
-			else
-				document.getElementById("password2").setCustomValidity('');
-			//empty string means no validation error
-		}
-	</script>
-	<!-- //password-script -->
 
 	<!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
