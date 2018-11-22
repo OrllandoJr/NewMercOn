@@ -11,7 +11,7 @@ if (!Empty($_POST)){
 
 	switch ($r){ // $r minha variavel de retorno da consulta sql $r = $this->consulta($sql);
 		case "0":
-			header('location:http://127.0.0.1/NewMercOn/product.php'); // usuario logado retorna para a pagina index.php minha home no site
+			header('location:http://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
 			break;
 		case "-1": // tratamento para meu email ou senha errado
 			echo "Email ou senha incorreta";
@@ -32,7 +32,7 @@ if (!Empty($_POST)){
 
 		switch ($rC){ // $r minha variavel de retorno da consulta sql $rC = $this->consulta($sql);
 			case "0":
-				header('location:http://127.0.0.1/NewMercOn/product.php'); // usuario logado retorna para a pagina index.php minha home no site
+				header('location:http://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
 				break;
 			case "-1": // tratamento para meu email ou senha errado
 				echo "Email ou senha incorreta";

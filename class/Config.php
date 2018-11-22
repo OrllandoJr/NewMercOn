@@ -24,7 +24,7 @@ class Config
 	{
 		if(empty(self::$ArquivoINI))
 		{
-			try { throw new Exception('Informe o arquivo de Configura��o!', 0); }
+			try { throw new Exception('Informe o arquivo de Configuração!', 0); }
 			catch(Exception $e) { self::montaExcecao($e->getMessage(), $e); return false; exit; }
 		}
 			
