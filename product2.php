@@ -223,7 +223,7 @@ if (!Empty($_POST)){
 						<p>
 							Comece a comprar no Merc On agora mesmo! Vamos criar sua conta.
 						</p>
-						<form action="about.php" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
 								<input type="text" placeholder="Nome" name="nome" required="">
 							</div>
@@ -438,7 +438,7 @@ if (!Empty($_POST)){
 						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Household Products</li>
+					<li>Casa</li>
 				</ul>
 			</div>
 		</div>
@@ -448,7 +448,7 @@ if (!Empty($_POST)){
 	<div class="ads-grid">
 		<div class="container">
 			<!-- tittle heading -->
-			<h3 class="tittle-w3l">Household Products
+			<h3 class="tittle-w3l">Casa
 				<span class="heading-style">
 					<i></i>
 					<i></i>
@@ -459,183 +459,22 @@ if (!Empty($_POST)){
 			<!-- product left -->
 			<div class="side-bar col-md-3">
 				<div class="search-hotel">
-					<h3 class="agileits-sear-head">Search Here..</h3>
+					<h3 class="agileits-sear-head">Procure aqui...</h3>
 					<form action="#" method="post">
-						<input type="search" placeholder="Product name..." name="search" required="">
+						<input type="search" placeholder="Nome do Produto..." name="search" required="">
 						<input type="submit" value=" ">
 					</form>
 				</div>
-				<!-- price range -->
-				<div class="range">
-					<h3 class="agileits-sear-head">Price range</h3>
-					<ul class="dropdown-menu6">
-						<li>
-							<div id="slider-range"></div>
-							<input type="text" id="amount" style="border: 0; color: #ffffff; font-weight: normal;" />
-						</li>
-					</ul>
-				</div>
-				<!-- //price range -->
-				<!-- food preference -->
-				<div class="left-side">
-					<h3 class="agileits-sear-head">Food Preference</h3>
-					<ul>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Vegetarian</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Non-Vegetarian</span>
-						</li>
-					</ul>
-				</div>
-				<!-- //food preference -->
-				<!-- discounts -->
-				<div class="left-side">
-					<h3 class="agileits-sear-head">Discount</h3>
-					<ul>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">5% or More</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">10% or More</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">20% or More</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">30% or More</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">50% or More</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">60% or More</span>
-						</li>
-					</ul>
-				</div>
-				<!-- //discounts -->
-				<!-- reviews -->
-				<div class="customer-rev left-side">
-					<h3 class="agileits-sear-head">Customer Review</h3>
-					<ul>
-						<li>
-							<a href="#">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<span>5.0</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<span>4.0</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-half-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<span>3.5</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<span>3.0</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-half-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<span>2.5</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<!-- //reviews -->
-				<!-- cuisine -->
-				<div class="left-side">
-					<h3 class="agileits-sear-head">Cuisine</h3>
-					<ul>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">South American</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">French</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Greek</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Chinese</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Japanese</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Italian</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Mexican</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Thai</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Indian</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span"> Spanish </span>
-						</li>
-					</ul>
-				</div>
-				<!-- //cuisine -->
 				<!-- deals -->
 				<div class="deal-leftmk left-side">
-					<h3 class="agileits-sear-head">Special Deals</h3>
+					<h3 class="agileits-sear-head">Ofertas Especiais</h3>
 					<div class="special-sec1">
 						<div class="col-xs-4 img-deals">
 							<img src="images/d2.jpg" alt="">
 						</div>
 						<div class="col-xs-8 img-deal1">
-							<h3>Lay's Potato Chips</h3>
-							<a href="">$18.00</a>
+							<h3>Batata Lay's</h3>
+							<a href="">R$ 7.00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -645,7 +484,7 @@ if (!Empty($_POST)){
 						</div>
 						<div class="col-xs-8 img-deal1">
 							<h3>Bingo Mad Angles</h3>
-							<a href="">$9.00</a>
+							<a href="">R$ 9.00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -654,8 +493,8 @@ if (!Empty($_POST)){
 							<img src="images/d4.jpg" alt="">
 						</div>
 						<div class="col-xs-8 img-deal1">
-							<h3>Tata Salt</h3>
-							<a href="">$15.00</a>
+							<h3>Sal</h3>
+							<a href="">R$ 5.00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -664,8 +503,8 @@ if (!Empty($_POST)){
 							<img src="images/d5.jpg" alt="">
 						</div>
 						<div class="col-xs-8 img-deal1">
-							<h3>Gujarat Dry Fruit</h3>
-							<a href="">$525.00</a>
+							<h3>Fruta seca Gujarat</h3>
+							<a href="">R$ 25.00</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -674,8 +513,8 @@ if (!Empty($_POST)){
 							<img src="images/d3.jpg" alt="">
 						</div>
 						<div class="col-xs-8 img-deal1">
-							<h3>Cadbury Dairy Milk</h3>
-							<a href="">$149.00</a>
+							<h3>Leite Cadbury</h3>
+							<a href="">R$ 3.99</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -694,18 +533,18 @@ if (!Empty($_POST)){
 									<img src="images/a1.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 								</div>
 								<div class="item-info-product ">
 									<h4>
 										<a href="single2.php">Vim Dishwash Gel</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$99.00</span>
-										<del>$120.00</del>
+										<span class="item_price">R$ 12.00</span>
+										<del>R$ 13.99</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -714,12 +553,12 @@ if (!Empty($_POST)){
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Vim Dishwash Gel, 500 ml" />
-												<input type="hidden" name="amount" value="99.00" />
-												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="amount" value="13.99" />
+												<input type="hidden" name="discount_amount" value="1.99" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -733,7 +572,7 @@ if (!Empty($_POST)){
 									<img src="images/a2.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 
@@ -743,8 +582,8 @@ if (!Empty($_POST)){
 										<a href="single2.php">Harpic Cleaner</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$134.00</span>
-										<del>$150.00</del>
+										<span class="item_price">R$ 8.00</span>
+										<del>R$ 8.70</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -753,12 +592,12 @@ if (!Empty($_POST)){
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Harpic Toilet Cleaner, 1 L" />
-												<input type="hidden" name="amount" value="134.00" />
-												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="amount" value="8.70" />
+												<input type="hidden" name="discount_amount" value="0.70" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -772,10 +611,10 @@ if (!Empty($_POST)){
 									<img src="images/a3.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
@@ -783,8 +622,8 @@ if (!Empty($_POST)){
 										<a href="single2.php">Comfort After Wash</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">306.85</span>
-										<del>$450.00</del>
+										<span class="item_price">R$ 7.99</span>
+										<del>R$ 9.99</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -793,12 +632,12 @@ if (!Empty($_POST)){
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Comfort After Wash Conditioner, 1.5 l" />
-												<input type="hidden" name="amount" value="306.85" />
-												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="amount" value="9.99" />
+												<input type="hidden" name="discount_amount" value="2.00" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -817,17 +656,17 @@ if (!Empty($_POST)){
 									<img src="images/a4.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Odonil Blocks (3+1)</a>
+										<a href="single2.php">Odonil Blocks (2x)</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$141.00</span>
-										<del>$160.00</del>
+										<span class="item_price">R$ 13.00</span>
+										<del>R$ 13.99</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -836,12 +675,12 @@ if (!Empty($_POST)){
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
 												<input type="hidden" name="item_name" value="Odonil Blocks 50gm Mix (3+1)" />
-												<input type="hidden" name="amount" value="141.00" />
-												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="amount" value="13.99" />
+												<input type="hidden" name="discount_amount" value="0.99" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -855,19 +694,19 @@ if (!Empty($_POST)){
 									<img src="images/a5.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Surf Excel Detergent</a>
+										<a href="single2.php">Detergente em Pó - Surf</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$337.00</span>
-										<del>$380.00</del>
+										<span class="item_price">R$ 7.00</span>
+										<del>R$ 7.90</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -875,13 +714,13 @@ if (!Empty($_POST)){
 												<input type="hidden" name="cmd" value="_cart" />
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
-												<input type="hidden" name="item_name" value="Surf Excel Detergent Powder, 2 kg" />
-												<input type="hidden" name="amount" value="337.00" />
-												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="item_name" value="Detergente em Pó - Surf, 2 kg" />
+												<input type="hidden" name="amount" value="7.90" />
+												<input type="hidden" name="discount_amount" value="0.90" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -895,7 +734,7 @@ if (!Empty($_POST)){
 									<img src="images/a6.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 
@@ -905,8 +744,8 @@ if (!Empty($_POST)){
 										<a href="single2.php">Sunsilk Shampoo</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$294.50</span>
-										<del>$325.00</del>
+										<span class="item_price">R$ 294.50</span>
+										<del>R$ 325.00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -917,10 +756,10 @@ if (!Empty($_POST)){
 												<input type="hidden" name="item_name" value="Sunsilk Shampoo, 650ml" />
 												<input type="hidden" name="amount" value="294.50" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -939,19 +778,19 @@ if (!Empty($_POST)){
 									<img src="images/a8.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Gala Leader Floor Mop</a>
+										<a href="single2.php">Rodo</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$149.00</span>
-										<del>$180.00</del>
+										<span class="item_price">R$ 21.00</span>
+										<del>R$ 22.00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -959,13 +798,13 @@ if (!Empty($_POST)){
 												<input type="hidden" name="cmd" value="_cart" />
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
-												<input type="hidden" name="item_name" value="Gala Leader Floor Mop" />
-												<input type="hidden" name="amount" value="149.00" />
+												<input type="hidden" name="item_name" value="Rodo" />
+												<input type="hidden" name="amount" value="22.00" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -979,17 +818,17 @@ if (!Empty($_POST)){
 									<img src="images/a7.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Spotzero Spin Mop</a>
+										<a href="single2.php">Kit limpeza de chão</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$888.00</span>
-										<del>$999.00</del>
+										<span class="item_price">R$ 90.00</span>
+										<del>R$ 100.00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -997,13 +836,13 @@ if (!Empty($_POST)){
 												<input type="hidden" name="cmd" value="_cart" />
 												<input type="hidden" name="add" value="1" />
 												<input type="hidden" name="business" value=" " />
-												<input type="hidden" name="item_name" value="Spotzero Spin Mop with Bigger Wheels" />
-												<input type="hidden" name="amount" value="888.00" />
-												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="item_name" value="Kit Limpeza de chão" />
+												<input type="hidden" name="amount" value="90.00" />
+												<input type="hidden" name="discount_amount" value="10.00" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1017,10 +856,10 @@ if (!Empty($_POST)){
 									<img src="images/a9.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
@@ -1028,8 +867,8 @@ if (!Empty($_POST)){
 										<a href="single2.php">Spotzero Zero Dust</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$139.00</span>
-										<del>$150.00</del>
+										<span class="item_price">R$ 139.00</span>
+										<del>R$ 150.00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1040,10 +879,10 @@ if (!Empty($_POST)){
 												<input type="hidden" name="item_name" value="Spotzero Zero Dust Broom" />
 												<input type="hidden" name="amount" value="139.00" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1062,7 +901,7 @@ if (!Empty($_POST)){
 									<img src="images/a10.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 								</div>
@@ -1071,8 +910,8 @@ if (!Empty($_POST)){
 										<a href="single2.php">All Out 480 Hours</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$89.00</span>
-										<del>$120.00</del>
+										<span class="item_price">R$ 89.00</span>
+										<del>R$ 120.00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1083,10 +922,10 @@ if (!Empty($_POST)){
 												<input type="hidden" name="item_name" value="All Out 480 Hours Refill (45 ml)" />
 												<input type="hidden" name="amount" value="89.00" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1100,10 +939,10 @@ if (!Empty($_POST)){
 									<img src="images/a11.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
-									<span class="product-new-top">New</span>
+									<span class="product-new-top">Novo</span>
 
 								</div>
 								<div class="item-info-product ">
@@ -1111,8 +950,8 @@ if (!Empty($_POST)){
 										<a href="single2.php">Wall Hanging</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$349.00</span>
-										<del>$400.00</del>
+										<span class="item_price">R$ 349.00</span>
+										<del>R$ 400.00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1123,10 +962,10 @@ if (!Empty($_POST)){
 												<input type="hidden" name="item_name" value="AsianHobbyCrafts Wall Hanging" />
 												<input type="hidden" name="amount" value="349.00" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1140,7 +979,7 @@ if (!Empty($_POST)){
 									<img src="images/a12.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Quick View</a>
+											<a href="single2.php" class="link-product-add-cart">Ver item</a>
 										</div>
 									</div>
 
@@ -1150,8 +989,8 @@ if (!Empty($_POST)){
 										<a href="single2.php">Colin Regular Refill</a>
 									</h4>
 									<div class="info-product-price">
-										<span class="item_price">$155.00</span>
-										<del>$180.00</del>
+										<span class="item_price">R$ 155.00</span>
+										<del>R$ 180.00</del>
 									</div>
 									<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 										<form action="#" method="post">
@@ -1162,10 +1001,10 @@ if (!Empty($_POST)){
 												<input type="hidden" name="item_name" value="Colin Regular Refill-1L,with Trigger-500 ml" />
 												<input type="hidden" name="amount" value="155.00" />
 												<input type="hidden" name="discount_amount" value="1.00" />
-												<input type="hidden" name="currency_code" value="USD" />
+												<input type="hidden" name="currency_code" value="BRL" />
 												<input type="hidden" name="return" value=" " />
 												<input type="hidden" name="cancel_return" value=" " />
-												<input type="submit" name="submit" value="Add to cart" class="button" />
+												<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 											</fieldset>
 										</form>
 									</div>
@@ -1187,7 +1026,7 @@ if (!Empty($_POST)){
 	<div class="featured-section" id="projects">
 		<div class="container">
 			<!-- tittle heading -->
-			<h3 class="tittle-w3l">Special Offers
+			<h3 class="tittle-w3l">Ofertas Especiais
 				<span class="heading-style">
 					<i></i>
 					<i></i>
@@ -1206,11 +1045,11 @@ if (!Empty($_POST)){
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.php">Aashirvaad, 5g</a>
+									<a href="single.php">Trigo Integral, 5g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$220.00</h6>
-									<p>Save $40.00</p>
+									<h6>R$ 1</h6>
+									<p>OFF R$ 0.20</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1218,13 +1057,13 @@ if (!Empty($_POST)){
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
-											<input type="hidden" name="item_name" value="Aashirvaad, 5g" />
-											<input type="hidden" name="amount" value="220.00" />
-											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="item_name" value="Trigo Integral, 5g" />
+											<input type="hidden" name="amount" value="1.20" />
+											<input type="hidden" name="discount_amount" value="0.20" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1240,11 +1079,11 @@ if (!Empty($_POST)){
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.php">Kissan Tomato Ketchup, 950g</a>
+									<a href="single.php">Ketchup Kissan, 950g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$99.00</h6>
-									<p>Save $20.00</p>
+									<h6>R$ 9.00</h6>
+									<p>OFF R$ 2.00</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1252,13 +1091,13 @@ if (!Empty($_POST)){
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
-											<input type="hidden" name="item_name" value="Kissan Tomato Ketchup, 950g" />
-											<input type="hidden" name="amount" value="99.00" />
-											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="item_name" value="Ketchup Kissan, 950g" />
+											<input type="hidden" name="amount" value="11.00" />
+											<input type="hidden" name="discount_amount" value="2.00" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1274,11 +1113,11 @@ if (!Empty($_POST)){
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.php">Madhur Pure Sugar, 1g</a>
+									<a href="single.php">Puro Açucar Madhur, 1g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$69.00</h6>
-									<p>Save $20.00</p>
+									<h6>R$ 5.00</h6>
+									<p>OFF R$ 1.00</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1286,13 +1125,13 @@ if (!Empty($_POST)){
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
-											<input type="hidden" name="item_name" value="Madhur Pure Sugar, 1g" />
-											<input type="hidden" name="amount" value="69.00" />
+											<input type="hidden" name="item_name" value="Puro Açucar Madhur, 1g" />
+											<input type="hidden" name="amount" value="6.00" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1308,11 +1147,11 @@ if (!Empty($_POST)){
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.php">Surf Excel Liquid, 1.02L</a>
+									<a href="single2.php">Amaciante Liquido Surf, 1L</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$187.00</h6>
-									<p>Save $30.00</p>
+									<h6>R$ 7.00</h6>
+									<p>OFF R$ 1.00</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1320,13 +1159,13 @@ if (!Empty($_POST)){
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
-											<input type="hidden" name="item_name" value="Surf Excel Liquid, 1.02L" />
-											<input type="hidden" name="amount" value="187.00" />
+											<input type="hidden" name="item_name" value="Amaciante Liquido Surf, 1L" />
+											<input type="hidden" name="amount" value="8.00" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1342,11 +1181,11 @@ if (!Empty($_POST)){
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.php">Cadbury Choclairs, 655.5g</a>
+									<a href="single.php">Choclairs Cadbury, 655g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$160.00</h6>
-									<p>Save $60.00</p>
+									<h6>R$ 9.00</h6>
+									<p>OFF R$ 1.00</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1354,13 +1193,13 @@ if (!Empty($_POST)){
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
-											<input type="hidden" name="item_name" value="Cadbury Choclairs, 655.5g" />
-											<input type="hidden" name="amount" value="160.00" />
+											<input type="hidden" name="item_name" value="Choclairs Cadbury, 655g" />
+											<input type="hidden" name="amount" value="10.00" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1376,11 +1215,11 @@ if (!Empty($_POST)){
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.php">Fair & Lovely, 80 g</a>
+									<a href="single2.php">Creme p/ Pele Fair & Lovely</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$121.60</h6>
-									<p>Save $30.00</p>
+									<h6>R$ 15.00</h6>
+									<p>OFF R$ 1.00</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1388,13 +1227,13 @@ if (!Empty($_POST)){
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
-											<input type="hidden" name="item_name" value="Fair & Lovely, 80 g" />
-											<input type="hidden" name="amount" value="121.60" />
+											<input type="hidden" name="item_name" value="Creme p/ Pele Fair & Lovely, 80 g" />
+											<input type="hidden" name="amount" value="16.00" />
 											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1410,11 +1249,11 @@ if (!Empty($_POST)){
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.php">Sprite, 2.25L (Pack of 2)</a>
+									<a href="single.php">Refrigerante Sprite, 2.25L (2x)</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$180.00</h6>
-									<p>Save $30.00</p>
+									<h6>R$ 11.00</h6>
+									<p>OFF R$ 2.00</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1422,13 +1261,13 @@ if (!Empty($_POST)){
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
-											<input type="hidden" name="item_name" value="Sprite, 2.25L (Pack of 2)" />
-											<input type="hidden" name="amount" value="180.00" />
-											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="item_name" value="Refrigerante Sprite, 2.25L (2x)" />
+											<input type="hidden" name="amount" value="13.00" />
+											<input type="hidden" name="discount_amount" value="2.00" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1444,11 +1283,11 @@ if (!Empty($_POST)){
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.php">Lakme Eyeconic Kajal, 0.35 g</a>
+									<a href="single2.php">Delineador Lakme, 0.35 g</a>
 								</h4>
 								<div class="w3l-pricehkj">
-									<h6>$153.00</h6>
-									<p>Save $40.00</p>
+									<h6>R$ 9.00</h6>
+									<p>OFF R$ 3.00</p>
 								</div>
 								<div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
 									<form action="#" method="post">
@@ -1456,13 +1295,13 @@ if (!Empty($_POST)){
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
 											<input type="hidden" name="business" value=" " />
-											<input type="hidden" name="item_name" value="Lakme Eyeconic Kajal, 0.35 g" />
-											<input type="hidden" name="amount" value="153.00" />
-											<input type="hidden" name="discount_amount" value="1.00" />
-											<input type="hidden" name="currency_code" value="USD" />
+											<input type="hidden" name="item_name" value="Delineador Lakme, 0.35 g" />
+											<input type="hidden" name="amount" value="12.00" />
+											<input type="hidden" name="discount_amount" value="3.00" />
+											<input type="hidden" name="currency_code" value="BRL" />
 											<input type="hidden" name="return" value=" " />
 											<input type="hidden" name="cancel_return" value=" " />
-											<input type="submit" name="submit" value="Add to cart" class="button" />
+											<input type="submit" name="submit" value="Add ao carrinho" class="button" />
 										</fieldset>
 									</form>
 								</div>
@@ -1474,26 +1313,6 @@ if (!Empty($_POST)){
 		</div>
 	</div>
 	<!-- //special offers -->
-	<!-- newsletter -->
-	<div class="footer-top">
-		<div class="container-fluid">
-			<div class="col-xs-8 agile-leftmk">
-				<h2>Get your Groceries delivered from local stores</h2>
-				<p>Free Delivery on your first order!</p>
-				<form action="#" method="post">
-					<input type="email" placeholder="E-mail" name="email" required="">
-					<input type="submit" value="Subscribe">
-				</form>
-				<div class="newsform-w3l">
-					<span class="fa fa-envelope-o" aria-hidden="true"></span>
-				</div>
-			</div>
-			<div class="col-xs-4 w3l-rightmk">
-				<img src="images/tab3.png" alt=" ">
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
 	<!-- newsletter -->
 	<div class="footer-top">
 		<div class="container-fluid">

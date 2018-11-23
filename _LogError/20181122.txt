@@ -1,0 +1,41 @@
+===========================================================================20:55:56: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(9): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\about.php(10): Login->logar('orlando.junior9...', '123123')
+#4 {main}===========================================================================20:55:56: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(9): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(259): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#3 C:\wamp\www\projeto\about.php(31): Cadastrar->cadastrar('Orlando', 'orlando.junior9...', '123123', '12312312344', '12123123', 'q 2 c 3 cs 4', '61999998888')
+#4 {main}===========================================================================21:09:45: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(9): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\about.php(10): Login->logar('orlando.junior9...', '123123')
+#4 {main}===========================================================================21:09:45: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(9): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(259): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#3 C:\wamp\www\projeto\about.php(31): Cadastrar->cadastrar('Orlando', 'orlando.junior9...', '123123', '12312312344', '12123123', 'q 2 c 3 cs 4', '61999998888')
+#4 {main}===========================================================================21:10:31: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(9): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\about.php(10): Login->logar('iu@iu.com', '123')
+#4 {main}===========================================================================21:10:31: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(9): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(259): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#3 C:\wamp\www\projeto\about.php(31): Cadastrar->cadastrar('iu', 'iu@iu.com', '123', '12312312311', '12123123', '123', '123')
+#4 {main}===========================================================================21:11:59: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(9): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\index.php(10): Login->logar('teste@teste', '123')
+#4 {main}===========================================================================21:14:32: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(9): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\index.php(10): Login->logar('iu@iu.com', '123')
+#4 {main}===========================================================================21:14:55: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(9): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\product.php(10): Login->logar('iu@iu.com', '123')
+#4 {main}===========================================================================21:16:21: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(9): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\about.php(10): Login->logar('iu@iu.com', '123')
+#4 {main}

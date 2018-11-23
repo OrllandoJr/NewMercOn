@@ -11,10 +11,11 @@ if (!Empty($_POST)){
 
 	switch ($r){ // $r minha variavel de retorno da consulta sql $r = $this->consulta($sql);
 		case "0":
-			header('location:http://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
+			header('location:http://127.0.0.1/projeto/index.php'); // usuario logado retorna para a pagina index.php minha home no site
 			break;
 		case "-1": // tratamento para meu email ou senha errado
-			echo "Email ou senha incorreta";
+			
+			echo " "; //Email ou senha incorreta
 			break;
 		case "-2": 
 			echo "Dados Incompletos";
@@ -25,17 +26,17 @@ if (!Empty($_POST)){
 }
 
 if (!Empty($_POST)){
-
+	
 	$objCadastrar = new Cadastrar();
-
+	
 	$rC = $objCadastrar->cadastrar($_POST['nome'], $_POST['email'], $_POST['senha'], $_POST['cpf'], $_POST['cep'], $_POST['endereco'], $_POST['fone']);
 
 		switch ($rC){ // $r minha variavel de retorno da consulta sql $rC = $this->consulta($sql);
 			case "0":
-				header('location:http://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
+				header('location:http://127.0.0.1/projeto/index.php'); // usuario logado retorna para a pagina index.php minha home no site
 				break;
 			case "-1": // tratamento para meu email ou senha errado
-				echo "Email ou senha incorreta";
+				echo "Dados errados";
 				break;
 			case "-2": 
 				echo "Dados Incompletos";
@@ -189,7 +190,7 @@ if (!Empty($_POST)){
 							<a href="#" data-toggle="modal" data-target="#myModal2">
 								Cadastre-se agora</a>
 						</p>
-						<form action="#" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
 								<input type="text" placeholder="email" name="email" required="">
 							</div>
@@ -226,7 +227,7 @@ if (!Empty($_POST)){
 						<p>
 							Comece a comprar no Merc On agora mesmo! Vamos criar sua conta.
 						</p>
-						<form action="about.php" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
 								<input type="text" placeholder="Nome" name="nome" required="">
 							</div>
@@ -453,7 +454,7 @@ if (!Empty($_POST)){
 				<div class="container">
 					<div class="carousel-caption">
 						<h3>Descontos
-							<span>Saldaveis</span>
+							<span>Saudáveis</span>
 						</h3>
 						<p>Até
 							<span>30%</span> OFF</p>
@@ -519,106 +520,7 @@ if (!Empty($_POST)){
 						<input type="submit" value=" ">
 					</form>
 				</div>
-				<!-- price range -->
-				<div class="range">
-					<h3 class="agileits-sear-head">Preço entre</h3>
-					<ul class="dropdown-menu6">
-						<li>
-
-							<div id="slider-range"></div>
-							<input type="text" id="amount" style="border: 0; color: #ffffff; font-weight: normal;" />
-						</li>
-					</ul>
-				</div>
-				<!-- //price range -->
-				<!-- discounts -->
-				<div class="left-side">
-					<h3 class="agileits-sear-head">Desconto</h3>
-					<ul>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">5% ou Mais</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">10% ou Mais</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">20% ou Mais</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">30% ou Mais</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">50% ou Mais</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">60% ou Mais</span>
-						</li>
-					</ul>
-				</div>
-				<!-- //discounts -->
-				<!-- reviews -->
-				<div class="customer-rev left-side">
-					<h3 class="agileits-sear-head">Avalie-nos</h3>
-					<ul>
-						<li>
-							<a href="#">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<span>5.0</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<span>4.0</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-half-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<span>3.5</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<span>3.0</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star" aria-hidden="true"></i>
-								<i class="fa fa-star-half-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<i class="fa fa-star-o" aria-hidden="true"></i>
-								<span>2.5</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<!-- //reviews -->
+				
 				<!-- deals -->
 				<div class="deal-leftmk left-side">
 					<h3 class="agileits-sear-head">Descontos Especiais</h3>

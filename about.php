@@ -28,11 +28,12 @@ if (!Empty($_POST)){
 
 	$objCadastrar = new Cadastrar();
 
+
 	$rC = $objCadastrar->cadastrar($_POST['nome'], $_POST['email'], $_POST['senha'], $_POST['cpf'], $_POST['cep'], $_POST['endereco'], $_POST['fone']);
 
 		switch ($rC){ // $r minha variavel de retorno da consulta sql $rC = $this->consulta($sql);
 			case "0":
-				header('location:http://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
+				header('location:http://127.0.0.1/projeto/product.php'); // usuario logado retorna para a pagina index.php minha home no site
 				break;
 			case "-1": // tratamento para meu email ou senha errado
 				echo "Email ou senha incorreta";
@@ -225,7 +226,7 @@ if (!Empty($_POST)){
 						<p>
 							Comece a comprar no Merc On agora mesmo! Vamos criar sua conta.
 						</p>
-						<form action="about.php" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
 								<input type="text" placeholder="Nome" name="nome" required="">
 							</div>

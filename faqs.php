@@ -225,7 +225,7 @@ if (!Empty($_POST)){
 						<p>
 							Comece a comprar no Merc On agora mesmo! Vamos criar sua conta.
 						</p>
-						<form action="about.php" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
 								<input type="text" placeholder="Nome" name="nome" required="">
 							</div>

@@ -1,0 +1,9 @@
+===========================================================================17:22:32: [Erro ao Executar a Instru��o: select sysdate from dual]Unknown column 'sysdate' in 'field list'#0 C:\wamp\www\mercon\class\Login.php(28): baseDAO->consulta('select sysdate ...')
+#1 C:\wamp\www\mercon\login.php(10): Login->logar('asdsd@asd.com', 'asdsad')
+#2 {main}===========================================================================17:26:35: [Erro ao Executar a Instru��o: select * from tb_usuario where ds_usuario = 'asdsd@asd.com' and senha = 'asdsad' ]Unknown column 'senha' in 'where clause'#0 C:\wamp\www\mercon\class\Login.php(28): baseDAO->consulta('select * from t...')
+#1 C:\wamp\www\mercon\login.php(10): Login->logar('asdsd@asd.com', 'asdsad')
+#2 {main}===========================================================================17:26:55: [Erro ao Executar a Instru��o: select * from tb_usuario where ds_usuario = 'teste@teste' and senha = '123' ]Unknown column 'senha' in 'where clause'#0 C:\wamp\www\mercon\class\Login.php(28): baseDAO->consulta('select * from t...')
+#1 C:\wamp\www\mercon\login.php(10): Login->logar('teste@teste', '123')
+#2 {main}===========================================================================17:27:29: [Erro ao Executar a Instru��o: select * from tb_usuario where ds_email = 'teste@teste' and senha = '123' ]Unknown column 'senha' in 'where clause'#0 C:\wamp\www\mercon\class\Login.php(28): baseDAO->consulta('select * from t...')
+#1 C:\wamp\www\mercon\login.php(10): Login->logar('teste@teste', '123')
+#2 {main}

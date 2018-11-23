@@ -1,0 +1,52 @@
+===========================================================================14:40:11: [Erro ao Executar a Instrução: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('Luan Henrique ', 'akjsdk@gmail.com', '123456', 'asfasfsasafsafasfasfasfsf', 'asdsaasdsadsa', 'asdsadsaddsadasdasdas', 'asdasdsadasdasdsad' )]Data too long for column 'NU_CPF' at row 1#0 C:\wamp\www\projeto\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\projeto\about.php(33): Cadastrar->cadastrar('Luan Henrique ', 'akjsdk@gmail.co...', '123456', 'asfasfsasafsafa...', 'asdsaasdsadsa', 'asdsadsaddsadas...', 'asdasdsadasdasd...')
+#2 {main}===========================================================================14:42:03: [Erro ao Executar a Instrução: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('Luan Henrique ', 'akjsdk@gmail.com', '123456', 'asfasfsasafsafasfasfasfsf', 'asdsaasdsadsa', 'asdsadsaddsadasdasdas', 'asdasdsadasdasdsad' )]Data too long for column 'NU_CPF' at row 1#0 C:\wamp\www\projeto\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\projeto\about.php(33): Cadastrar->cadastrar('Luan Henrique ', 'akjsdk@gmail.co...', '123456', 'asfasfsasafsafa...', 'asdsaasdsadsa', 'asdsadsaddsadas...', 'asdasdsadasdasd...')
+#2 {main}===========================================================================14:44:24: ===========================================================================14:44:47: ===========================================================================14:45:20: [Erro ao Executar a Instrução: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('Luan Henrique ', 'akjsdk@gmail.com', '123456', 'asfasfsasafsafasfasfasfsf', 'asdsaasdsadsa', 'asdsadsaddsadasdasdas', 'asdasdsadasdasdsad' )]Data too long for column 'NU_CPF' at row 1#0 C:\wamp\www\projeto\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\projeto\about.php(33): Cadastrar->cadastrar('Luan Henrique ', 'akjsdk@gmail.co...', '123456', 'asfasfsasafsafa...', 'asdsaasdsadsa', 'asdsadsaddsadas...', 'asdasdsadasdasd...')
+#2 {main}===========================================================================14:54:44: [Erro ao Executar a Instrução: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('Luan Henrique ', 'akjsdk@gmail.com', '123456', 'asfasfsasafsafasfasfasfsf', 'asdsaasdsadsa', 'asdsadsaddsadasdasdas', 'asdasdsadasdasdsad' )]Data too long for column 'NU_CPF' at row 1#0 C:\wamp\www\projeto\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\projeto\about.php(33): Cadastrar->cadastrar('Luan Henrique ', 'akjsdk@gmail.co...', '123456', 'asfasfsasafsafa...', 'asdsaasdsadsa', 'asdsadsaddsadas...', 'asdasdsadasdasd...')
+#2 {main}===========================================================================14:55:05: [Erro ao Executar a Instrução: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('Luan Henrique ', 'akjsdk@gmail.com', '123456', 'asfasfsasafsafasfasfasfsf', 'asdsaasdsadsa', 'asdsadsaddsadasdasdas', 'asdasdsadasdasdsad' )]Data too long for column 'NU_CPF' at row 1#0 C:\wamp\www\projeto\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\projeto\about.php(33): Cadastrar->cadastrar('Luan Henrique ', 'akjsdk@gmail.co...', '123456', 'asfasfsasafsafa...', 'asdsaasdsadsa', 'asdsadsaddsadas...', 'asdasdsadasdasd...')
+#2 {main}===========================================================================18:36:05: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(10): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\index.php(10): Login->logar('contato@orlando...', '123')
+#4 {main}===========================================================================18:36:06: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(10): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(259): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Cadastrar.php(27): baseDAO->execute('INSERT INTO TB_...')
+#3 C:\wamp\www\projeto\index.php(32): Cadastrar->cadastrar('Orlando', 'contato@orlando...', '123', '05012309078', '71567566', 'Q3 C3 C3', '1654762678')
+#4 {main}===========================================================================18:36:34: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(10): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\index.php(10): Login->logar('contato@orlando...', '123')
+#4 {main}===========================================================================18:39:32: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(10): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\index.php(10): Login->logar('contato@orlando...', '123')
+#4 {main}===========================================================================18:40:23: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(10): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\index.php(10): Login->logar('bruno@bruno', '123')
+#4 {main}===========================================================================18:40:23: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(10): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(259): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Cadastrar.php(27): baseDAO->execute('INSERT INTO TB_...')
+#3 C:\wamp\www\projeto\index.php(32): Cadastrar->cadastrar('Bruno', 'bruno@bruno', '123', '12312312344', '12312123', '12 3 12', '12 34343434')
+#4 {main}===========================================================================18:40:45: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(10): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\index.php(10): Login->logar('bruno@bruno', '123')
+#4 {main}===========================================================================18:51:30: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(10): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(235): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Login.php(28): baseDAO->consulta('select * from t...')
+#3 C:\wamp\www\projeto\index.php(10): Login->logar('abc@abc', '123')
+#4 {main}===========================================================================18:51:30: [O arquivo  não existe!]O arquivo  não existe!#0 C:\wamp\www\projeto\class\Config.php(10): Config::ValidaArquivo()
+#1 C:\wamp\www\projeto\class\baseDAO.php(259): Config::LerChave('DEBUG_SQL', 'active')
+#2 C:\wamp\www\projeto\class\Cadastrar.php(27): baseDAO->execute('INSERT INTO TB_...')
+#3 C:\wamp\www\projeto\index.php(32): Cadastrar->cadastrar('abc', 'abc@abc', '123', '12312312312', '12312123', '12 12 12', '12 12121212')
+#4 {main}

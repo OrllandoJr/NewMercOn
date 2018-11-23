@@ -8,7 +8,7 @@
 		public function __construct()
 		{
 			$this->__connectToDB(DB_USER, DB_PASS, DB_HOST, DB_DATABASE);
-			Config::$ArquivoINI = Config::BaseUrl() . "/mercon/config/config.ini";
+			Config::$ArquivoINI = Config::BaseUrl() . "/config/config.ini";
 		}
 		
 		private function __connectToDB($user, $pass, $host, $database)
@@ -61,7 +61,7 @@
 			{
 				$info = $this->__connection->_DB->errorInfo();
 				try	{ throw new Exception($info[2]); }
-				catch( Exception $e ) { Config::montaExcecao('Erro ao Executar a Instru��o: ' . $SQL, $e ); }
+				catch( Exception $e ) { Config::montaExcecao('Erro ao Executar a Instrução: ' . $SQL, $e ); }
 				return -1;
 			}
 			else
@@ -261,7 +261,7 @@
 				if(!$result) { 
 					$info = $this->__connection->_DB->errorInfo();
 					try	{ throw new Exception($info[2]); }
-					catch( Exception $e ) { Config::montaExcecao('Erro ao Executar a Instru��o: ' . $sql, $e ); }
+					catch( Exception $e ) { Config::montaExcecao('Erro ao Executar a Instrução: ' . $sql, $e ); }
 					return -1; 
 				}
 				else { return $result->fetchAll(); }

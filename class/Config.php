@@ -6,6 +6,7 @@ class Config
 
 	public static function LerChave($NomeChave, $NomeSecao)
 	{
+		
 		if(self::ValidaArquivo())
 		{
 			$file  = parse_ini_file(self::$ArquivoINI, true);
@@ -14,10 +15,12 @@ class Config
 			if(key_exists($NomeChave, $file)) { return $secao; }
 			else							  { return ""; 	   }
 		}
+		
 		else
 		{
 			return "";
 		}
+		
 	}
 
 	private static function ValidaArquivo()
@@ -29,15 +32,17 @@ class Config
 		}
 			
 		if(!file_exists(self::$ArquivoINI))
-		{
-			try { throw new Exception('O arquivo '. $arquivo .' n�o existe!', -1); }
+		{ 
+			
+			//var_dump(self::$ArquivoINI); die;
+			try { throw new Exception('O arquivo '. $arquivo .' não existe!', -1); }
 			catch(Exception $e) { self::montaExcecao($e->getMessage(), $e); return false; exit; }
 		}
 			
 		return true;
 	}
 
-
+	
 	public static function setConfig()
 	{
 		if(self::ValidaArquivo())
@@ -47,7 +52,7 @@ class Config
 
 			if(!key_exists($secao, $file))
 			{
-				try { throw new Exception('Chave informada n�o existe no arquivo de configura��o.', -2); }
+				try { throw new Exception('Chave informada não existe no arquivo de configuração.', -2); }
 				catch(Exception $e){ self::montaExcecao($e->getMessage(), $e); exit;}
 			}
 
@@ -61,22 +66,24 @@ class Config
 
 	public static function montaExcecao($mensagem, $exception)
 	{
-		$dir = self::BaseUrl() . '/mercon/_LogError';
+		
+		$dir = self::BaseUrl() . '/_LogError';
 		if(!is_dir($dir)) { $k = mkdir($dir); }
-			
+		
 		$ret = '[' . $mensagem . ']' . chr(13)
 		. $exception->getMessage() . chr(13)
 		. $exception->getTraceAsString() . chr(13);
+		
 		self::gravarLog($ret);
 	}
 
-	private function gravarLog($msg)
+	private static function gravarLog($msg)
 	{
 		$file = date('Ymd') . '.txt';
 		$hora = date('H:i:s');
-		if(!file_exists(self::BaseUrl() . '/mercon/_LogError/' . $file)){ self::createLogFile(); }
+		if(!file_exists(self::BaseUrl() . '/_LogError/' . $file)){ self::createLogFile(); }
 		$msg = str_repeat('=', 75) . chr(13) . $hora . ': ' . $msg . chr(13);
-		error_log($msg, 3, self::BaseUrl() . '/mercon/_LogError/' . $file);
+		error_log($msg, 3, self::BaseUrl() . '/_LogError/' . $file);
 			
 	}
 
@@ -88,14 +95,16 @@ class Config
 			
 		$file = 'SQL_' . date('Ymd') . '.txt';
 		$hora = date('H:i:s');
-		if(!file_exists(self::BaseUrl() . '/mercon/_LogError/' . $file)){ self::createLogFile(); }
+		
+		
+		if(!file_exists(self::BaseUrl() . '/_LogError/' . $file)){ self::createLogFile(); }
 		$SQL = $hora . ': ' . $SQL . chr(13) . chr(13);
-		error_log($SQL, 3, self::BaseUrl() . '/mercon/_LogError/' . $file);
+		error_log($SQL, 3, self::BaseUrl() . '//_LogError/' . $file);
 	}
 
 	private function createLogFile()
 	{
-		$file = self::BaseUrl() . '/mercon/_LogError/' . date('Ymd') . '.txt';
+		$file = self::BaseUrl() . '/_LogError/' . date('Ymd') . '.txt';
 		$r = fopen($file, 'w+');
 		fclose($r);
 	}

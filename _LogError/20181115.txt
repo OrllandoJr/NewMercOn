@@ -1,0 +1,19 @@
+===========================================================================10:04:33: [Erro ao Executar a Instru��o: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('XXXXXXXXX', 'XXX@TESTE.COM', '12345678')]Column count doesn't match value count at row 1#0 C:\wamp\www\NewMercOn\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\NewMercOn\about.php(31): Cadastrar->cadastrar('XXXXXXXXX', 'XXX@TESTE.COM', '12345678')
+#2 {main}===========================================================================10:15:14: [Erro ao Executar a Instru��o: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('XXXXXXXXX', 'XXX@TESTE.COM', '12345678')]Column count doesn't match value count at row 1#0 C:\wamp\www\NewMercOn\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\NewMercOn\about.php(31): Cadastrar->cadastrar('XXXXXXXXX', 'XXX@TESTE.COM', '12345678')
+#2 {main}===========================================================================10:16:22: [Erro ao Executar a Instru��o: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('XXXXXXXXX', 'XXX@TESTE.COM', '12345678')]Column count doesn't match value count at row 1#0 C:\wamp\www\NewMercOn\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\NewMercOn\about.php(31): Cadastrar->cadastrar('XXXXXXXXX', 'XXX@TESTE.COM', '12345678')
+#2 {main}===========================================================================10:16:50: [Erro ao Executar a Instru��o: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('XXXXXXXXX', 'XXX@TESTE.COM', '12345678')]Column count doesn't match value count at row 1#0 C:\wamp\www\NewMercOn\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\NewMercOn\about.php(31): Cadastrar->cadastrar('XXXXXXXXX', 'XXX@TESTE.COM', '12345678')
+#2 {main}===========================================================================10:19:40: [Erro ao Executar a Instru��o: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('xxxxxxxxx', 'xxx@teste.com', '12345678')]Column count doesn't match value count at row 1#0 C:\wamp\www\NewMercOn\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\NewMercOn\about.php(31): Cadastrar->cadastrar('xxxxxxxxx', 'xxx@teste.com', '12345678')
+#2 {main}===========================================================================10:26:32: [Erro ao Executar a Instru��o: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('xxxxxxxxx', 'xxx@teste.com', '12345678')]Column count doesn't match value count at row 1#0 C:\wamp\www\NewMercOn\class\Cadastrar.php(26): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\wamp\www\NewMercOn\about.php(31): Cadastrar->cadastrar('xxxxxxxxx', 'xxx@teste.com', '12345678')
+#2 {main}

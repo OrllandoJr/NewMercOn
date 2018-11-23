@@ -61,7 +61,7 @@
 	display: inline-block;
 }
 .creditly-card-form .submit span:hover{
-    background: #1accfd;
+    background: #000000;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;

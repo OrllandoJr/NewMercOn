@@ -15,12 +15,13 @@ Class Cadastrar extends baseDAO
     }
 
     public function cadastrar($_nome, $_email, $_senha, $_cpf, $_cep, $_endereco, $_fone){
+        $senha = md5($_senha);
  
         if ($_nome != "" && $_email != "" && $_senha != "" && $_cpf != "" && $_cep != "" && $_endereco != "" && $_fone != "") {
             
 
             $sql = "INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
-            VALUES('{$_nome}', '{$_email}', '{$_senha}', '{$_cpf}', '{$_cep}', '{$_endereco}', '{$_fone}' )";
+            VALUES('{$_nome}', '{$_email}',  '{$senha}', '{$_cpf}', '{$_cep}', '{$_endereco}', '{$_fone}' )";
 
 
             $retorna = $this->execute($sql);

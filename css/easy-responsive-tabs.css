@@ -69,7 +69,7 @@ h2.resp-accordion {
 }
 .resp-tab-active {
     border-bottom: none;
-    background-color: #1accfd!important;
+    background-color: #000000!important;
     color: #fff;
 }
 
