@@ -438,14 +438,14 @@ if (!Empty($_POST)){
 									<img src="images/a1.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Vim Dishwash Gel</a>
+										<a >Vim Dishwash Gel</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 12.00</span>
@@ -477,14 +477,14 @@ if (!Empty($_POST)){
 									<img src="images/a2.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Harpic Cleaner</a>
+										<a >Harpic Cleaner</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 8.00</span>
@@ -516,7 +516,7 @@ if (!Empty($_POST)){
 									<img src="images/a3.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -524,7 +524,7 @@ if (!Empty($_POST)){
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Comfort After Wash</a>
+										<a >Comfort After Wash</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 7.99</span>
@@ -561,13 +561,13 @@ if (!Empty($_POST)){
 									<img src="images/a4.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Odonil Blocks (2x)</a>
+										<a >Odonil Blocks (2x)</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 13.00</span>
@@ -599,7 +599,7 @@ if (!Empty($_POST)){
 									<img src="images/a5.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -607,7 +607,7 @@ if (!Empty($_POST)){
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Detergente em Pó - Surf</a>
+										<a >Detergente em Pó - Surf</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 7.00</span>
@@ -639,14 +639,14 @@ if (!Empty($_POST)){
 									<img src="images/a6.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Sunsilk Shampoo</a>
+										<a >Sunsilk Shampoo</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 294.50</span>
@@ -683,7 +683,7 @@ if (!Empty($_POST)){
 									<img src="images/a8.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -691,7 +691,7 @@ if (!Empty($_POST)){
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Rodo</a>
+										<a >Rodo</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 21.00</span>
@@ -723,13 +723,13 @@ if (!Empty($_POST)){
 									<img src="images/a7.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Kit limpeza de chão</a>
+										<a >Kit limpeza de chão</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 90.00</span>
@@ -761,7 +761,7 @@ if (!Empty($_POST)){
 									<img src="images/a9.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -769,7 +769,7 @@ if (!Empty($_POST)){
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Spotzero Zero Dust</a>
+										<a >Spotzero Zero Dust</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 139.00</span>
@@ -806,13 +806,13 @@ if (!Empty($_POST)){
 									<img src="images/a10.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">All Out 480 Hours</a>
+										<a >All Out 480 Hours</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 89.00</span>
@@ -844,7 +844,7 @@ if (!Empty($_POST)){
 									<img src="images/a11.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 									<span class="product-new-top">Novo</span>
@@ -852,7 +852,7 @@ if (!Empty($_POST)){
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Wall Hanging</a>
+										<a >Wall Hanging</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 349.00</span>
@@ -884,14 +884,14 @@ if (!Empty($_POST)){
 									<img src="images/a12.jpg" alt="">
 									<div class="men-cart-pro">
 										<div class="inner-men-cart-pro">
-											<a href="single2.php" class="link-product-add-cart">Ver item</a>
+											
 										</div>
 									</div>
 
 								</div>
 								<div class="item-info-product ">
 									<h4>
-										<a href="single2.php">Colin Regular Refill</a>
+										<a >Colin Regular Refill</a>
 									</h4>
 									<div class="info-product-price">
 										<span class="item_price">R$ 155.00</span>
@@ -944,13 +944,13 @@ if (!Empty($_POST)){
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.php">
+								<a >
 									<img src="images/s1.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.php">Trigo Integral, 5g</a>
+									<a >Trigo Integral, 5g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 1</h6>
@@ -978,13 +978,13 @@ if (!Empty($_POST)){
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.php">
+								<a >
 									<img src="images/s4.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.php">Ketchup Kissan, 950g</a>
+									<a >Ketchup Kissan, 950g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 9.00</h6>
@@ -1012,13 +1012,13 @@ if (!Empty($_POST)){
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.php">
+								<a >
 									<img src="images/s2.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.php">Puro Açucar Madhur, 1g</a>
+									<a >Puro Açucar Madhur, 1g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 5.00</h6>
@@ -1046,13 +1046,13 @@ if (!Empty($_POST)){
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single2.php">
+								<a >
 									<img src="images/s3.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.php">Amaciante Liquido Surf, 1L</a>
+									<a >Amaciante Liquido Surf, 1L</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 7.00</h6>
@@ -1080,13 +1080,13 @@ if (!Empty($_POST)){
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.php">
+								<a >
 									<img src="images/s8.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.php">Choclairs Cadbury, 655g</a>
+									<a >Choclairs Cadbury, 655g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 9.00</h6>
@@ -1114,13 +1114,13 @@ if (!Empty($_POST)){
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single2.php">
+								<a >
 									<img src="images/s6.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.php">Creme p/ Pele Fair & Lovely</a>
+									<a >Creme p/ Pele Fair & Lovely</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 15.00</h6>
@@ -1148,13 +1148,13 @@ if (!Empty($_POST)){
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single.php">
+								<a >
 									<img src="images/s5.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single.php">Refrigerante Sprite, 2.25L (2x)</a>
+									<a >Refrigerante Sprite, 2.25L (2x)</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 11.00</h6>
@@ -1182,13 +1182,13 @@ if (!Empty($_POST)){
 					<li>
 						<div class="w3l-specilamk">
 							<div class="speioffer-agile">
-								<a href="single2.php">
+								<a >
 									<img src="images/s9.jpg" alt="">
 								</a>
 							</div>
 							<div class="product-name-w3l">
 								<h4>
-									<a href="single2.php">Delineador Lakme, 0.35 g</a>
+									<a >Delineador Lakme, 0.35 g</a>
 								</h4>
 								<div class="w3l-pricehkj">
 									<h6>R$ 9.00</h6>
