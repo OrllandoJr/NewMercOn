@@ -202,23 +202,6 @@
 	<!-- navigation -->
 	<div class="ban-top">
 		<div class="container">
-			<div class="agileits-navi_search">
-				<form action="#" method="post">
-					<select id="agileinfo-nav_search" name="agileinfo_search" required="">
-						<option value="">Categorias</option>
-						<option value="Conzinha">Cozinha</option>
-						<option value="Casa">Casa</option>
-						<option value="Lanches &amp; Bebidas">Lancher & Bebidas</option>
-						<option value="Cuidado pessoas">Cuidado Pessoal</option>
-						<option value="Frutas &amp; Legumes">Frutas & Legumes</option>
-						<option value="Cuidados de bebe">Cuidados de Bebê</option>
-						<option value="Refrigerantes &amp; Sucos">Refrigerantes & Sucos</option>
-						<option value="Comida Congelada">Comida Congelada</option>
-						<option value="Padaria">Padaria</option>
-						<option value="Doces">Doces</option>
-					</select>
-				</form>
-			</div>
 			<div class="top_nav_left">
 				<nav class="navbar navbar-default">
 					<div class="container-fluid">
@@ -250,54 +233,7 @@
 									<ul class="dropdown-menu multi-column columns-3">
 										<div class="agile_inner_drop_nav_info">
 											<div class="col-sm-4 multi-gd-img">
-												<ul class="multi-column-dropdown">
-													<li>
-														<a href="product.php">Padaria</a>
-													</li>
-													<li>
-														<a href="product.php">Café, Chá & Bebidas</a>
-													</li>
-													<li>
-														<a href="product.php">Frutas secas, sementes</a>
-													</li>
-													<li>
-														<a href="product.php">Doces, Chocolate</a>
-													</li>
-													<li>
-														<a href="product.php">Grãos</a>
-													</li>
-												</ul>
-											</div>
-											<div class="col-sm-4 multi-gd-img">
-												<ul class="multi-column-dropdown">
-													<li>
-														<a href="product.php">Picles</a>
-													</li>
-													<li>
-														<a href="product.php">Massas & Macarrão</a>
-													</li>
-													<li>
-														<a href="product.php">Arroz, Farinha & Feijão</a>
-													</li>
-													<li>
-														<a href="product.php">Molhos</a>
-													</li>
-                                                    <li>
-														<a href="product.php">Biscoitos</a>
-													</li>
-													<li>
-														<a href="product.php">Salgadinhos</a>
-													</li>
-													<li>
-														<a href="product.php">Óleos, Vinagres</a>
-													</li>
-													<li>
-														<a href="product.php">Carne, Aves & Frutos do Mar</a>
-													</li>
-												</ul>
-											</div>
-											<div class="col-sm-4 multi-gd-img">
-												<img src="images/nav.png" alt="">
+											<a href="product.php"><img src="images/nav.png" alt="" width="230" height="150"></a>
 											</div>
 											<div class="clearfix"></div>
 										</div>
@@ -310,38 +246,7 @@
 									<ul class="dropdown-menu multi-column columns-3">
 										<div class="agile_inner_drop_nav_info">
 											<div class="col-sm-6 multi-gd-img">
-												<ul class="multi-column-dropdown">
-													<li>
-														<a href="product2.php">Cozinha & Jantar</a>
-													</li>
-													<li>
-														<a href="product2.php">Detergentes</a>
-													</li>
-													<li>
-														<a href="product2.php">Produtos de Limpeza</a>
-													</li>
-													<li>
-														<a href="product2.php">Chão & Outros Limpadores</a>
-													</li>
-													<li>
-														<a href="product2.php">Descartáveis, Saco de lixo</a>
-													</li>
-													<li>
-														<a href="product2.php">Repelentes & Purificadores</a>
-													</li>
-													<li>
-														<a href="product2.php"> Lavagem de Louça</a>
-													</li>
-													<li>
-														<a href="product2.php">Cuidado de Animais</a>
-													</li>
-													<li>
-														<a href="product2.php">Acessorios de Limpeza</a>
-													</li>
-													<li>
-														<a href="product2.php">Produtos de casa</a>
-													</li>
-												</ul>
+											<a href="product2.php"><img src="images/nav2.png" alt="" width="230" height="150"></a>
 											</div>
 											<div class="clearfix"></div>
 										</div>

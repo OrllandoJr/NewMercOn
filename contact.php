@@ -267,23 +267,6 @@ if (!Empty($_POST)){
 	<!-- navigation -->
 	<div class="ban-top">
 		<div class="container">
-			<div class="agileits-navi_search">
-				<form action="#" method="post">
-					<select id="agileinfo-nav_search" name="agileinfo_search" required="">
-						<option value="">Categorias</option>
-						<option value="Conzinha">Cozinha</option>
-						<option value="Casa">Casa</option>
-						<option value="Lanches &amp; Bebidas">Lancher & Bebidas</option>
-						<option value="Cuidado pessoas">Cuidado Pessoal</option>
-						<option value="Frutas &amp; Legumes">Frutas & Legumes</option>
-						<option value="Cuidados de bebe">Cuidados de Bebê</option>
-						<option value="Refrigerantes &amp; Sucos">Refrigerantes & Sucos</option>
-						<option value="Comida Congelada">Comida Congelada</option>
-						<option value="Padaria">Padaria</option>
-						<option value="Doces">Doces</option>
-					</select>
-				</form>
-			</div>
 			<div class="top_nav_left">
 				<nav class="navbar navbar-default">
 					<div class="container-fluid">
@@ -315,54 +298,7 @@ if (!Empty($_POST)){
 									<ul class="dropdown-menu multi-column columns-3">
 										<div class="agile_inner_drop_nav_info">
 											<div class="col-sm-4 multi-gd-img">
-												<ul class="multi-column-dropdown">
-													<li>
-														<a href="product.php">Padaria</a>
-													</li>
-													<li>
-														<a href="product.php">Café, Chá & Bebidas</a>
-													</li>
-													<li>
-														<a href="product.php">Frutas secas, sementes</a>
-													</li>
-													<li>
-														<a href="product.php">Doces, Chocolate</a>
-													</li>
-													<li>
-														<a href="product.php">Grãos</a>
-													</li>
-												</ul>
-											</div>
-											<div class="col-sm-4 multi-gd-img">
-												<ul class="multi-column-dropdown">
-													<li>
-														<a href="product.php">Picles</a>
-													</li>
-													<li>
-														<a href="product.php">Massas & Macarrão</a>
-													</li>
-													<li>
-														<a href="product.php">Arroz, Farinha & Feijão</a>
-													</li>
-													<li>
-														<a href="product.php">Molhos</a>
-													</li>
-                                                    <li>
-														<a href="product.php">Biscoitos</a>
-													</li>
-													<li>
-														<a href="product.php">Salgadinhos</a>
-													</li>
-													<li>
-														<a href="product.php">Óleos, Vinagres</a>
-													</li>
-													<li>
-														<a href="product.php">Carne, Aves & Frutos do Mar</a>
-													</li>
-												</ul>
-											</div>
-											<div class="col-sm-4 multi-gd-img">
-												<img src="images/nav.png" alt="">
+											<a href="product.php"><img src="images/nav.png" alt="" width="230" height="150"></a>
 											</div>
 											<div class="clearfix"></div>
 										</div>
@@ -375,38 +311,7 @@ if (!Empty($_POST)){
 									<ul class="dropdown-menu multi-column columns-3">
 										<div class="agile_inner_drop_nav_info">
 											<div class="col-sm-6 multi-gd-img">
-												<ul class="multi-column-dropdown">
-													<li>
-														<a href="product2.php">Cozinha & Jantar</a>
-													</li>
-													<li>
-														<a href="product2.php">Detergentes</a>
-													</li>
-													<li>
-														<a href="product2.php">Produtos de Limpeza</a>
-													</li>
-													<li>
-														<a href="product2.php">Chão & Outros Limpadores</a>
-													</li>
-													<li>
-														<a href="product2.php">Descartáveis, Saco de lixo</a>
-													</li>
-													<li>
-														<a href="product2.php">Repelentes & Purificadores</a>
-													</li>
-													<li>
-														<a href="product2.php"> Lavagem de Louça</a>
-													</li>
-													<li>
-														<a href="product2.php">Cuidado de Animais</a>
-													</li>
-													<li>
-														<a href="product2.php">Acessorios de Limpeza</a>
-													</li>
-													<li>
-														<a href="product2.php">Produtos de casa</a>
-													</li>
-												</ul>
+												<a href="product2.php"><img src="images/nav2.png" alt="" width="230" height="150"></a>
 											</div>
 											<div class="clearfix"></div>
 										</div>
@@ -440,7 +345,7 @@ if (!Empty($_POST)){
 						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>contact Us</li>
+					<li>Contate-nos</li>
 				</ul>
 			</div>
 		</div>
@@ -450,7 +355,7 @@ if (!Empty($_POST)){
 	<div class="contact-w3l">
 		<div class="container">
 			<!-- tittle heading -->
-			<h3 class="tittle-w3l">Contact Us
+			<h3 class="tittle-w3l">Contate-nos
 				<span class="heading-style">
 					<i></i>
 					<i></i>
@@ -464,29 +369,27 @@ if (!Empty($_POST)){
 					<div class="contact-form wthree">
 						<form action="#" method="post">
 							<div class="">
-								<input type="text" name="name" placeholder="Name" required="">
+								<input type="text" name="name" placeholder="Nome" required="">
 							</div>
 							<div class="">
-								<input class="text" type="text" name="subject" placeholder="Subject" required="">
+								<input class="text" type="text" name="subject" placeholder="Assunto" required="">
 							</div>
 							<div class="">
 								<input class="email" type="email" name="email" placeholder="Email" required="">
 							</div>
 							<div class="">
-								<textarea placeholder="Message" name="message" required=""></textarea>
+								<textarea placeholder="Messagem" name="message" required=""></textarea>
 							</div>
-							<input type="submit" value="Submit">
+							<input type="submit" value="Enviar">
 						</form>
 					</div>
 					<div class="contact-right wthree">
 						<div class="col-xs-7 contact-text w3-agileits">
-							<h4>GET IN TOUCH :</h4>
+							<h4>ENTRAR EM CONTATO :</h4>
 							<p>
-								<i class="fa fa-map-marker"></i> 123 Sebastian, NY 10002, USA.</p>
+								<i class="fa fa-map-marker"></i> RUA MERCON, AGUAS CLARAS, DF, BRASIL.</p>
 							<p>
-								<i class="fa fa-phone"></i> Telephone : 333 222 3333</p>
-							<p>
-								<i class="fa fa-fax"></i> FAX : +1 888 888 4444</p>
+								<i class="fa fa-phone"></i> Telefone : 61 888-8888</p>
 							<p>
 								<i class="fa fa-envelope-o"></i> Email :
 								<a href="mailto:example@mail.com">mail@example.com</a>
