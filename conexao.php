@@ -2,9 +2,9 @@
 
 function getConnetion()
 {
-    $dsn = 'mysql:host = %; dbname = thanos; charset = utf8';
-    $user = 'thanos';
-    $pass = '123';
+    $dsn = 'mysql:host = 127.0.0.1; dbname = banco; charset = utf8';
+    $user = 'root';
+    $pass = '';
 
     try {
         $pdo = new PDO($dsn, $user, $pass);

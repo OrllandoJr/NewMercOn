@@ -3,10 +3,10 @@ setlocale(LC_ALL, "pt_BR");
 date_default_timezone_set('America/Sao_Paulo');
 
 define("DB_TYPE", "mysql");
-define("DB_USER", "thanos");
-define("DB_PASS", "123");
+define("DB_USER", "root");
+define("DB_PASS", "");
 define("DB_HOST", "127.0.0.1");
-define("DB_DATABASE", "thanos");
+define("DB_DATABASE", "banco");
 
 
 function __autoload($className)
