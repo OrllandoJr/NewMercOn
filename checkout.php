@@ -246,7 +246,7 @@
 									<ul class="dropdown-menu multi-column columns-3">
 										<div class="agile_inner_drop_nav_info">
 											<div class="col-sm-6 multi-gd-img">
-											<a href="product2.php"><img src="images/nav2.png" alt="" width="230" height="150"></a>
+												<a href="product2.php"><img src="images/nav2.png" alt="" width="230" height="150"></a>
 											</div>
 											<div class="clearfix"></div>
 										</div>
@@ -280,7 +280,7 @@
 						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Finalizar</li>
+					<li>Carrinho</li>
 				</ul>
 			</div>
 		</div>
@@ -290,7 +290,7 @@
 	<div class="privacy">
 		<div class="container">
 			<!-- tittle heading -->
-			<h3 class="tittle-w3l">Finalizar
+			<h3 class="tittle-w3l">Carrinho
 				<span class="heading-style">
 					<i></i>
 					<i></i>
