@@ -2,6 +2,7 @@
 
 function getConnetion()
 {
+    
     $dsn = 'mysql:host = 127.0.0.1; dbname = banco; charset = utf8';
     $user = 'root';
     $pass = '';
