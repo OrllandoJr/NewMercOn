@@ -1,3 +1,57 @@
+<?php
+
+include_once 'Class/All.php';
+include_once 'Class/Config.php';
+
+if (!Empty($_POST)){
+
+	$objLogin = new Login(); //instancia da classe Login.php
+
+	$r = $objLogin->logar($_POST['email'], $_POST['senha']);	//metodo da classe Login, que verifica se os dados inseridos no login retornam true ou false
+
+	switch ($r){ // $r minha variavel de retorno da consulta sql $r = $this->consulta($sql);
+		case "0":
+			header('locationhttp://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
+			break;
+		case "-1": // tratamento para meu email ou senha errado
+			echo "Email ou senha incorreta";
+			break;
+		case "-2": 
+			echo "Dados Incompletos";
+			break;
+		default:
+			break;		
+	}
+}
+
+if (!Empty($_POST) && !Empty($_POST['cpf'])){
+
+	$objCadastrar = new Cadastrar();
+
+	$rC = $objCadastrar->cadastrar($_POST['nome'], $_POST['email'], $_POST['senha'], $_POST['cpf'], $_POST['cep'], $_POST['endereco'], $_POST['fone']);
+
+		switch ($rC){ // $r minha variavel de retorno da consulta sql $rC = $this->consulta($sql);
+			case "0":
+				header('location:http://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
+				break;
+			case "-1": // tratamento para meu email ou senha errado
+				echo "Email ou senha incorreta";
+				break;
+			case "-2": 
+				echo "Dados Incompletos";
+				break;
+			default:
+				break;		
+		}
+}
+
+
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -129,20 +183,20 @@
 						<span class="fa fa-envelope-o" aria-hidden="true"></span>
 					</div>
 					<div class="modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign In </h3>
+						<h3 class="agileinfo_sign">Login </h3>
 						<p>
 							Entre agora, Comece suas compras no Merc On. Não tem uma conta?
 							<a href="#" data-toggle="modal" data-target="#myModal2">
 								Cadastre-se agora</a>
 						</p>
-						<form action="#" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" placeholder="User Name" name="Name" required="">
+								<input type="text" placeholder="email" name="email" required="">
 							</div>
 							<div class="styled-input">
-								<input type="password" placeholder="Password" name="password" required="">
+								<input type="password" placeholder="Senha" name="senha" required="">
 							</div>
-							<input type="submit" value="Sign In">
+							<input type="submit" value="Enviar">
 						</form>
 						<div class="clearfix"></div>
 					</div>
@@ -172,20 +226,32 @@
 						<p>
 							Comece a comprar no Merc On agora mesmo! Vamos criar sua conta.
 						</p>
-						<form action="#" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" placeholder="Name" name="Name" required="">
+								<input type="text" placeholder="Nome" name="nome" required="">
 							</div>
 							<div class="styled-input">
-								<input type="email" placeholder="E-mail" name="Email" required="">
+								<input type="email" placeholder="E-mail" name="email" required="">
 							</div>
 							<div class="styled-input">
-								<input type="password" placeholder="Password" name="password" id="password1" required="">
+								<input type="password" placeholder="Senha" name="senha" id="password1" required="">
 							</div>
 							<div class="styled-input">
-								<input type="password" placeholder="Confirm Password" name="Confirm Password" id="password2" required="">
+								<input type="password" placeholder="Confirmar Senha" name="Confirm Password" id="password2" required="">
 							</div>
-							<input type="submit" value="Sign Up">
+							<div class="styled-input">
+								<input type="text" placeholder="CPF" name="cpf" OnKeyPress="formatar('###.###.###-##', this)" required="">
+							</div>
+							<div class="styled-input">
+								<input type="text" placeholder="CEP" name="cep" OnKeyPress="formatar('#####-###', this)" required="">
+							</div>
+							<div class="styled-input">
+								<input type="text" placeholder="Endereço" name="endereco" required="">
+							</div>
+							<div class="styled-input">
+								<input type="text" placeholder="Telefone" name="fone" OnKeyPress="formatar('## #########', this)" required="">
+							</div>
+							<input type="submit" value="Cadastrar">
 						</form>
 						<p>
 							<a href="#">Ao clicar em registrar-se, Eu aceito todos os termos</a>
@@ -280,7 +346,7 @@
 						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Privacy Policy</li>
+					<li>Politica de Privacidade</li>
 				</ul>
 			</div>
 		</div>
@@ -292,7 +358,7 @@
 		<div class="terms">
 			<div class="container">
 				<!-- tittle heading -->
-				<h3 class="tittle-w3l">Privacy Policy
+				<h3 class="tittle-w3l">Politica de Privacidade
 					<span class="heading-style">
 						<i></i>
 						<i></i>
@@ -300,57 +366,19 @@
 					</span>
 				</h3>
 				<!-- //tittle heading -->
-				<h6>Privacy Policy</h6>
-				<p>We value the trust you place in us. That's why we insist upon the highest standards for secure transactions and customer
-					information privacy. Please read the following statement to learn about our information gathering and dissemination
-					practices.
+				<h6>Politica de Privacidade</h6>
+				<p>Valorizamos a confiança que você deposita em nós. É por isso que insistimos nos mais altos padrões de transações seguras e no cliente
+					privacidade da informação. Por favor, leia a seguinte declaração para aprender sobre nossa coleta e disseminação de informações.
 				</p>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-					modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+				<h6>CONFIDENCIALIDADE</h6>
+				<p>Após o recebimento da compra, o cliente tem até 7 (sete) dias Todas as informações fornecidas por você ao Merc On são tratadas sob a 
+				mais absoluta confidencialidade. Ou seja, mais ninguém tem acesso. Seus dados pessoais serão utilizados apenas para efetivar suas compras 
+				e para que possamos enviá-lo novidades do site. No momento do cadastro, você escolhe se quer ou não receber esse tipo de e-mail. Em hipótese
+				 alguma informações a seu respeito serão repassadas a terceiros.</p>
 
-				<h6>Personally Identifiable Information and other Information</h6>
-				<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
-					middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
-				<p>first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model
-					sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free
-					from repetition, injected humour</p>
-
-				<h6>Security Precautions</h6>
-				<p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
-					by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The
-					first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-				<p>Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from
-					a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-					Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</p>
-
-				<h6>What Information Can I Access?</h6>
-				<p> Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-					Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-				<p> Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The
-					generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-
-				<h6> Advertisements on Grocery Shoppy</h6>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-					by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage
-					of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-					generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the
-					Internet.
-				</p>
-
-				<h6>Your Consent</h6>
-				<ol start="1">
-					<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.it has a more-or-less normal distribution
-						of letters, as opposed Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
-					<li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-						eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-						voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores</li>
-					<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.it has a more-or-less normal distribution
-						of letters, as opposed Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
-				</ol>
-				<h6>Policy updates</h6>
-				<p> you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
-					the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It
-					uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures</p>
+				<h6>CARTÃO DE CRÉDITO</h6>
+				<p>Assim que sua compra se finaliza, todos os dados referentes a seu cartão de crédito são removidos de nossos computadores. Por esta razão,
+				 mesmo que você utilize o Merc On com freqüência, somos obrigados a solicitar as informações de seu cartão a cada nova compra realizada.</p>
 			</div>
 		</div>
 		<!-- /terms -->

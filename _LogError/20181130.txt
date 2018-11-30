@@ -1,0 +1,7 @@
+===========================================================================14:36:29: [Erro ao Executar a Instrução: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('Chuck', 'michel@michel.com',  '202cb962ac59075b964b07152d234b70', '12312312300', '12321123', 'Q 7 cj K', '21616' )]Duplicate entry '12312312300' for key 'NU_CPF'#0 C:\xampp\htdocs\ProjetoFDP\class\Cadastrar.php(27): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\xampp\htdocs\ProjetoFDP\index.php(32): Cadastrar->cadastrar('Chuck', 'michel@michel.c...', '123', '12312312300', '12321123', 'Q 7 cj K', '21616')
+#2 {main}===========================================================================14:36:39: [Erro ao Executar a Instrução: INSERT INTO TB_USUARIO (DS_USUARIO, DS_EMAIL, DS_SENHA, NU_CPF, NU_TELEFONE, DS_ENDERECO, DS_COMPLEMENTO) 
+            VALUES('Chuck', 'michel@michel.com',  '202cb962ac59075b964b07152d234b70', '12312312300', '12321123', 'Q 7 cj K', '21616' )]Duplicate entry '12312312300' for key 'NU_CPF'#0 C:\xampp\htdocs\ProjetoFDP\class\Cadastrar.php(27): baseDAO->execute('INSERT INTO TB_...')
+#1 C:\xampp\htdocs\ProjetoFDP\index.php(32): Cadastrar->cadastrar('Chuck', 'michel@michel.c...', '123', '12312312300', '12321123', 'Q 7 cj K', '21616')
+#2 {main}

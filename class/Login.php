@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Lucas Francelino
- * Date: 08/11/2018
- * Time: 19:10
- */
+
 
 Class Login extends baseDAO
 {

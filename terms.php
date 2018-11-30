@@ -1,3 +1,56 @@
+<?php
+
+include_once 'Class/All.php';
+include_once 'Class/Config.php';
+
+if (!Empty($_POST)){
+
+	$objLogin = new Login(); //instancia da classe Login.php
+
+	$r = $objLogin->logar($_POST['email'], $_POST['senha']);	//metodo da classe Login, que verifica se os dados inseridos no login retornam true ou false
+
+	switch ($r){ // $r minha variavel de retorno da consulta sql $r = $this->consulta($sql);
+		case "0":
+			header('locationhttp://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
+			break;
+		case "-1": // tratamento para meu email ou senha errado
+			echo "Email ou senha incorreta";
+			break;
+		case "-2": 
+			echo "Dados Incompletos";
+			break;
+		default:
+			break;		
+	}
+}
+
+if (!Empty($_POST) && !Empty($_POST['cpf'])){
+
+	$objCadastrar = new Cadastrar();
+
+	$rC = $objCadastrar->cadastrar($_POST['nome'], $_POST['email'], $_POST['senha'], $_POST['cpf'], $_POST['cep'], $_POST['endereco'], $_POST['fone']);
+
+		switch ($rC){ // $r minha variavel de retorno da consulta sql $rC = $this->consulta($sql);
+			case "0":
+				header('location:http://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
+				break;
+			case "-1": // tratamento para meu email ou senha errado
+				echo "Email ou senha incorreta";
+				break;
+			case "-2": 
+				echo "Dados Incompletos";
+				break;
+			default:
+				break;		
+		}
+}
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -129,20 +182,20 @@
 						<span class="fa fa-envelope-o" aria-hidden="true"></span>
 					</div>
 					<div class="modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign In </h3>
+						<h3 class="agileinfo_sign">Login </h3>
 						<p>
 							Entre agora, Comece suas compras no Merc On. Não tem uma conta?
 							<a href="#" data-toggle="modal" data-target="#myModal2">
 								Cadastre-se agora</a>
 						</p>
-						<form action="#" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" placeholder="User Name" name="Name" required="">
+								<input type="text" placeholder="email" name="email" required="">
 							</div>
 							<div class="styled-input">
-								<input type="password" placeholder="Password" name="password" required="">
+								<input type="password" placeholder="Senha" name="senha" required="">
 							</div>
-							<input type="submit" value="Sign In">
+							<input type="submit" value="Enviar">
 						</form>
 						<div class="clearfix"></div>
 					</div>
@@ -172,20 +225,32 @@
 						<p>
 							Comece a comprar no Merc On agora mesmo! Vamos criar sua conta.
 						</p>
-						<form action="#" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" placeholder="Name" name="Name" required="">
+								<input type="text" placeholder="Nome" name="nome" required="">
 							</div>
 							<div class="styled-input">
-								<input type="email" placeholder="E-mail" name="Email" required="">
+								<input type="email" placeholder="E-mail" name="email" required="">
 							</div>
 							<div class="styled-input">
-								<input type="password" placeholder="Password" name="password" id="password1" required="">
+								<input type="password" placeholder="Senha" name="senha" id="password1" required="">
 							</div>
 							<div class="styled-input">
-								<input type="password" placeholder="Confirm Password" name="Confirm Password" id="password2" required="">
+								<input type="password" placeholder="Confirmar Senha" name="Confirm Password" id="password2" required="">
 							</div>
-							<input type="submit" value="Sign Up">
+							<div class="styled-input">
+								<input type="text" placeholder="CPF" name="cpf" OnKeyPress="formatar('###.###.###-##', this)" required="">
+							</div>
+							<div class="styled-input">
+								<input type="text" placeholder="CEP" name="cep" OnKeyPress="formatar('#####-###', this)" required="">
+							</div>
+							<div class="styled-input">
+								<input type="text" placeholder="Endereço" name="endereco" required="">
+							</div>
+							<div class="styled-input">
+								<input type="text" placeholder="Telefone" name="fone" OnKeyPress="formatar('## #########', this)" required="">
+							</div>
+							<input type="submit" value="Cadastrar">
 						</form>
 						<p>
 							<a href="#">Ao clicar em registrar-se, Eu aceito todos os termos</a>
@@ -280,7 +345,7 @@
 						<a href="index.php">Home</a>
 						<i>|</i>
 					</li>
-					<li>Terms of Use</li>
+					<li>Termos de Uso</li>
 				</ul>
 			</div>
 		</div>
@@ -292,7 +357,7 @@
 		<div class="terms">
 			<div class="container">
 				<!-- tittle heading -->
-				<h3 class="tittle-w3l">Terms of Use
+				<h3 class="tittle-w3l">Termos de Uso
 					<span class="heading-style">
 						<i></i>
 						<i></i>
@@ -300,85 +365,15 @@
 					</span>
 				</h3>
 				<!-- //tittle heading -->
-				<h5>PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY .</h5>
-				<h6>Personal Information</h6>
-				<ol start="1">
-					<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.it has a more-or-less normal distribution
-						of letters, as opposed Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
-					<li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-						eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-						voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores</li>
-					<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.it has a more-or-less normal distribution
-						of letters, as opposed Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</li>
-				</ol>
-
-				<h6>License & Site access</h6>
-				<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-					ratione voluptatem sequi nesciunt..</p>
-				<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-					modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p>
-				<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-					ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-				<h6>Eligibility :</h6>
-				<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
-					middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
-				<p>first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model
-					sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free
-					from repetition, injected humour</p>
-
-				<h6>Account & Registration</h6>
-				<p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
-					by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The
-					first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-				<p>Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from
-					a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-					Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</p>
-				<p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
-					"Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-				<h6>Cancellation by Site / Customer</h6>
-				<p> Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-					Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-				<p> Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The
-					generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-				<h6>You Agree and Confirm</h6>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-					by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage
-					of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-					generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the
-					Internet.
-				</p>
-				<h6>Copyright & Trademark</h6>
-				<p> you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
-					the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It
-					uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures</p>
+				<h5>POR FAVOR LEIA ESSES TERMOS E CONDIÇÕES CUIDADOSAMENTE .</h5>
+				<h6>Termos e condições em CONSTRUÇÃO.<br><br>Desculpe pelo transtorno!</h6>
 			</div>
 		</div>
 		<!-- /terms -->
 	</section>
 	<!-- //Terms of use-section -->
 
-	<!-- newsletter -->
-	<div class="footer-top">
-		<div class="container-fluid">
-			<div class="col-xs-8 agile-leftmk">
-				<h2>Get your Groceries delivered from local stores</h2>
-				<p>Free Delivery on your first order!</p>
-				<form action="#" method="post">
-					<input type="email" placeholder="E-mail" name="email" required="">
-					<input type="submit" value="Subscribe">
-				</form>
-				<div class="newsform-w3l">
-					<span class="fa fa-envelope-o" aria-hidden="true"></span>
-				</div>
-			</div>
-			<div class="col-xs-4 w3l-rightmk">
-				<img src="images/tab3.png" alt=" ">
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<!-- newsletter -->
+	
 	<div class="footer-top">
 		<div class="container-fluid">
 			<div class="col-xs-8 agile-leftmk">

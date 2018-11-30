@@ -24,7 +24,7 @@ if (!Empty($_POST)){
 	}
 }
 
-if (!Empty($_POST)){
+if (!Empty($_POST) && !Empty($_POST['cpf'])){
 
 	$objCadastrar = new Cadastrar();
 

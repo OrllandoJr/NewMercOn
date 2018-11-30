@@ -1,7 +1,7 @@
 <?php
 setlocale(LC_ALL, "pt_BR");
 date_default_timezone_set('America/Sao_Paulo');
-
+//DADOS DO BANCO
 define("DB_TYPE", "mysql");
 define("DB_USER", "root");
 define("DB_PASS", "");

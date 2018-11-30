@@ -10,7 +10,7 @@ Class Banco{
 
     public $_DB;
 
-
+    //CONSTRUTOR
     private function __construct()
     {
 

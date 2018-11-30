@@ -1,3 +1,57 @@
+<?php
+
+include_once 'Class/All.php';
+include_once 'Class/Config.php';
+
+if (!Empty($_POST)){
+
+	$objLogin = new Login(); //instancia da classe Login.php
+
+	$r = $objLogin->logar($_POST['email'], $_POST['senha']);	//metodo da classe Login, que verifica se os dados inseridos no login retornam true ou false
+
+	switch ($r){ // $r minha variavel de retorno da consulta sql $r = $this->consulta($sql);
+		case "0":
+			header('locationhttp://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
+			break;
+		case "-1": // tratamento para meu email ou senha errado
+			echo "Email ou senha incorreta";
+			break;
+		case "-2": 
+			echo "Dados Incompletos";
+			break;
+		default:
+			break;		
+	}
+}
+
+if (!Empty($_POST) && !Empty($_POST['cpf'])){
+
+	$objCadastrar = new Cadastrar();
+
+	$rC = $objCadastrar->cadastrar($_POST['nome'], $_POST['email'], $_POST['senha'], $_POST['cpf'], $_POST['cep'], $_POST['endereco'], $_POST['fone']);
+
+		switch ($rC){ // $r minha variavel de retorno da consulta sql $rC = $this->consulta($sql);
+			case "0":
+				header('location:http://127.0.0.1/projeto/about.php'); // usuario logado retorna para a pagina index.php minha home no site
+				break;
+			case "-1": // tratamento para meu email ou senha errado
+				echo "Email ou senha incorreta";
+				break;
+			case "-2": 
+				echo "Dados Incompletos";
+				break;
+			default:
+				break;		
+		}
+}
+
+
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -129,20 +183,20 @@
 						<span class="fa fa-envelope-o" aria-hidden="true"></span>
 					</div>
 					<div class="modal_body_left modal_body_left1">
-						<h3 class="agileinfo_sign">Sign In </h3>
+						<h3 class="agileinfo_sign">Login </h3>
 						<p>
 							Entre agora, Comece suas compras no Merc On. Não tem uma conta?
 							<a href="#" data-toggle="modal" data-target="#myModal2">
 								Cadastre-se agora</a>
 						</p>
-						<form action="#" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" placeholder="User Name" name="Name" required="">
+								<input type="text" placeholder="email" name="email" required="">
 							</div>
 							<div class="styled-input">
-								<input type="password" placeholder="Password" name="password" required="">
+								<input type="password" placeholder="Senha" name="senha" required="">
 							</div>
-							<input type="submit" value="Sign In">
+							<input type="submit" value="Enviar">
 						</form>
 						<div class="clearfix"></div>
 					</div>
@@ -172,20 +226,32 @@
 						<p>
 							Comece a comprar no Merc On agora mesmo! Vamos criar sua conta.
 						</p>
-						<form action="#" method="post">
+						<form action="index.php" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" placeholder="Name" name="Name" required="">
+								<input type="text" placeholder="Nome" name="nome" required="">
 							</div>
 							<div class="styled-input">
-								<input type="email" placeholder="E-mail" name="Email" required="">
+								<input type="email" placeholder="E-mail" name="email" required="">
 							</div>
 							<div class="styled-input">
-								<input type="password" placeholder="Password" name="password" id="password1" required="">
+								<input type="password" placeholder="Senha" name="senha" id="password1" required="">
 							</div>
 							<div class="styled-input">
-								<input type="password" placeholder="Confirm Password" name="Confirm Password" id="password2" required="">
+								<input type="password" placeholder="Confirmar Senha" name="Confirm Password" id="password2" required="">
 							</div>
-							<input type="submit" value="Sign Up">
+							<div class="styled-input">
+								<input type="text" placeholder="CPF" name="cpf" OnKeyPress="formatar('###.###.###-##', this)" required="">
+							</div>
+							<div class="styled-input">
+								<input type="text" placeholder="CEP" name="cep" OnKeyPress="formatar('#####-###', this)" required="">
+							</div>
+							<div class="styled-input">
+								<input type="text" placeholder="Endereço" name="endereco" required="">
+							</div>
+							<div class="styled-input">
+								<input type="text" placeholder="Telefone" name="fone" OnKeyPress="formatar('## #########', this)" required="">
+							</div>
+							<input type="submit" value="Cadastrar">
 						</form>
 						<p>
 							<a href="#">Ao clicar em registrar-se, Eu aceito todos os termos</a>
