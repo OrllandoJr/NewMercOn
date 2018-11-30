@@ -1,0 +1,519 @@
+body {
+	font-size: 62,5%;
+}
+
+.pagina{
+	width: 100%;
+	height: 100%;	
+}
+
+
+
+
+/* MENU */
+/* MENU */
+/* MENU */
+/* MENU */
+/* MENU */
+
+#title {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+
+/*Desktop*/
+/*Desktop*/
+/*Desktop*/
+/*Desktop*/
+/*Desktop*/
+/*Desktop*/
+
+@media only screen and (min-width: 1320px) {
+#head {
+	width: 100%;
+	height: 81px;
+}
+
+#logo {
+	width: 70%;
+	height: 80px;
+	margin-left: 3%;
+	margin-right: 7%;
+	float: left;
+	margin-top: 5px;
+}
+
+#search {
+	width: 0;	
+	height: 80px;
+	float: left;
+}
+
+#Busca{
+	cursor: pointer;
+}
+
+#buscar{
+	  float:left;
+  	background-color:transparent;
+  	padding-left:5px;
+  	font-style:italic;
+ 	font-size:12px;
+ 	 border: 1px solid black;
+ 	 border-radius: 18px;
+ 	 height:28px;
+ 	 width:150px;
+}
+
+#text{
+	display: none;
+}
+
+.menu{
+	width: 100%;
+	height: 40px;
+	margin-left: -3%;
+	margin-right: 1%;
+	text-align: center;
+	line-height: 35px;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
+}
+
+#nav {
+	width: 100%;
+	margin-left: -2%;
+}
+
+ol, ul {
+   	list-style: none;
+}
+
+a:link {
+	text-decoration:none;
+	color: black;
+}
+
+a:visited {
+	text-decoration:none;
+   	color: black;
+}
+
+a:active {
+	text-decoration:none;
+    	color: black;
+	background-color: #D0CDD7;
+}
+
+.nav-container {
+	width: 8.3%;
+	height: 40px;
+	background-color: #CDAA7D;
+	border-radius: 9px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	vertical-align: 15px;
+	float: left;
+}
+
+.nav-container:hover{
+	background-color: #F3E8DB;
+}
+
+.nav-container:actived{
+	background-color: #416165;
+}
+
+.nav-container-dif{
+	width: 9%;
+	height: 40px;
+	background-color: #FFE7BA;
+	border-radius: 15px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+}
+
+.nav-container-user{
+	width: 17%;
+	height: 40px;
+	background-color: #FFE7BA;
+	border-radius: 15px;
+	margin-left: 1%;
+	margin-right: 1%;
+	float: left;
+}
+
+.nav-container-user:hover, .nav-container-dif:hover{
+	background-color: #F3E8DB;
+}
+
+.carrinho{
+	width: 0%;
+	float: left;
+	height: 100%;
+	margin-right: 15px;
+}
+
+.exit {
+	margin-left: 15px;
+}
+
+}
+
+/*Mobile*/
+/*Mobile*/
+/*Mobile*/
+/*Mobile*/
+/*Mobile*/
+/*Mobile*/
+
+@media only screen and (max-width: 1319px) {
+#head {
+	width: 100%;
+	height: 81px;
+}
+
+#logo {
+	width: 70%;
+	height: 80px;
+	margin-left: 3%;
+	margin-right: 0%;
+	float: left;
+	margin-top: 5px;
+}
+
+#search {
+	width: 0;	
+	margin-left: -20px;
+	height: 12px;
+	float: left;
+}
+
+#Busca{
+	cursor: pointer;
+}
+
+#buscar{
+	  float:left;
+  	background-color:transparent;
+  	padding-left:5px;
+  	font-style:italic;
+ 	font-size:11px;
+ 	 border: 1px solid black;
+ 	 border-radius: 18px;
+ 	 height:20px;
+ 	 width:100px;
+}
+
+.menu{
+	width: 10%;
+	height: 20px;
+	float: left;
+	margin-top: -40px;
+}
+
+#text {
+	display: block;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 120px;
+}
+
+ul li {
+    	position: relative;
+}
+
+li ul {
+    position: absolute;
+    right: 0px;
+    top: 1;
+    display: none;
+    }
+
+
+ul li a {
+    	display: block;
+   	text-decoration: none;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	text-align: center;
+	background: #CDAA7D;
+    	padding: 5px;
+	border-radius: 9px;
+	color: black;
+	margin-top: 1px;
+}
+
+.nav-container:hover, .nav-container-dif:hover, .carrinho:hover, .exit:hover{
+	background-color: #F3E8DB;
+}
+
+li:hover ul { 
+	display: block;
+}
+
+}
+
+
+/* FIM MENU */
+/* FIM MENU */
+/* FIM MENU */
+/* FIM MENU */
+
+
+
+/* CONTEUDO */
+/* CONTEUDO */
+/* CONTEUDO */
+/* CONTEUDO */
+/* CONTEUDO */
+
+.produtos{
+	width:100%;
+	height: 80%;
+	margin-top: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-family: "Tahoma";
+	color: black;
+}
+
+.card{
+	width: 220px;
+	height: 340px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 30px;
+	float: left;
+}
+
+.produto{
+	width: 98%;
+	height: 60%;
+}
+
+
+/* CADASTRO E LOGIN */
+/* CADASTRO E LOGIN */
+/* CADASTRO E LOGIN */
+/* CADASTRO E LOGIN */
+/* CADASTRO E LOGIN */
+/* CADASTRO E LOGIN */
+
+
+.log{
+	width: 50%;
+	height: 580px;
+	margin-left: 25%;
+	border-radius: 9px;	
+}
+
+input[name=nome], input[name=cpf], input[name=senha]{
+	width: 49%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    margin-right: 1%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    float: left;
+}
+
+input[name=senhalog]{
+	width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    margin-right: 1%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    float: left;
+}
+
+input[name=sobrenome], input[name=confSenha],  input[name=tel]{
+    width: 49%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    margin-left: 1%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+ input[name=endereco]{
+ 	width: 60%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    margin-right: 1%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;	
+    float: left;
+ }
+
+input[name=comp]{
+ 	width: 38%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    margin-left: 1%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;	
+ }
+
+input[type=email], input[name=cep]{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    margin-right: 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 10px;
+    margin: 5px 0;
+    border:none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+   background-color: #CDAA7D;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.cancelar {
+    width: auto;
+    padding: 7px 20px;
+    background-color: #f44336;
+}
+
+.container {
+    padding: 16px;
+	background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+/*home*/
+/*home*/
+/*home*/
+/*home*/
+/*home*/
+/*home*/
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+  margin-top: 15px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+
+/* RODAPE */
+/* RODAPE */
+/* RODAPE */
+/* RODAPE */
+/* RODAPE */
+
+
+.rodape{
+	float: left;
+	width: 100%;
+	height: 200px;
+	background-color: #CDAA7D;
+	margin-top: 1%;
+	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	word-spacing: 5px;
+}

@@ -1,0 +1,96 @@
+CREATE TABLE Cliente( 
+Nome varchar(15),
+Sobrenome varchar(15),
+CPF varchar(11),
+Email varchar(30),
+Endereço varchar(30),
+Senha varchar(15),
+
+UNIQUE (Email),
+UNIQUE (Senha),
+PRIMARY KEY(CPF));
+
+CREATE TABLE Login(
+C_Email varchar(31), 
+C_Senha varchar(16),
+
+FOREIGN KEY (C_Email) REFERENCES Cliente (Email),
+FOREIGN KEY (C_Senha) REFERENCES Cliente (Senha));
+
+CREATE TABLE Produto( 
+Cod_Produto integer, 
+Nome varchar(20),
+Descrição varchar(100),
+Quantidade integer, 
+Preço float, 
+
+PRIMARY KEY(Cod_Produto));
+
+CREATE TABLE Carrinho( 
+C_Carrinho integer, 
+C_Produto integer, 
+Nome_Produto varchar(15), 
+Preço float,
+Valor_Total float, 
+
+PRIMARY KEY (C_Carrinho),
+FOREIGN KEY(C_Produto) REFERENCES Produto (Cod_Produto));
+
+CREATE TABLE Pedido(
+C_Pedido integer,
+Cod_Carrinho integer, 
+C_CPF varchar(11), 
+Data_Entrega date, 
+
+PRIMARY KEY(C_Pedido),
+FOREIGN KEY (Cod_Carrinho) REFERENCES Carrinho (C_Carrinho),
+FOREIGN KEY (C_CPF) REFERENCES Cliente (CPF));
+
+CREATE TABLE Pagamento(
+Cod_Pagamento integer, 
+Cod_Pedido integer, 
+Status varchar(15), 
+Horário time, 
+
+FOREIGN KEY (Cod_Pedido) REFERENCES Pedido (C_Pedido));
+
+INSERT INTO PRODUTO VALUES(101, 'Tio João', 'Arroz Branco Tio João 1kg', 5, 3.99);
+INSERT INTO PRODUTO VALUES(102, 'União', 'Açúcar Refinado União 1kg', 5, 2.99);
+INSERT INTO PRODUTO VALUES(103, 'Cisne', 'Sal Refinado Cisne 1kg', 5, 2.99);
+INSERT INTO PRODUTO VALUES(104, 'Camil', 'Feijão Carioca Camil 1kg', 5, 4.95);
+INSERT INTO PRODUTO VALUES(105, 'Pilão', 'Café Torrado e Moído Pilão tradicional 500g', 5, 9.89);
+INSERT INTO PRODUTO VALUES(106, 'Kellogg S', 'Cereal Matinal Kellogg S Sucrilhos 300g', 5, 9.99);
+INSERT INTO PRODUTO VALUES(107, 'Kellogg S', 'Granola Tradicional Kellogg S 300g', 5, 14.99);
+INSERT INTO PRODUTO VALUES(108, 'Dona Benta', 'Farinha de Trigo Dona Benta Tradicional 1kg', 5, 3.75);
+INSERT INTO PRODUTO VALUES(109, 'HEINEKEN', 'Cerveja HEINEKEN Garrafa 600ml', 5, 7.49);
+INSERT INTO PRODUTO VALUES(110, 'Doña Dominga', 'Vinho Tinto Doña Dominga Old Vines 750ml', 5, 31.95);
+INSERT INTO PRODUTO VALUES(111, 'Chandon', 'Espumante Branco Brut Chandon 750ml', 5, 89.89);
+INSERT INTO PRODUTO VALUES(112, 'Toddy', 'Achocolatado em Pó Toddy Original 400g', 5, 4.99);
+INSERT INTO PRODUTO VALUES(113, 'Coca Cola', 'Refrigerante Coca Cola 2L', 5, 5.89);
+INSERT INTO PRODUTO VALUES(114, 'Leão', 'Matte Leão Limão 1.5L', 5, 4.89);
+INSERT INTO PRODUTO VALUES(115, 'Del Valle', 'Néctar Misto Del Valle Uva e Maçã 1L', 5, 6.65);
+INSERT INTO PRODUTO VALUES(116, 'Italac', 'Leite Italac Desnatado  1L', 5, 2.89);
+INSERT INTO PRODUTO VALUES(117, 'Banana', 'Banana Prata Bandeja 1700g', 5, 6.77);
+INSERT INTO PRODUTO VALUES(118, 'Mamão', 'Mamão Papaia Bandeja 2kg', 5, 3.99);
+INSERT INTO PRODUTO VALUES(119, 'Manga', 'Manga Palmer Bandeja 1kg', 5, 4.39);
+INSERT INTO PRODUTO VALUES(120, 'Abacaxi', 'Abacaxi Unidade', 5, 3.39);
+INSERT INTO PRODUTO VALUES(121, 'Alface', 'Alface Americana Unidade Bandeja', 5, 2.99);
+INSERT INTO PRODUTO VALUES(122, 'Brócolis', 'Brócolis Americana Unidade Bandeja', 5, 2.99);
+INSERT INTO PRODUTO VALUES(123, 'Batata', 'Batata Tipo Inglesa 1.500g', 5, 4.49);
+INSERT INTO PRODUTO VALUES(124, 'Tomate', 'Tomate Carmen Bandeja 1kg', 5, 4.49);
+INSERT INTO PRODUTO VALUES(125, 'Sadia', 'Peito de Frango Congelado em Filés Sadia 1kg', 5, 11.99);
+INSERT INTO PRODUTO VALUES(126, 'Korin', 'Sobrecoxa de Frango Congelada Korin Bandeja 600g', 5, 10.99);
+INSERT INTO PRODUTO VALUES(127, 'Corte D Oro', 'Filet Mignon em Bife Desengordurado Corte D Oro 700g', 5, 41.99);
+INSERT INTO PRODUTO VALUES(128, 'Do Seu Jeito', 'Patinho Do Seu Jeito 1kg', 5, 23.99);
+INSERT INTO PRODUTO VALUES(129, 'Sadia', 'Bacon Sadia 500g', 5, 13.49);
+INSERT INTO PRODUTO VALUES(130, 'Aurora', 'Carré Suíno Fatiado Congelado Aurora 1kg', 5, 12.69);
+INSERT INTO PRODUTO VALUES(131, 'Companhia Do Peixe', 'Linguado Fresco em Filés Resfriado Médios Companhia Do Peixe 700g', 5, 27.99);
+INSERT INTO PRODUTO VALUES(132, 'Companhia Do Peixe', 'Salmão em Filé Fresco Resfriado Companhia do Peixe 1kg', 5, 74.99);
+INSERT INTO PRODUTO VALUES(133, 'Lux', 'Sabonete Lux Buquê dos Sonhos 85g', 5, 1.39);
+INSERT INTO PRODUTO VALUES(134, 'TRESemmé', 'Shampoo Hidratação Profunda 400ml', 5, 11.98);
+INSERT INTO PRODUTO VALUES(135, 'TRESemmé', 'Condicionador Hidratação Profunda 400ml', 5, 13.98);
+INSERT INTO PRODUTO VALUES(136, 'Rexona', 'Desodorante Aerossol Rexona Men Invisible 150ml', 5, 9.98);
+INSERT INTO PRODUTO VALUES(137, 'Nivea', 'Desodorante Aerossol Nivea Dry Comfort Plus 150ml', 5, 14.89);
+INSERT INTO PRODUTO VALUES(138, 'Colgate', 'Creme Dental Colgate Total 12 Clean Mint 90g', 5, 4.98);
+INSERT INTO PRODUTO VALUES(139, 'Listerine', 'Antisséptico Bucal Listerine Zero Álcool 250ml', 5, 15.89);
+INSERT INTO PRODUTO VALUES(140, 'Neve', 'Papel Higiênico Folha Tripla Neve Supreme 20m Pacote com 4 Unidades', 5, 7.69);
