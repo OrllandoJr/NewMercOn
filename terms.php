@@ -83,7 +83,7 @@ if (!Empty($_POST) && !Empty($_POST['cpf'])){
 </head>
 
 <body>
-	<!-- top-header -->
+	<!-- header -->
 	<div class="header-most-top">
 		<p>Merc On - Zona de Ofertas & Descontos</p>
 	</div>
